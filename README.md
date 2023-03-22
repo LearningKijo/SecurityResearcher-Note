@@ -1,6 +1,6 @@
 
 ```kql      
-# Experience
+// SecurityResearcher-Note : contents
 let SecurityResearcher-Note = datatable(id: int, value: string)
 [
       1, "Malware analysis", 
