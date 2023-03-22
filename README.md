@@ -1,6 +1,6 @@
 
 ```kql      
-// SecurityResearcher-Note : contents
+// SecurityResearcher-Note : Covering topics
 let SecurityResearcher-Note = datatable(id: int, value: string)
 [
       1, "Malware analysis", 
