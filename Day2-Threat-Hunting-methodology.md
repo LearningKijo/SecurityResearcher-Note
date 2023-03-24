@@ -16,3 +16,12 @@ Threat hunting is a proactive approach to cybersecurity where an organization ac
 > **Note** - <br>
 > [The art and science behind Microsoft threat hunting: Part 1 - Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2022/09/08/part-1-the-art-and-science-of-threat-hunting/) <br>
 > [The art and science behind Microsoft threat hunting: Part 2 - Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2022/09/21/the-art-and-science-behind-microsoft-threat-hunting-part-2/)
+
+## Keep in mind
+
+> Threat hunting principles
+> Our forensic investigators at DART lean on the Alexiou Principle, which states four key questions for our investigators to answer:
+> 1. What question are you trying to answer?
+> 2. What data do you need to answer that question?
+> 3. How do you extract that data?
+> 4. What does the data tell you?
