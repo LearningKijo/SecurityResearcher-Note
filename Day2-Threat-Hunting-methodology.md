@@ -3,9 +3,9 @@ Threat hunting is a proactive approach to cybersecurity where an organization ac
 
 ## Threat Hunting approach
 #### CrowdStrike
-1. TTP-driven investigation.
-2. Investigation based on known [IOCs or IOAs](https://www.crowdstrike.com/cybersecurity-101/indicators-of-compromise/ioa-vs-ioc/).
-3. Advanced analytics and machine learning investigations
+1. A triggered new threat and TTP-driven investigation.
+2. **Investigation based on known [IOCs or IOAs](https://www.crowdstrike.com/cybersecurity-101/indicators-of-compromise/ioa-vs-ioc/).**
+3. Advanced analytics and machine learning investigations [data analysis]
 > **Note** - <br>
 > [What is Cyber Threat Hunting? [Proactive Guide] | CrowdStrike](https://www.crowdstrike.com/cybersecurity-101/threat-hunting/)
 
