@@ -2,6 +2,7 @@
 Threat hunting is a proactive approach to cybersecurity where an organization actively searches for and identifies potential threats within their IT infrastructure. The goal is to detect and respond to potential threats before they can cause significant damage, using various tools and techniques such as log analysis, network traffic analysis, endpoint analysis, and penetration testing. By proactively identifying and addressing potential threats, threat hunting can help organizations improve their cybersecurity posture and reduce the risk of data breaches and cyber attacks.
 
 ## Threat Hunting approach
+Reading two articles on threat hunting gave me valuable insights and ideas for conducting effective operations.
 #### CrowdStrike
 1. A triggered new threat and TTP-driven investigation.
 2. **Investigation based on known [IOCs or IOAs](https://www.crowdstrike.com/cybersecurity-101/indicators-of-compromise/ioa-vs-ioc/).**
