@@ -1,5 +1,6 @@
 
-![image](https://user-images.githubusercontent.com/120234772/226846312-22db555b-1bc7-4e8f-a040-a76814a66d66.png)
+![image](https://user-images.githubusercontent.com/120234772/227476104-68f94c3d-7ff9-4e69-99fb-f4828486e289.png)
+
 
 ```kql      
 // SecurityResearcher-Note : Covering topics
