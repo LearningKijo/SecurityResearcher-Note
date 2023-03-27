@@ -25,7 +25,7 @@ Static Analysis is to analyze the executable file without running it and collect
 - [PeStudio Standard. I meant to write this post a long time… | by Matthew Aubert | Medium](https://medium.com/@aubsec/pestudio-standard-f2ada4e8564)
 
 ## Static Analysis report
-#### Step 1 - Download malware
+### Step 1 - Download malware
 At first, I downloaded a test malware - [Trojan.GenericKD.40436037] from https://das-malwerk.herokuapp.com/ <br>
 After downloading it, I extracted a zip file on sandbox environment. 
 ![image](https://user-images.githubusercontent.com/120234772/208031055-2bea8f0a-6baa-4c84-8aa9-db09e598d56c.png) <br>
@@ -33,7 +33,7 @@ After downloading it, I extracted a zip file on sandbox environment.
 <br>
 
 <!--　------------------------------------------------------------------ -->
-#### Step 2 - Analyze PE file format & overview 
+### Step 2 - Analyze PE file format & overview 
 I opened the PE file in Pestudio and found out some useful information as follows:
 ```
 FileType   : Executable, 4D 5A MZ
@@ -51,7 +51,7 @@ SHA256     : 785872bbef35d86fe6ce8a53be29995cfd0f251d2a171145bd6685bebe63ebc8
 <br>
 
 <!--　------------------------------------------------------------------ -->
-#### Step 3 - Analyze PE file in VirusTotal
+### Step 3 - Analyze PE file in VirusTotal
 By using Virustotal, you can confirm threat detections and compare it with various antivirus tool such as McAfee, Paloalto, Symantec and so on. In Pestudio, you can confirm the result of VirusTotal and it showed - VirusTotal (61/72).  
 
 ```
@@ -70,7 +70,7 @@ MS docs : https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-desc
 <br>
 
 <!--　------------------------------------------------------------------ -->
-#### Step 4 - Find out suspicious Dll and Function activities 
+### Step 4 - Find out suspicious Dll and Function activities 
 In order to see dll and function, go to [libraries] and [imports] in Pestudio. At this time, I found 4 interesting information as follows:
 ```
 - mscoree.dll
