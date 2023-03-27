@@ -6,12 +6,12 @@ Reading two articles on threat hunting gave me valuable insights and ideas for c
 #### CrowdStrike
 1. A triggered new threat and TTP-driven investigation.
 2. **Investigation based on known [IOCs or IOAs](https://www.crowdstrike.com/cybersecurity-101/indicators-of-compromise/ioa-vs-ioc/).**
-3. Advanced analytics and machine learning investigations [data analysis]
+3. Advanced analytics and machine learning investigations [data analysis].
 > **Note** - <br>
 > [What is Cyber Threat Hunting? [Proactive Guide] | CrowdStrike](https://www.crowdstrike.com/cybersecurity-101/threat-hunting/)
 
-#### Microsoft DART
-1. Targeted threat hunting with IOCs and IOAs.
+#### Microsoft Incident Response (previously DART)
+1. **Targeted threat hunting with IOCs and IOAs.**
 2. Security monitoring.
 3. Incident response investigation.
 > **Note** - <br>
