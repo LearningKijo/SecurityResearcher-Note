@@ -5,7 +5,7 @@
 that has been involved in high-profile cyber attacks against various targets, including government agencies and critical infrastructure. The group is known for using advanced hacking techniques, such as spear phishing and zero-day exploits, as well as social engineering tactics. 
 
 #### What is YTTRIUM ? 
-When you look at APT29, Microsoft Security blog, you might see "YTTRIUM". 
+When you look at APT29, Microsoft Security blog, you might see "YTTRIUM". This is an excerpt from [a security blog](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/) - "Third-party security researchers have attributed the attack to a threat actor named APT29 or CozyBear, which largely overlaps with the activity group that Microsoft calls YTTRIUM"
 
 > **Note** :
 > Yttrium and Nobelium are two separate threat groups that have been linked to **APT29 (Cozy Bear) in the past**, but they are not the same group. 
