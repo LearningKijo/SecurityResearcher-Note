@@ -10,6 +10,7 @@ When you look at APT29, Microsoft Security blog, you might see "YTTRIUM". This i
 > **Note** :
 > Yttrium and Nobelium are two separate threat groups that have been linked to **APT29 (Cozy Bear) in the past**, but they are not the same group. 
 
+#### What are features ?
 
 ## YTTRIUM Attack Chain 
 <img src="https://user-images.githubusercontent.com/120234772/228467557-dbef884a-f073-4abc-ade2-af1468660cfc.png" width="70%">
