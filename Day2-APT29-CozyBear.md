@@ -4,9 +4,8 @@
 **APT29 (Advanced Persistent Threat 29), also known as Cozy Bear**, is a cyber espionage group believed to be operating on behalf of the Russian government
 that has been involved in high-profile cyber attacks against various targets, including government agencies and critical infrastructure. The group is known for using advanced hacking techniques, such as spear phishing and zero-day exploits, as well as social engineering tactics. 
 
-#### name
-Microsoft calls YTTRIUM
-
+#### YTTRIUM ? 
+Third-party security researchers have attributed the attack to a threat actor named APT29 or CozyBear, which largely overlaps with the activity group that Microsoft calls YTTRIUM. 
 
 ## Attack chain 
 <img src="https://user-images.githubusercontent.com/120234772/228467557-dbef884a-f073-4abc-ade2-af1468660cfc.png" width="70%">
