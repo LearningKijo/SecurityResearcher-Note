@@ -1,4 +1,5 @@
 # Day 2 - APT29, Cozy Bear - YTTRIUM #WIP
+While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response
 
 #### What is APT29 ?
 APT29 (Advanced Persistent Threat 29), also known as Cozy Bear, is a cyber espionage group believed to be operating on behalf of the Russian government
