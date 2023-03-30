@@ -28,7 +28,12 @@ APT29, also known as YTTRIUM, initiated their cyber attack through a combination
 
 > [Analysis of cyberattack on U.S. think tanks, non-profits, public sector by unidentified attackers](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/)
 
+#### Was the email link initially not malicious?
+Yes, that's correct. The attackers compromised a legitimate website that was not originally malicious. By doing so, the attackers were able to host their malicious code on the website and deliver it to unsuspecting visitors.
 
+#### Did email security tools prevent the initial malicious link used in the APT29 attack?
+Some mail security tools were able to identify the spear-phishing email used in the APT29 attack at the time, but not all security tools could do so. It depends on the specific tool being used. Nowadays, most security tools have improved their detection capabilities and would likely be able to identify similar attacks.
+  
 #### What is LNK file?
 LNK is a file extension used for Windows Shortcut Files. It is a file format used by Windows to create shortcuts to files, folders, or programs. In APT29 attacks, attackers can craft LNK files that appear legitimate but actually point to malicious code or websites.
 
