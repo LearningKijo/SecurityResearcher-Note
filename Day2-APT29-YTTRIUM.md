@@ -28,7 +28,7 @@ APT29, also known as YTTRIUM, initiated their cyber attack through a combination
 
 > [Analysis of cyberattack on U.S. think tanks, non-profits, public sector by unidentified attackers](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/)
 
-#### Was the email link initially not malicious?
+#### Regarding compromised website, was the email link initially not malicious?
 Yes, that's correct. The attackers compromised a legitimate website that was not originally malicious. By doing so, the attackers were able to host their malicious code on the website and deliver it to unsuspecting visitors.
 
 #### Did email security tools prevent the initial malicious link used in the APT29 attack?
