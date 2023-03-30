@@ -37,6 +37,21 @@ Some mail security tools were able to identify the spear-phishing email used in 
 #### What is LNK file?
 LNK is a file extension used for Windows Shortcut Files. It is a file format used by Windows to create shortcuts to files, folders, or programs. In APT29 attacks, attackers can craft LNK files that appear legitimate but actually point to malicious code or websites.
 
+## KQL : Hunting
+WIP + change AH + comment  
+
+```kql
+//Query 1: Events involving the DLL container
+let fileHash = "9858d5cb2a6614be3c48e33911bf9f7978b441bf";
+find in (DeviceFileEvents, DeviceProcessEvents, DeviceRegistryEvents, DeviceNetworkEvents, DeviceImageLoadEvents)
+where SHA1 == fileHash or InitiatingProcessSHA1 == fileHash
+| where Timestamp> ago(10d)
+
+//Query 2: C&C connection
+DeviceNetworkEvents
+| where Timestamp > ago(10d) 
+| where RemoteUrl == "pandorasong.com"
+```
 ## Reference
 
 MITRE ATT&CK®, [Home > Groups > APT29](https://attack.mitre.org/groups/G0016/) <br>
