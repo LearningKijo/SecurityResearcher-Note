@@ -30,7 +30,7 @@ APT29, also known as YTTRIUM, initiated their cyber attack through a combination
 
 
 #### What is LNK file?
-A link file, also known as a shortcut file, is a type of file used in computer operating systems to provide quick access to a file, folder, or program.
+LNK is a file extension used for Windows Shortcut Files. It is a file format used by Windows to create shortcuts to files, folders, or programs. In APT29 attacks, attackers can craft LNK files that appear legitimate but actually point to malicious code or websites.
 
 ## Reference
 
