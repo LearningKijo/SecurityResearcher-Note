@@ -26,10 +26,11 @@ APT29, also known as YTTRIUM, initiated their cyber attack through a combination
   
 <img src="https://user-images.githubusercontent.com/120234772/228781349-a582f5e1-9721-404f-ae49-b15787592d64.png" width="70%">
 
+> [Analysis of cyberattack on U.S. think tanks, non-profits, public sector by unidentified attackers](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/)
 
-  
->  [Analysis of cyberattack on U.S. think tanks, non-profits, public sector by unidentified attackers](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/)
 
+#### What is LNK file?
+A link file, also known as a shortcut file, is a type of file used in computer operating systems to provide quick access to a file, folder, or program.
 
 ## Reference
 
