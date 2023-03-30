@@ -1,5 +1,5 @@
 # Day 2 - APT29, Cozy Bear - YTTRIUM #WIP
-While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response
+While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
 
 #### What is APT29 ?
 APT29 (Advanced Persistent Threat 29), also known as Cozy Bear, is a cyber espionage group believed to be operating on behalf of the Russian government
@@ -22,7 +22,7 @@ When you look at APT29, Microsoft Security blog, you might see "YTTRIUM". This i
 
 
 ## YTTRIUM Attack Chain 
-The cyber attack by APT29, also known as YTTRIUM, is believed to have started with a combination of **spear-phishing email attacks** and **social engineering**.
+APT29, also known as YTTRIUM, initiated their cyber attack through a combination of **spear-phishing email attacks** and **social engineering**. The malicious links in the emails, if clicked by the recipients, led to a series of exploits that ultimately resulted in the installation of a DLL backdoor. This backdoor gave the attackers remote access to the victims' machines.
   
 <img src="https://user-images.githubusercontent.com/120234772/228781349-a582f5e1-9721-404f-ae49-b15787592d64.png" width="70%">
 
