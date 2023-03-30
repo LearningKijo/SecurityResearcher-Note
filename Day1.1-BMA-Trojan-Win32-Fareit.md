@@ -105,3 +105,7 @@ In addition, information related to "badabingboom.exe" has been seen .NET and St
 ![image](https://user-images.githubusercontent.com/120234772/208039043-268c111c-ec60-46b5-b576-182563dcfeb7.png)
 > Figure 8. Captured Strings in Pestudio
 <br>
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
+
