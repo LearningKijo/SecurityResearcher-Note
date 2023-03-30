@@ -22,7 +22,7 @@ When you look at APT29, Microsoft Security blog, you might see "YTTRIUM". This i
 
 
 ## YTTRIUM Attack Chain 
-The cyber attack by APT29, also known as YTTRIUM, is believed to have started with a combination of spear-phishing email attacks and social engineering.
+The cyber attack by APT29, also known as YTTRIUM, is believed to have started with a combination of **spear-phishing email attack** and **social engineering**.
   
 <img src="https://user-images.githubusercontent.com/120234772/228781349-a582f5e1-9721-404f-ae49-b15787592d64.png" width="70%">
 
