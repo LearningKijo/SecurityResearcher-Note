@@ -46,7 +46,7 @@ It is a penetration testing tool. In Cobalt Strike, a local named pipe is create
 ## KQL : Hunting
 In the [Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/), they provide excellent hunting queries for APT29 (YTTRIUM). However, the tables they used appear to be outdated. Therefore, I updated these queries using the latest tables to track them down. Additionally, I highlighted some IoC that were covered in the out-of-the-box queries provided in the blog.
   
-#### IoC
+#### YTTRIUM IoC
 ```kql
  SHA1 = "9858d5cb2a6614be3c48e33911bf9f7978b441bf"
  SHA1 = "cd92f19d3ad4ec50f6d19652af010fe07dca55e1"
