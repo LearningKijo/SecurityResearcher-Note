@@ -38,8 +38,10 @@ Some mail security tools were able to identify the spear-phishing email used in 
 LNK is a file extension used for Windows Shortcut Files. It is a file format used by Windows to create shortcuts to files, folders, or programs. In APT29 attacks, attackers can craft LNK files that appear legitimate but actually point to malicious code or websites.
 
 #### What is Cobalt Strike?
-It is a penetration testing tool. In Cobalt Strike, a local named pipe is created with the format \.\pipe\MSSE-<number>-server, where <number> is a random number between 0 and 9897. Then, the attacker connects to the named pipe and sends global data with size 0x3FE00. Finally, the attacker uses this named pipe to implement a backdoor, giving them access to the compromised system.
+It is a penetration testing tool. In Cobalt Strike, a local named pipe is created with the format [**\\.\pipe\MSSE-<number>-server, where \<number>**] is a random number between 0 and 9897. Then, the attacker connects to the named pipe and sends global data with size 0x3FE00. Finally, the attacker uses this named pipe to implement a backdoor, giving them access to the compromised system.
 
+![image](https://user-images.githubusercontent.com/120234772/229047009-be2be785-b3c8-4759-9960-ffc14a79b1a3.png)
+> Cobalt Strike, [Analysis of cyberattack on U.S. think tanks, non-profits, public sector by unidentified attackers](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/)
   
 ## KQL : Hunting
 In the [Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/), they provide excellent hunting queries for APT29 (YTTRIUM). However, the tables they used appear to be outdated. Therefore, I updated these queries using the latest tables to track them down. Additionally, I highlighted some IoC that were covered in the out-of-the-box queries provided in the blog.
