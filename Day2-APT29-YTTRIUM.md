@@ -38,7 +38,7 @@ Some mail security tools were able to identify the spear-phishing email used in 
 LNK is a file extension used for Windows Shortcut Files. It is a file format used by Windows to create shortcuts to files, folders, or programs. In APT29 attacks, attackers can craft LNK files that appear legitimate but actually point to malicious code or websites.
 
 ## KQL : Hunting
-WIP + change AH + comment  
+In the Microsoft Security blog, they provide excellent hunting queries for APT29 (YTTRIUM). However, the tables they used appear to be outdated. Therefore, I updated these queries using the latest tables to track them down. 
   
 #### IoC
 ```kql
