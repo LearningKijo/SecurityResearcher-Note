@@ -39,11 +39,21 @@ LNK is a file extension used for Windows Shortcut Files. It is a file format use
 
 ## KQL : Hunting
 WIP + change AH + comment  
+  
+#### IoC
+```kql
+ SHA1 = "9858d5cb2a6614be3c48e33911bf9f7978b441bf"
+ SHA1 = "cd92f19d3ad4ec50f6d19652af010fe07dca55e1"
+ RemoteUrl == "pandorasong.com"
+ ProcessCommandLine contains "https://www.jmj.com/personal/nauerthn_state_gov" 
+ ProcessCommandLine contains "-noni -ep bypass $zk=' JHB0Z3Q9MHgwMDA1ZTJiZTskdmNxPTB4MDAwNjIzYjY7JHRiPSJkczcwMDIubG5rIjtpZiAoLW5vdChUZXN0LVBhdGggJHRiKSl7JG9lPUdldC1DaGlsZEl0" 
+```
 
+#### Advanced hunting query 
 ```kql
 //Query 1: Events involving the DLL container
 let fileHash = "9858d5cb2a6614be3c48e33911bf9f7978b441bf";
-find in (DeviceFileEvents, DeviceProcessEvents, DeviceRegistryEvents, DeviceNetworkEvents, DeviceImageLoadEvents)
+find in (DeviceFileEvents, DeviceProcessEvents, DeviceEvents, DeviceRegistryEvents, DeviceNetworkEvents, DeviceImageLoadEvents)
 where SHA1 == fileHash or InitiatingProcessSHA1 == fileHash
 | where Timestamp> ago(10d)
 
@@ -51,6 +61,26 @@ where SHA1 == fileHash or InitiatingProcessSHA1 == fileHash
 DeviceNetworkEvents
 | where Timestamp > ago(10d) 
 | where RemoteUrl == "pandorasong.com"
+  
+//Query 3: Malicious PowerShell
+DeviceProcessEvents 
+| where Timestamp > ago(10d) 
+| where ProcessCommandLine contains "-noni -ep bypass $zk=' JHB0Z3Q9MHgwMDA1ZTJiZTskdmNxPTB4MDAwNjIzYjY7JHRiPSJkczcwMDIubG5rIjtpZiAoLW5vdChUZXN0LVBhdGggJHRiKSl7JG9lPUdldC1DaGlsZEl0" 
+
+//Query 4: Malicious domain in default browser commandline
+DeviceProcessEvents 
+| where Timestamp > ago(10d) 
+| where ProcessCommandLine contains "https://www.jmj.com/personal/nauerthn_state_gov" 
+  
+//Query 5: Events involving the ZIP
+let fileHash = "cd92f19d3ad4ec50f6d19652af010fe07dca55e1";
+find in (DeviceFileEvents, DeviceProcessEvents, DeviceEvents, 
+DeviceRegistryEvents, DeviceNetworkEvents, DeviceImageLoadEvents)
+where SHA1 == fileHash or InitiatingProcessSHA1 == fileHash
+| where Timestamp > ago(10d)
+
+// Reference :
+// https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/
 ```
 ## Reference
 
