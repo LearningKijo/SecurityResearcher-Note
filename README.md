@@ -18,3 +18,5 @@ let SecurityResearcher-Note = datatable(id: int, value: string)
 SecurityResearcher-Note
 | project id, value
 ```
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
