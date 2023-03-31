@@ -44,7 +44,8 @@ In the [Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2
 ```kql
  SHA1 = "9858d5cb2a6614be3c48e33911bf9f7978b441bf"
  SHA1 = "cd92f19d3ad4ec50f6d19652af010fe07dca55e1"
- RemoteUrl == "pandorasong.com"
+ RemoteUrl = "pandorasong.com"
+ RemoteIP = "95.216.59.92"
  ProcessCommandLine contains "https://www.jmj.com/personal/nauerthn_state_gov" 
  ProcessCommandLine contains "-noni -ep bypass $zk=' JHB0Z3Q9MHgwMDA1ZTJiZTskdmNxPTB4MDAwNjIzYjY7JHRiPSJkczcwMDIubG5rIjtpZiAoLW5vdChUZXN0LVBhdGggJHRiKSl7JG9lPUdldC1DaGlsZEl0" 
 ```
