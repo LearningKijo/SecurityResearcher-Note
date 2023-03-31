@@ -1,7 +1,8 @@
 
 ![image](https://user-images.githubusercontent.com/120234772/227476104-68f94c3d-7ff9-4e69-99fb-f4828486e289.png)
 
-Cover various security approaches to attack techniques and also provides new discoveries about security breaches.
+### Welcome to @SecurityResearcher-Note
+In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
 
 ```kql      
 // SecurityResearcher-Note : Covering topics
