@@ -1,4 +1,4 @@
-# Day 2 - APT29, YTTRIUM - WIP
+# Day 2 - APT29, NOBELIUM - WIP
 ### What is NOBELIUM?
 
 
