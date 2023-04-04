@@ -1,6 +1,10 @@
 # Day 2 - APT29, NOBELIUM - WIP
-### What is NOBELIUM?
+#### What is NOBELIUM?
+NOBELIUM is a Russian state-sponsored hacking group that conducts cyber espionage and attacks against various targets. It was previously known as APT29 or Cozy Bear and is responsible for high-profile attacks such as the SolarWinds hack. The group uses advanced techniques like spear-phishing and zero-day exploits and targets government agencies, NGOs, and other organizations of interest to the Russian government.
 
+> **UPDATE** : Microsoft continues to work with partners and customers to expand our knowledge of the threat actor behind the nation-state cyberattacks that compromised the supply chain of SolarWinds and impacted multiple other organizations. Microsoft previously used ‘Solorigate’ as the primary designation for the actor, but moving forward, we want to place appropriate focus on the actors behind the sophisticated attacks, rather than one of the examples of malware used by the actors. Microsoft Threat Intelligence Center (MSTIC) has named the actor behind the attack against SolarWinds, the SUNBURST backdoor, TEARDROP malware, and related components as NOBELIUM. As we release new content and analysis, we will use NOBELIUM to refer to the actor and the campaign of attacks.
+
+> MIcrosoft Security blog update
 
 ## Reference
 ### Microsoft Security blog -  NOBELIUM :
