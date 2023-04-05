@@ -12,7 +12,7 @@ According to ***MIcrosoft Security blog update***,
 SolarWinds, the SUNBURST backdoor, TEARDROP malware, Supply chain attack, Solorigate 
 
 ## Incident Response
-![image](https://user-images.githubusercontent.com/120234772/230012280-c508ccd1-3b53-4abf-8d5d-7fbd3c0723e9.png)
+![image](https://user-images.githubusercontent.com/120234772/230063443-8b3f59d1-d3b5-4e69-b667-c7b8e7c2ea21.png)
 > NIST 800-61 response management phases
 
 ## Reference
