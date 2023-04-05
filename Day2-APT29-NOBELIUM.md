@@ -11,6 +11,10 @@ According to ***MIcrosoft Security blog update***,
 #### Key words of NOBELIUM
 SolarWinds, the SUNBURST backdoor, TEARDROP malware, Supply chain attack, Solorigate 
 
+## Incident Response
+WIP
+
+
 ## Reference
 ### Microsoft Security blog -  NOBELIUM :
 December 15, 2020, [Ensuring customers are protected from Solorigate](https://www.microsoft.com/en-us/security/blog/2020/12/15/ensuring-customers-are-protected-from-solorigate/)<br>
