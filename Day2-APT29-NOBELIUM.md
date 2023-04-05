@@ -13,6 +13,7 @@ SolarWinds, the SUNBURST backdoor, TEARDROP malware, Supply chain attack, Solori
 
 ## Incident Response
 WIP
+![image](https://user-images.githubusercontent.com/120234772/230012280-c508ccd1-3b53-4abf-8d5d-7fbd3c0723e9.png)
 
 
 ## Reference
