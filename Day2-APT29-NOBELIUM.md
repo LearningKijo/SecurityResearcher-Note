@@ -16,6 +16,8 @@ SolarWinds, the SUNBURST backdoor, TEARDROP malware, Supply chain attack, Solori
 > [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/), NOBELIUM infection chain
 
 ## Incident Response
+#### What if your environment is compromised by APT29 (Nobelium)?
+If your environment has been compromised by the Nobelium attack, the first step you should take is **"Containment"**.
 ![image](https://user-images.githubusercontent.com/120234772/230063443-8b3f59d1-d3b5-4e69-b667-c7b8e7c2ea21.png)
 > NIST 800-61 response management phases
 
