@@ -33,9 +33,29 @@ If you are not using Microsoft Security solution, then take the following action
 After the containment, move to the investigation and recovery. 
 
 ## Preparing for NOBELIUM 
-- xxx
-- xxx
-- xxx
+#### Prioritize cyber hygiene
+- Vulnerability management & Patching
+- Zero Trust implementation
+- Protect your identity, e.g. Enable MFA
+- Use secure devices for critical tasks
+
+#### Secure your distributed estate
+- Zero Trust implementation
+- Need advanced monitoring system tools such as SIEM, XDR and EDR
+
+#### Plan for your response
+- Collect data for further investigaton
+- Leverage Threat Intelligence for the investigation
+- Need well practice of APT29 attack Incident Response
+- Think about Incident Response plan 
+- Think about recovery plan
+
+
+### Decoding NOBELIUM video: 
+1. [Decoding NOBELIUM: When nation-states attack (Episode 1)](https://www.youtube.com/watch?v=VVKT8NehO_c)
+2. [Decoding NOBELIUM: The hunt for a global threat (Episode 2)](https://www.youtube.com/watch?v=VVbSYr1cPEE)
+3. [Decoding NOBELIUM: Countermeasures (Episode 3)](https://www.youtube.com/watch?v=fS97PC4FLCc)
+4. [Decoding NOBELIUM: After-action report (Episode 4)](https://www.youtube.com/watch?v=wFtGD7p58cQ)
 
 
 ## Reference
@@ -57,9 +77,3 @@ February 8, 2023, [Solving one of NOBELIUM’s most novel attacks: Cyberattack S
 2. [The hunt for NOBELIUM, the most sophisticated nation-state attack in history](https://www.microsoft.com/en-us/security/blog/2021/11/10/the-hunt-for-nobelium-the-most-sophisticated-nation-state-attack-in-history/)
 3. [Behind the unprecedented effort to protect customers against the NOBELIUM nation-state attack](https://www.microsoft.com/en-us/security/blog/2021/12/02/behind-the-unprecedented-effort-to-protect-customers-against-the-nobelium-nation-state-attack/)
 4. [The final report on NOBELIUM’s unprecedented nation-state attack](https://www.microsoft.com/en-us/security/blog/2021/12/15/the-final-report-on-nobeliums-unprecedented-nation-state-attack/)
-
-### Decoding NOBELIUM video: 
-1. [Decoding NOBELIUM: When nation-states attack (Episode 1)](https://www.youtube.com/watch?v=VVKT8NehO_c)
-2. [Decoding NOBELIUM: The hunt for a global threat (Episode 2)](https://www.youtube.com/watch?v=VVbSYr1cPEE)
-3. [Decoding NOBELIUM: Countermeasures (Episode 3)](https://www.youtube.com/watch?v=fS97PC4FLCc)
-4. [Decoding NOBELIUM: After-action report (Episode 4)](https://www.youtube.com/watch?v=wFtGD7p58cQ)
