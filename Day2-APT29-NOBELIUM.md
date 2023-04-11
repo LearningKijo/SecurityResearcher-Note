@@ -1,8 +1,6 @@
 # Day 2 - APT29, NOBELIUM - WIP
-#### What is APT29 ?
-APT29 (Advanced Persistent Threat 29), also known as Cozy Bear, is a cyber espionage group believed to be operating on behalf of the Russian government that has been involved in high-profile cyber attacks against various targets, including government agencies and critical infrastructure. The group is known for using advanced hacking techniques, such as spear phishing and zero-day exploits, as well as social engineering tactics.
 
-#### What is NOBELIUM?
+### What is NOBELIUM?
 NOBELIUM is a Russian state-sponsored hacking group that conducts cyber espionage and attacks against various targets. It was previously known as APT29 or Cozy Bear and is responsible for high-profile attacks such as **the SolarWinds hack**. 
 
 According to ***MIcrosoft Security blog update***,
@@ -16,7 +14,7 @@ SolarWinds, the SUNBURST backdoor, TEARDROP malware, Supply chain attack, Solori
 > [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/), NOBELIUM infection chain
 
 ## Incident Response
-#### What if your environment is compromised by APT29 (Nobelium)?
+### What if your environment is compromised by APT29 (Nobelium)?
 If your environment has been compromised by the Nobelium attack, the first step you should take is **"Containment"**.
 ![image](https://user-images.githubusercontent.com/120234772/230063443-8b3f59d1-d3b5-4e69-b667-c7b8e7c2ea21.png)
 > NIST 800-61 response management phases
