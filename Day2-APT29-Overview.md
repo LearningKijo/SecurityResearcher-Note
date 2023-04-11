@@ -2,9 +2,9 @@
 While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
 
 #### Agenda
-1. [What is APT29 attack](https://github.com/LearningKijo/SecurityResearcher-Note/edit/main/Day2-APT29-Overview.md#what-is-apt29-) 
-2. [APT29 associated groups](https://github.com/LearningKijo/SecurityResearcher-Note/edit/main/Day2-APT29-Overview.md#apt29-associated-groups-)
-3. [APT29 attack techniques](https://github.com/LearningKijo/SecurityResearcher-Note/edit/main/Day2-APT29-Overview.md#apt29-attack-techniques)
+1. What is APT29 attack
+2. APT29 associated groups
+3. APT29 attack techniques
 4. ATP29 attack blogs 
 
 ## What is APT29 ?
