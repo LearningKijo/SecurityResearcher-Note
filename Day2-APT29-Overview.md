@@ -15,7 +15,7 @@ Yes, there are several groups associated with APT29, and each group uses differe
 >**Note** : [MITRE ATT&CK | APT29 ](https://attack.mitre.org/groups/G0016/)
 
 ## APT29 attack techniques
-#### The most common attack techniques 
+### The most common attack techniques 
 1. Spear-phishing emails
 2. Watering hole attacks
 3. Zero-day exploits
@@ -24,7 +24,7 @@ Yes, there are several groups associated with APT29, and each group uses differe
 
 Overall, APT29 is a highly sophisticated threat group that uses a combination of social engineering, advanced hacking techniques, and custom malware to gain access to target systems and steal sensitive information.
 
-#### MITRE ATT&CK APT29 attack map
+### MITRE ATT&CK APT29 attack map
 In the Cybereason blog, APT29 attack techniques are captured very well using the MITRE ATT&CK framework.
   
 ![image](https://user-images.githubusercontent.com/120234772/231052172-59b042b9-996a-4539-b6f3-09f493ad936e.png)
