@@ -16,9 +16,7 @@ SolarWinds, the SUNBURST backdoor, TEARDROP malware, Supply chain attack, Solori
 ## Incident Response
 ### What if your environment is compromised by APT29 (Nobelium)?
 If your environment has been compromised by the Nobelium attack, the first step you should take is **"Containment"**.
-
-
-If you are using Microsoft Defender for Endpoint (MDE) or Microsoft Defender for Identity (MDI), Microsoft Security solutions, then take the following actions:
+Regarding "Containment", if you are using Microsoft Defender for Endpoint (MDE) or Microsoft Defender for Identity (MDI), Microsoft Security solutions, then take the following actions:
 - [Isolate devices from the network](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/respond-machine-alerts?view=o365-worldwide#isolate-devices-from-the-network)
 - [Reset user account password](https://learn.microsoft.com/en-us/defender-for-identity/remediation-actions)
 - [Disbale AD user / Azure AD user](https://learn.microsoft.com/en-us/defender-for-identity/remediation-actions)
