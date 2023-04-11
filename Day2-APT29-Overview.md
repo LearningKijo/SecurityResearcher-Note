@@ -1,11 +1,11 @@
-# APT29 Overview
+# Day 2 - APT29 Overview
 While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
 
 #### Agenda
 1. What is APT29 attack
 2. APT29 associated groups
 3. APT29 attack techniques
-4. ATP29 attack blogs 
+4. APT29 attack blogs 
 
 ## What is APT29 ?
 APT29 (Advanced Persistent Threat 29), also known as Cozy Bear, is a cyber espionage group believed to be operating on behalf of the Russian government
@@ -30,3 +30,10 @@ In the Cybereason blog, APT29 attack techniques are captured very well using the
   
 ![image](https://user-images.githubusercontent.com/120234772/231052172-59b042b9-996a-4539-b6f3-09f493ad936e.png)
 > APT29 Evaluation: Technique scope. Credit: MITRE ATT&CK, [Cybereason](https://www.cybereason.com/blog/understanding-the-mitre-attck-apt29-round-2-evaluation)
+
+## APT29 attack blogs 
+|#|Title|
+|:---|:---|
+|1|[Day2-APT29-YTTRIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-YTTRIUM.md)|
+|2|Day2-APT29-NOBELIUM.md - overview - WIP|
+|3|Day2-APT29-NOBELIUM.md - MDE demo - WIP|
