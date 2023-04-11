@@ -1,11 +1,12 @@
 # Day 2 - APT29, YTTRIUM 
 
+### What is YTTRIUM ? 
+YTTRIUM is a codename that Microsoft has given to a specific activity group believed to be part of APT29 or Cozy Bear, a Russian state-sponsored advanced persistent threat group known for its cyber espionage activities. This group is known for using advanced hacking techniques, including spear phishing, zero-day exploits, and social engineering tactics to target government agencies, critical infrastructure, and other high-profile organizations.
 
-#### What is YTTRIUM ? 
-When you look at APT29, Microsoft Security blog, you might see "YTTRIUM". This is an excerpt from [a security blog](https://www.microsoft.com/en-us/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/) - "Third-party security researchers have attributed the attack to a threat actor named APT29 or CozyBear, which largely overlaps with the activity group that Microsoft calls YTTRIUM"
+> **Note** : Microsoft Security blog - "Third-party security researchers have attributed the attack to a threat actor named APT29 or CozyBear, which largely overlaps with the activity group that Microsoft calls YTTRIUM"
 
-> **Note** :
-> Yttrium and Nobelium are two separate threat groups that have been linked to **APT29 (Cozy Bear) in the past**, but they are not the same group. 
+### What is the difference between Yttrium and Nobelium?
+Yttrium and Nobelium are two separate threat groups that have been linked to **APT29 (Cozy Bear) in the past**, but they are not the same group. Also, the two groups are believed to have different tactics, techniques, and procedures (TTPs) and may target different types.
 
 
 ## YTTRIUM Attack Chain 
