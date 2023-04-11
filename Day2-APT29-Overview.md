@@ -1,15 +1,21 @@
 # APT29 Overview
 While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
 
-#### What is APT29 ?
+#### Agenda
+1. [What is APT29 attack](https://github.com/LearningKijo/SecurityResearcher-Note/edit/main/Day2-APT29-Overview.md#what-is-apt29-) 
+2. [APT29 associated groups](https://github.com/LearningKijo/SecurityResearcher-Note/edit/main/Day2-APT29-Overview.md#apt29-associated-groups-)
+3. [APT29 attack techniques](https://github.com/LearningKijo/SecurityResearcher-Note/edit/main/Day2-APT29-Overview.md#apt29-attack-techniques)
+4. ATP29 attack blogs 
+
+## What is APT29 ?
 APT29 (Advanced Persistent Threat 29), also known as Cozy Bear, is a cyber espionage group believed to be operating on behalf of the Russian government
 that has been involved in high-profile cyber attacks against various targets, including government agencies and critical infrastructure. The group is known for using advanced hacking techniques, such as spear phishing and zero-day exploits, as well as social engineering tactics. 
 
-## APT29 associated groups ?
+## APT29 associated groups 
 Yes, there are several groups associated with APT29, and each group uses different attack techniques - IRON RITUAL, IRON HEMLOCK, NobleBaron, Dark Halo, StellarParticle, NOBELIUM, UNC2452, YTTRIUM, The Dukes, Cozy Bear and CozyDuke.	
 >**Note** : [MITRE ATT&CK | APT29 ](https://attack.mitre.org/groups/G0016/)
 
-## What are attack techniques of APT29 ?
+## APT29 attack techniques
 #### The most common attack techniques 
 1. Spear-phishing emails
 2. Watering hole attacks
