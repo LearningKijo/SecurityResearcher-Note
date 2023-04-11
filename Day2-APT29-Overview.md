@@ -33,6 +33,6 @@ In the Cybereason blog, APT29 attack techniques are captured very well using the
 ## APT29 attack blogs 
 |#|Title|
 |:---|:---|
-|1|[Day2-APT29-YTTRIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-YTTRIUM.md)|
-|2|Day2-APT29-NOBELIUM.md - overview - WIP|
-|3|Day2-APT29-NOBELIUM.md - MDE demo - WIP|
+|1 | [Day2-APT29-YTTRIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-YTTRIUM.md)|
+|2 | [Day2-APT29-NOBELIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-NOBELIUM.md)|
+|3 | Day2-APT29-NOBELIUM.md - MDE demo - WIP|
