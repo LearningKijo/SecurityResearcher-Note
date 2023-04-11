@@ -23,13 +23,13 @@ Regarding "Containment", if you are using Microsoft Security solutions such as M
 - [Disbale AD user / Azure AD user](https://learn.microsoft.com/en-us/defender-for-identity/remediation-actions)
  
 If you are not using Microsoft Security solution, then take the following actions:
-- Immediately isolate the affected device. 
-- Reset passwords or decommission the accounts.[
+- Immediately isolate the affected device
+- Reset passwords or decommission the accounts
 
 ![image](https://user-images.githubusercontent.com/120234772/230063443-8b3f59d1-d3b5-4e69-b667-c7b8e7c2ea21.png)
-
-
 > NIST 800-61 response management phases
+After the containment, move to the investigation and recovery. 
+
 
 ## Reference
 ### Microsoft Security blog -  NOBELIUM :
