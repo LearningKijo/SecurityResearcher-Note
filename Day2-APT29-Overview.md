@@ -1,7 +1,6 @@
 # Day 2 - APT29 Overview
-While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
+While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response. Therefore, I will cover 4 points regarding APT29 attacks, which are as follows:
 
-#### Agenda
 1. What is APT29 attack
 2. APT29 associated groups
 3. APT29 attack techniques
