@@ -77,3 +77,6 @@ February 8, 2023, [Solving one of NOBELIUM’s most novel attacks: Cyberattack S
 2. [The hunt for NOBELIUM, the most sophisticated nation-state attack in history](https://www.microsoft.com/en-us/security/blog/2021/11/10/the-hunt-for-nobelium-the-most-sophisticated-nation-state-attack-in-history/)
 3. [Behind the unprecedented effort to protect customers against the NOBELIUM nation-state attack](https://www.microsoft.com/en-us/security/blog/2021/12/02/behind-the-unprecedented-effort-to-protect-customers-against-the-nobelium-nation-state-attack/)
 4. [The final report on NOBELIUM’s unprecedented nation-state attack](https://www.microsoft.com/en-us/security/blog/2021/12/15/the-final-report-on-nobeliums-unprecedented-nation-state-attack/)
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
