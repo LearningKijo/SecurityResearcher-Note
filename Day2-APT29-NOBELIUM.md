@@ -10,6 +10,8 @@ According to ***MIcrosoft Security blog update***,
 SolarWinds, the SUNBURST backdoor, TEARDROP malware, Supply chain attack, Solorigate 
 
 ## NOBELIUM Attack Chain
+The attackers added malicious code to the SolarWinds Orion Platform DLL file, which was distributed as part of a software update. The DLL file was digitally signed, indicating that the attackers had access to the company's software development and distribution pipeline. The malicious code created a backdoor, which allowed the attackers to operate in compromised networks without being detected. The backdoor was designed to blend in with the rest of the code, making it difficult to spot. The attackers used a lengthy list of functions and capabilities to perform a wide range of actions, including reconnaissance, privilege escalation, and lateral movement. The attackers took many steps to maintain a low profile, such as using unique subdomains for each affected domain to evade detection.
+
 ![image](https://user-images.githubusercontent.com/120234772/230338300-734224cb-f248-47df-8472-18aaa4f0c662.png)
 > [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/), NOBELIUM infection chain
 
