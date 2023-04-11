@@ -30,6 +30,11 @@ If you are not using Microsoft Security solution, then take the following action
 > NIST 800-61 response management phases
 After the containment, move to the investigation and recovery. 
 
+## Preparing for NOBELIUM 
+- xxx
+- xxx
+- xxx
+
 
 ## Reference
 ### Microsoft Security blog -  NOBELIUM :
