@@ -46,7 +46,7 @@ After the containment, move to the investigation and recovery.
 #### Plan for your response
 - Collect data for further investigaton
 - Leverage Threat Intelligence for the investigation
-- Need well practice of APT29 attack Incident Response
+- Need well practice/training in incident response specifically for APT29 attacks
 - Think about Incident Response plan 
 - Think about recovery plan
 
