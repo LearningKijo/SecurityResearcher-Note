@@ -2,9 +2,10 @@
 While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response. Therefore, I will cover 4 points regarding APT29 attacks, which are as follows:
 
 1. What is APT29 attack
-2. APT29 associated groups
-3. APT29 attack techniques
-4. APT29 attack blogs 
+2. What is the main objective of APT29
+3. APT29 associated groups
+4. APT29 attack techniques
+5. APT29 attack blogs 
 
 ## APT29 attack blogs 
 |# | Title| About|
@@ -17,6 +18,12 @@ While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few q
 ## What is APT29 ?
 APT29 (Advanced Persistent Threat 29), also known as Cozy Bear, is a cyber espionage group believed to be operating on behalf of the Russian government
 that has been involved in high-profile cyber attacks against various targets, including government agencies and critical infrastructure. The group is known for using advanced hacking techniques, such as spear phishing and zero-day exploits, as well as social engineering tactics. 
+
+## What is the main objective of APT29 ? 
+> What is the main objective of APT29 ? <br>
+> Is it to break the IT environment, obtain money, or steal personal information?
+
+Probably, the main objective of APT29, also known as Cozy Bear, is believed to be espionage and intelligence gathering for the Russian government. Their targets have included government entities, defense contractors, and research organizations, among others. While financial gain may be a secondary objective, their primary focus is on collecting sensitive information and intellectual property.
 
 ## APT29 associated groups 
 Yes, there are several groups associated with APT29, and each group uses different attack techniques - IRON RITUAL, IRON HEMLOCK, NobleBaron, Dark Halo, StellarParticle, NOBELIUM, UNC2452, YTTRIUM, The Dukes, Cozy Bear and CozyDuke.	
