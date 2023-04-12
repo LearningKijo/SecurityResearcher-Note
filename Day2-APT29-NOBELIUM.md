@@ -1,4 +1,4 @@
-# Day 2 - APT29, NOBELIUM - WIP
+# Day 2 - APT29, NOBELIUM
 
 ### What is NOBELIUM?
 NOBELIUM is a Russian state-sponsored hacking group that conducts cyber espionage and attacks against various targets. It was previously known as APT29 or Cozy Bear and is responsible for high-profile attacks such as **the SolarWinds hack**. 
