@@ -43,7 +43,16 @@ Here are some important points to consider during [the investigation](https://le
 
 
 ## Incident response, containment
-![image](https://user-images.githubusercontent.com/120234772/231706957-6b6e2e71-ed9c-4d02-afbf-06a59f9c9825.png)
+Regarding containment of ***the impacted device***, MDE has the capability to remotely isolate the network from the device.
+- [Isolate devices from the network](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/respond-machine-alerts?view=o365-worldwide#isolate-devices-from-the-network)
+- [Contain devices from the network](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/respond-machine-alerts?view=o365-worldwide#contain-devices-from-the-network)
 
+Also, if ***the user account*** has an impact on the breach, then other response options are available.
+- [Reset user account password](https://learn.microsoft.com/en-us/defender-for-identity/remediation-actions)
+- [Disbale AD user / Azure AD user](https://learn.microsoft.com/en-us/defender-for-identity/remediation-actions)
+
+
+![image](https://user-images.githubusercontent.com/120234772/231706957-6b6e2e71-ed9c-4d02-afbf-06a59f9c9825.png)
+> e.g. Isolate devices from the network 
 
 
