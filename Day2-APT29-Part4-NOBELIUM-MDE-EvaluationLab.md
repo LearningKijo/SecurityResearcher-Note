@@ -55,4 +55,5 @@ Also, if ***the user account*** has an impact on the breach, then other response
 ![image](https://user-images.githubusercontent.com/120234772/231706957-6b6e2e71-ed9c-4d02-afbf-06a59f9c9825.png)
 > e.g. Isolate devices from the network 
 
-
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
