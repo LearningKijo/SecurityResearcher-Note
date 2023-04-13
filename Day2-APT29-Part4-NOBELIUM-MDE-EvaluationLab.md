@@ -5,9 +5,10 @@ In Microsoft Defender for Endpoint's Evaluation Lab(MDE), Solorigate attack simu
 ![image](https://user-images.githubusercontent.com/120234772/231689408-6805a007-69c2-46db-a834-f11e7a5d1870.png)
 > Solorigate in MDE Evaluation Lab
 
-## Incident Response(IR)
-![image](https://user-images.githubusercontent.com/120234772/230063443-8b3f59d1-d3b5-4e69-b667-c7b8e7c2ea21.png)
-> NIST 800-61 response management phases
+## Incident response with Microsoft 365 Defender
+During incident response, there are various approaches and scenarios, and Microsoft offers comprehensive documentation on incident response for Microsoft 365 Defender. At this time, I would like to focus on **containment** and **investigation**, as highlighted in the blue line below:
+![image](https://user-images.githubusercontent.com/120234772/231698357-8ba1ef53-4c19-4ca8-9eba-0aba46681b06.png)
+> incident response workflow, [Incident response with Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
 
 ## IR : detection and analysis
 At first, look at the incident page, Not alert page
