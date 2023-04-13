@@ -28,13 +28,15 @@ Here are some important points to consider during [the investigation](https://le
 - Scope
 - Alerts
 
-![image](https://user-images.githubusercontent.com/120234772/231690987-4217eeac-d14d-4010-9f41-9fb1dcf3e753.png)
+![image](https://user-images.githubusercontent.com/120234772/231705669-82ce321d-d4c2-41df-ada8-43662ddf604d.png)
+
 
 ### [Attack story]
 - Incident graph
 - Alerts (Timeline)
 
-![image](https://user-images.githubusercontent.com/120234772/231691509-6e35beeb-38f2-4925-bb21-3317bfcc8a42.png)
+![image](https://user-images.githubusercontent.com/120234772/231706242-4623984f-8853-48e5-8e02-6e71c4ad3f91.png)
+
 
 ## Incident response, containment
 ![image](https://user-images.githubusercontent.com/120234772/231694802-1e1d1255-5436-4535-9853-052a2f7a0826.png)
