@@ -10,8 +10,8 @@ While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few q
 |# | Title| About|
 |:---|:---|:---|
 |1 | Day2-APT29-Overview.md  **<we are here !!>**| Talk about APT29 attack overview |
-|2 | [Day2-APT29-YTTRIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-YTTRIUM.md)| Talk about APT29/YTTRIUM group |
-|3 | [Day2-APT29-NOBELIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-NOBELIUM.md)| Talk about APT29/NOBELIUM group|
+|2 | [Day2-APT29-YTTRIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-Part2-YTTRIUM.md)| Talk about APT29/YTTRIUM group |
+|3 | [Day2-APT29-NOBELIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-Part3-NOBELIUM.md)| Talk about APT29/NOBELIUM group|
 |4 | Day2-APT29-NOBELIUM.md - MDE demo - WIP| |
 
 ## What is APT29 attack ?
