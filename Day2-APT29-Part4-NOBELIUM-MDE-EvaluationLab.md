@@ -13,16 +13,16 @@ During incident response, there are various approaches and scenarios, and Micros
 
 ## Incident response, investigation
 
-Here are some important points to consider during the investigation.
+Here are some important points to consider during [the investigation](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
+.
 1. Where the attack started.
 2. What tactics were used.
 3. How far the attack has gone into your tenant.
 4. The scope of the attack, such as how many devices, users, and mailboxes were impacted.
 5. All of the data associated with the attack.
-> [Incident response with Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
 
+>**Note** : When starting an investigation, it's important to navigate to **the incident page** instead of the alert page. This is because there can be a large volume of alerts and people may become lost or unsure of what they need to find.
 
-At first, look at the incident page, Not alert page
 ### [Summary]
 - MITRE ATT&CK tactics
 - Scope
