@@ -39,7 +39,7 @@ Here are some important points to consider during [the investigation](https://le
 
 ![image](https://user-images.githubusercontent.com/120234772/231714249-885594bd-be8b-439a-a2e1-863dffd3b04a.png)
 
-![image](https://user-images.githubusercontent.com/120234772/231733269-5898e89d-859b-49a7-979e-45da17d9f07e.png)
+![image](https://user-images.githubusercontent.com/120234772/231755283-0036cd31-c5aa-4755-a3f1-349d6cac4515.png)
 
 
 ## Incident response, containment
