@@ -10,7 +10,18 @@ During incident response, there are various approaches and scenarios, and Micros
 ![image](https://user-images.githubusercontent.com/120234772/231698357-8ba1ef53-4c19-4ca8-9eba-0aba46681b06.png)
 > incident response workflow, [Incident response with Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
 
-## IR : detection and analysis
+
+## Incident response, investigation
+
+Here are some important points to consider during the investigation.
+1. Where the attack started.
+2. What tactics were used.
+3. How far the attack has gone into your tenant.
+4. The scope of the attack, such as how many devices, users, and mailboxes were impacted.
+5. All of the data associated with the attack.
+> [Incident response with Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
+
+
 At first, look at the incident page, Not alert page
 ### [Summary]
 - MITRE ATT&CK tactics
@@ -25,6 +36,7 @@ At first, look at the incident page, Not alert page
 
 ![image](https://user-images.githubusercontent.com/120234772/231691509-6e35beeb-38f2-4925-bb21-3317bfcc8a42.png)
 
-
-## IR : containment
+## Incident response, containment
 ![image](https://user-images.githubusercontent.com/120234772/231694802-1e1d1255-5436-4535-9853-052a2f7a0826.png)
+
+
