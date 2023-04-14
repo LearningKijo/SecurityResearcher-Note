@@ -36,7 +36,7 @@ Here are some important points to consider during [the investigation](https://le
 
 | [Attack story] | Check points |
 |:----|:----|
-| Incident graph |  |
+| Incident graph | Check how your assets are related to suspicious entities and activities using a graph.  |
 | Alerts (Timeline) | Check how many alerts associated with an incident, as well as the timeline of those alerts. | 
 
 ![image](https://user-images.githubusercontent.com/120234772/231706242-4623984f-8853-48e5-8e02-6e71c4ad3f91.png)
