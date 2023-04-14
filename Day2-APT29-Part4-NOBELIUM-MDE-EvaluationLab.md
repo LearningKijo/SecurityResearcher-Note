@@ -23,19 +23,23 @@ Here are some important points to consider during [the investigation](https://le
 
 >**Note** : When starting an investigation, it's important to navigate to **the incident page** instead of the alert page. This is because there can be a large volume of alerts and people may become lost or unsure of what they need to find.
 
-### [Summary]
-- MITRE ATT&CK tactics
-- Scope
-- Alerts
+
+| [Summary] | Check points |
+|:---|:---|
+| MITRE ATT&CK tactics | Analyze the full scope of attack using the MITRE ATT&CK framework. |
+| Scope | Check the impacted assets such as devices, users, mailboxes, and apps.|
+| Alerts | Check how many alerts associated with an incident, as well as the timeline of those alerts. |
 
 ![image](https://user-images.githubusercontent.com/120234772/231705669-82ce321d-d4c2-41df-ada8-43662ddf604d.png)
-
+> Summary, Incident page
 
 ### [Attack story]
 - Incident graph
 - Alerts (Timeline)
 
 ![image](https://user-images.githubusercontent.com/120234772/231706242-4623984f-8853-48e5-8e02-6e71c4ad3f91.png)
+> Attack story, Incident page
+
 
 ![image](https://user-images.githubusercontent.com/120234772/231714249-885594bd-be8b-439a-a2e1-863dffd3b04a.png)
 
