@@ -28,14 +28,16 @@ Here are some important points to consider during [the investigation](https://le
 |:---|:---|
 | MITRE ATT&CK tactics | Analyze the full scope of attack using the MITRE ATT&CK framework. |
 | Scope | Check the impacted assets such as devices, users, mailboxes, and apps.|
-| Alerts | Check how many alerts associated with an incident, as well as the timeline of those alerts. |
+| Evidence | Ensure that any suspicious activities related to the incident are identified. |
+| Alerts | Check the timeline of those alerts. |
 
 ![image](https://user-images.githubusercontent.com/120234772/231705669-82ce321d-d4c2-41df-ada8-43662ddf604d.png)
 > Summary, Incident page
 
-### [Attack story]
-- Incident graph
-- Alerts (Timeline)
+| [Attack story] | Check points |
+|:----|:----|
+| Incident graph |  |
+| Alerts (Timeline) | Check how many alerts associated with an incident, as well as the timeline of those alerts. | 
 
 ![image](https://user-images.githubusercontent.com/120234772/231706242-4623984f-8853-48e5-8e02-6e71c4ad3f91.png)
 > Attack story, Incident page
