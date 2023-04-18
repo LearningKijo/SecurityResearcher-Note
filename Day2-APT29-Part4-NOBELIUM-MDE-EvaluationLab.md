@@ -13,7 +13,7 @@ During incident response, there are various approaches and scenarios, and Micros
 
 ## Incident response, investigation
 
-### Let's investigate the details of the incident.
+### Let's investigate the details of the incident
 
 Here are some important points to consider during [the investigation](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
 .
