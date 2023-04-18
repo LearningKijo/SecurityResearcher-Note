@@ -13,6 +13,8 @@ During incident response, there are various approaches and scenarios, and Micros
 
 ## Incident response, investigation
 
+### Let's investigate the details of the incident.
+
 Here are some important points to consider during [the investigation](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
 .
 1. Where the attack started.
@@ -42,6 +44,7 @@ Here are some important points to consider during [the investigation](https://le
 ![image](https://user-images.githubusercontent.com/120234772/231706242-4623984f-8853-48e5-8e02-6e71c4ad3f91.png)
 > Attack story, Incident page
 
+### Let's look into the depth of the alert
 
 ![image](https://user-images.githubusercontent.com/120234772/231714249-885594bd-be8b-439a-a2e1-863dffd3b04a.png)
 
