@@ -15,8 +15,8 @@ During incident response, there are various approaches and scenarios, and Micros
 
 ### Let's investigate the details of the incident
 
-Here are some important points to consider during [the investigation](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
-.
+Here are some important points to consider during [the investigation](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide).
+
 1. Where the attack started.
 2. What tactics were used.
 3. How far the attack has gone into your tenant.
