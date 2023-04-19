@@ -10,9 +10,9 @@ While I am tracing back the history of the APT29 attack(YTTRIUM), I have a few q
 |# | Title| About|
 |:---|:---|:---|
 |1 | Day2-APT29-Overview.md  **<we are here !!>**| Talk about APT29 attack overview |
-|2 | [Day2-APT29-YTTRIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-Part2-YTTRIUM.md)| Talk about APT29/YTTRIUM group |
-|3 | [Day2-APT29-NOBELIUM.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-Part3-NOBELIUM.md)| Talk about APT29/NOBELIUM group|
-|4 | Day2-APT29-NOBELIUM.md - MDE demo - WIP| |
+|2 | [Day2-APT29-Part2-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-Part2-Midnight-Blizzard.md)| Talk about APT29/Midnight-Blizzard(previously YTTRIUM)  |
+|3 | [Day2-APT29-Part3-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-Part3-Midnight-Blizzard.md)| Talk about APT29/Midnight-Blizzard(previously NOBELIUM) |
+|4 | [Day2-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/Day2-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md) | MDE demo - WIP|
 
 ## What is APT29 attack ?
 APT29 (Advanced Persistent Threat 29), also known as Cozy Bear, is a cyber espionage group believed to be operating on behalf of the Russian government
