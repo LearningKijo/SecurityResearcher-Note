@@ -33,6 +33,8 @@ If you are not using Microsoft Security solution, then take the following action
 After the containment, move to the investigation and recovery. 
 
 ## Preparing for NOBELIUM 
+These are **key messages** from Microsoft Defenders.
+
 #### Prioritize cyber hygiene
 - Vulnerability management & Patching
 - Zero Trust implementation
