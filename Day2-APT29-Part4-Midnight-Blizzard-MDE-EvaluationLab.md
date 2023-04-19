@@ -36,6 +36,9 @@ Here are some important points to consider during [the investigation](https://le
 | Evidence | Ensure that any suspicious activities related to the incident are identified. |
 | Alerts | Check the timeline of those alerts. |
 
+e.g. 
+At the time of the incident, I can see that 23 alerts are associated with it and [testmachine8] is an impacted device that requires action(containment) to be taken for incident response. In terms of suspicious activities, MDE has detected 31 entities.
+
 ![image](https://user-images.githubusercontent.com/120234772/231705669-82ce321d-d4c2-41df-ada8-43662ddf604d.png)
 > Summary, Incident page
 
