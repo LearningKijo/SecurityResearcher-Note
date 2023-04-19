@@ -31,9 +31,8 @@ Yes, there are several groups associated with APT29, and each group uses differe
 - NobleBaron
 - Dark Halo
 - StellarParticle
-- NOBELIUM 
+- Midnight Blizzard	(NOBELIUM, YTTRIUM) 
 - UNC2452 
-- YTTRIUM 
 - The Dukes 
 - Cozy Bear
 - CozyDuke.	
