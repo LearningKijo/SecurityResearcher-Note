@@ -47,6 +47,9 @@ At the time of the incident, I can see that 23 alerts are associated with it and
 | Incident graph | Check how your assets are related to suspicious entities and activities using a graph.  |
 | Alerts (Timeline) | Check how many alerts associated with an incident, as well as the timeline of those alerts. | 
 
+e.g. 
+In the attack timeline, since the alert started from "suspicious service launched," it's possible that the service may have created additional malicious files or even established a C2C connection.
+
 ![image](https://user-images.githubusercontent.com/120234772/231706242-4623984f-8853-48e5-8e02-6e71c4ad3f91.png)
 > Attack story, Incident page
 
