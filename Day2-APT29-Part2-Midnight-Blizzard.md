@@ -1,4 +1,6 @@
 # Day 2 - APT29, Midnight Blizzard (YTTRIUM) 
+> 📢 Microsoft has recently changed its naming taxonomy for threat actors, moving away from using element symbols to using [weather-related names](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/). APT29 attack was named Midnight Blizzard in Microsoft's new naming taxonomy for threat actors. In this blog, I will use the name "YTTRIUM" instead of Midnight Blizzard.
+
 
 ### What is YTTRIUM ? 
 YTTRIUM is a codename that Microsoft has given to a specific activity group believed to be part of APT29 or Cozy Bear, a Russian state-sponsored advanced persistent threat group known for its cyber espionage activities. This group is known for using advanced hacking techniques, including spear phishing, zero-day exploits, and social engineering tactics to target government agencies, critical infrastructure, and other high-profile organizations.
