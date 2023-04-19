@@ -1,4 +1,4 @@
-# Day 2 - APT29, YTTRIUM 
+# Day 2 - APT29, Midnight Blizzard (YTTRIUM) 
 
 ### What is YTTRIUM ? 
 YTTRIUM is a codename that Microsoft has given to a specific activity group believed to be part of APT29 or Cozy Bear, a Russian state-sponsored advanced persistent threat group known for its cyber espionage activities. This group is known for using advanced hacking techniques, including spear phishing, zero-day exploits, and social engineering tactics to target government agencies, critical infrastructure, and other high-profile organizations.
