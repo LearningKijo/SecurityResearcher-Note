@@ -2,7 +2,7 @@
 > 📢 Microsoft has recently changed its naming taxonomy for threat actors, moving away from using element symbols to using [weather-related names](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/). APT29 attack was named Midnight Blizzard in Microsoft's new naming taxonomy for threat actors. In this blog, I will use the name "NOBELIUM" instead of Midnight Blizzard.
 
 
-### What is NOBELIUM?
+## What is NOBELIUM?
 NOBELIUM is a Russian state-sponsored hacking group that conducts cyber espionage and attacks against various targets. It was previously known as APT29 or Cozy Bear and is responsible for high-profile attacks such as **the SolarWinds hack**. 
 
 According to ***MIcrosoft Security blog update***,
