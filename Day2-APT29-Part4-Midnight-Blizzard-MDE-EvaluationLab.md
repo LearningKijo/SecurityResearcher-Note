@@ -48,7 +48,7 @@ At the time of the incident, I can see that 23 alerts are associated with it and
 | Alerts (Timeline) | Check how many alerts associated with an incident, as well as the timeline of those alerts. | 
 
 e.g. 
-In the attack timeline, since the alert started from "suspicious service launched," it's possible that the service may have created additional malicious files or even established a C2C connection.
+In the attack timeline, since the alert started from "suspicious service launched," it's possible that the service may have created additional malicious files or even established a C2C connection. Also, when I examine the incident graph, I can see that testmachine8 is connected to 'panhardware.com' and related files and processes.
 
 ![image](https://user-images.githubusercontent.com/120234772/231706242-4623984f-8853-48e5-8e02-6e71c4ad3f91.png)
 > Attack story, Incident page
