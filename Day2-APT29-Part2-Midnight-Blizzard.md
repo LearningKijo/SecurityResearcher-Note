@@ -1,5 +1,5 @@
 # Day 2 - APT29, Midnight Blizzard (YTTRIUM) 
-> 📢 Microsoft has recently changed its naming taxonomy for threat actors, moving away from using element symbols to using [weather-related names](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/). APT29 attack was named Midnight Blizzard in Microsoft's new naming taxonomy for threat actors. In this blog, I will use the name "YTTRIUM" instead of Midnight Blizzard.
+> 📢 April 18, 2023 - Microsoft has changed its naming taxonomy for threat actors, moving away from using element symbols to using [weather-related names](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/). APT29 attack was named Midnight Blizzard in Microsoft's new naming taxonomy for threat actors. In this blog, I will use the name "YTTRIUM" instead of Midnight Blizzard.
 
 
 ## What is YTTRIUM ? 
