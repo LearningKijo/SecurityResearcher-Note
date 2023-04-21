@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/120234772/233586114-ba90b790-81f2-4739-b5f6-cba034e4ddf1.png)
 
 ### Why did Microsoft switch to using weather-themed names for threat actors?
-The threat landscape is constantly evolving, with the complexity, scale, and volume of threats increasing. As highlighted in [the blog](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/), Microsoft Threat Intelligence community has tracked 300+ threat actors including 160 nation-state actors and 50 ransomware groups over a decade, discovering, tracking and identifying targeted malicious activity and sharing critical intelligence with customers.
+The threat landscape is constantly evolving, with the complexity, scale, and volume of threats increasing. As highlighted in [the blog](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/), Microsoft Threat Intelligence community has tracked 300+ threat actors including 160 nation-state actors and 50 ransomware groups over a decade, discovering, tracking and identifying targeted malicious activity and sharing critical intelligence with customers. ***In order to provide better context and make it easier for security professionals to understand and prioritize threats***, Microsoft is adopting a new threat actor naming taxonomy based on weather.
 
 
 
