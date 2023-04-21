@@ -57,6 +57,7 @@ In the attack timeline, since the alert started from "suspicious service launche
 This is one of the alerts in the incident. The attack began from sbsimulator.exe and sbsimulation_sb_340461_bs_293713.exe created a file bdata.bin which was detected as malicious activities.
 
 ![image](https://user-images.githubusercontent.com/120234772/231714249-885594bd-be8b-439a-a2e1-863dffd3b04a.png)
+> Alert story, Alert page
 
 Upon analyzing the timeline of the alert, it was found that all suspicious activities related to APT29 were captured on the device by MDE. I have summarized what the timeline is telling us.
 
