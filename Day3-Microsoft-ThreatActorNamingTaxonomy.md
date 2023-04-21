@@ -18,5 +18,5 @@ The comprehensive map is available from [here](https://download.microsoft.com/do
 1. [How Microsoft names threat actors](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide) (https://aka.ms/threatactors)
 2. [Microsoft shifts to a new threat actor naming taxonomy](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/)
 
-
-
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
