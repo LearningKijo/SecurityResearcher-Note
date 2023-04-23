@@ -9,10 +9,15 @@ The comprehensive map is available from [here](https://download.microsoft.com/do
 
 ![image](https://user-images.githubusercontent.com/120234772/233592868-e35ed554-c0bf-4688-9656-b74c3df7719b.png)
 
-
+## Threat Actor Insights
 
 ![image](https://user-images.githubusercontent.com/120234772/233085458-3ab6f1ac-8dae-4cc3-bb57-ac121cc84e52.png)
 > Threat Actor Insights, [Cybersecurity + Threat Intelligence | Security Insider](https://www.microsoft.com/en-us/security/business/security-insider/#office-ContentAreaHeadingTemplate-hkzu7ix)
+
+![image](https://user-images.githubusercontent.com/120234772/233846054-0c658312-1fe3-49fe-9271-884338448be7.png)
+
+![image](https://user-images.githubusercontent.com/120234772/233846069-dba7baa8-09d2-498d-a549-efbf1adb356d.png)
+
 
 ## Reference
 1. [How Microsoft names threat actors](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide) (https://aka.ms/threatactors)
