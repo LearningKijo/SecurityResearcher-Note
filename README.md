@@ -3,9 +3,15 @@
 
 ### Welcome to @SecurityResearcher-Note
 In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
+## SecurityResearcher-Note
+| Day | Note |
+|:---|:---|
+| Day1 | [Day1-Basic-Malware-Analysis.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day1-Basic-Malware-Analysis.md) |  
+| Day2 | [Day2-APT29-Part1-Overview.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part1-Overview.md)<br> [Day2-APT29-Part2-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part2-Midnight-Blizzard.md)<br> [Day2-APT29-Part3-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part3-Midnight-Blizzard.md)<br> [Day2-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md)  | 
 
+
+## Topics
 ```kql      
-// SecurityResearcher-Note : Covering topics
 let SecurityResearcher-Note = datatable(id: int, value: string)
 [
       1, "Malware analysis", 
