@@ -61,7 +61,7 @@ This is one of the alerts in the incident. The attack began from sbsimulator.exe
 
 Upon analyzing the timeline of the alert, it was found that all suspicious activities related to APT29 were captured on the device by MDE. I have summarized what the timeline is telling us.
 
-![image](https://user-images.githubusercontent.com/120234772/231755283-0036cd31-c5aa-4755-a3f1-349d6cac4515.png)
+![image](https://user-images.githubusercontent.com/120234772/233934128-8bb8670b-bccd-484e-90ce-6d4acf8fb79a.png)
 
 
 ## Incident response, containment
