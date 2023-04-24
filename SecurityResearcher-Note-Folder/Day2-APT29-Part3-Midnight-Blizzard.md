@@ -17,6 +17,14 @@ The attackers added malicious code to the SolarWinds Orion Platform DLL file, wh
 ![image](https://user-images.githubusercontent.com/120234772/230338300-734224cb-f248-47df-8472-18aaa4f0c662.png)
 > [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/), NOBELIUM infection chain
 
+#### The initial proncess
+1. The SolarWinds.BusinessLayerHost.exe file is a legitimate file used by the SolarWinds Orion IT management software.
+2. The malicious activity was not directly caused by the executable file, but rather by a compromised DLL file that was loaded into the executable.
+3. The attackers were able to insert the malicious code into the DLL file during an early stage of the software build, before the final stages that would include digitally signing the compiled code.
+4. The compromised DLL file is digitally signed, which enhances its ability to run privileged actions and avoid detection.
+5. The malicious code is designed to be lightweight and run in the background, so as not to interfere with the normal operation of the SolarWinds software.
+6. Once the malicious code is loaded, it allows the attackers to perform a wide range of actions and move laterally across the network, with the ultimate goal of achieving their objectives, which may include cyber espionage or financial gain.
+
 ## Incident Response, Containment
 ### What if your environment is compromised by APT29 (Nobelium)?
 If your environment has been compromised by the Nobelium attack, the first step you should take is **"Containment"**.
