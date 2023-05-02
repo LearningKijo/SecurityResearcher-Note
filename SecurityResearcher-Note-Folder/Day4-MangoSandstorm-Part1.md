@@ -1,4 +1,6 @@
 # Day 4 - Mango Sandstorm
+While I am tracing back the history of Mango Sandstorm, formerly known as MERCURY, I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
+
 ## What is Mango Sandstorm ?
 Mango Sandstorm, formerly known as MERCURY, is ***an Iranian-based cyber activity group*** that specializes in sensitive data gathering through advanced cyber attacks, rather than financial gain. Their attack techniques include spear-phishing attacks, exploiting vulnerabilities, malware and social engineering.
 
