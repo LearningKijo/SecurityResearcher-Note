@@ -1,4 +1,5 @@
 # Day 4 - Mango Sandstorm
+## What is Mango Sandstorm ?
 
 ## Reference
 1. August 25, 2022, [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
