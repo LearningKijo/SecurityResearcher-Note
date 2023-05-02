@@ -10,6 +10,12 @@ To get the detailed insight, Microsoft Defender Threat Intelligence also covers 
 > Mango Sandstorm, Microsoft Defender Threat Intelligence
 
 ## Mango Sandstorm associated groups
+- Earth Vetala
+- Mango Sandstorm (MERCURY)
+- Static Kitten
+- Seedworm
+- TEMP.Zagros
+- MuddyWater
 
 ## Mango Sandstorm attack techniques
 
