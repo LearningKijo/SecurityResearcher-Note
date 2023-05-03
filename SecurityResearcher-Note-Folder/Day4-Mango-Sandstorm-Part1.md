@@ -9,7 +9,10 @@ To get the detailed insight, Microsoft Defender Threat Intelligence also covers 
 ![image](https://user-images.githubusercontent.com/120234772/235598610-51723cfb-b598-43bc-ac5c-2c344a384611.png)
 > Mango Sandstorm, Microsoft Defender Threat Intelligence
 
-## Mango Sandstorm timeline / history
+## Mango Sandstorm timeline
+#### August 25, 2022,
+MERCURY, previously known for using Log4j 2 exploits to attack VMware apps, has recently been targeting SysAid apps using the same technique. Once they gain initial access, the group establishes persistence, moves laterally within the network using custom and well-known hacking tools, and dumps credentials.
+> **Note** : [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
 ## Mango Sandstorm associated groups
 - Earth Vetala
 - Mango Sandstorm (MERCURY)
