@@ -9,6 +9,7 @@ To get the detailed insight, Microsoft Defender Threat Intelligence also covers 
 ![image](https://user-images.githubusercontent.com/120234772/235598610-51723cfb-b598-43bc-ac5c-2c344a384611.png)
 > Mango Sandstorm, Microsoft Defender Threat Intelligence
 
+## Mango Sandstorm timeline / history
 ## Mango Sandstorm associated groups
 - Earth Vetala
 - Mango Sandstorm (MERCURY)
