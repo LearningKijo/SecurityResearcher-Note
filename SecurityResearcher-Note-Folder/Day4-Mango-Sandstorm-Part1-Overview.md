@@ -28,10 +28,16 @@ Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-pr
 - MuddyWater
 
 ## Mango Sandstorm attack techniques
+
+### The most common attack techniques
 - Adversary-in-the-mailbox phishing
 - Use of cloud file-sharing services
 - Use of commercial remote access applications
 - Tooling
+
+### MITRE ATT&CK APT29 attack map
+![image](https://user-images.githubusercontent.com/120234772/236394767-4a35fec6-0897-48ae-bfa3-e22db9a5a7ca.png)
+
 
 ## Reference
 1. August 25, 2022, [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
