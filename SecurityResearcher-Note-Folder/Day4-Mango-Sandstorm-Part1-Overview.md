@@ -35,8 +35,9 @@ Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-pr
 - Use of commercial remote access applications
 - Tooling
 
-### MITRE ATT&CK APT29 attack map
+### MITRE ATT&CK MuddyWater attack map
 ![image](https://user-images.githubusercontent.com/120234772/236394767-4a35fec6-0897-48ae-bfa3-e22db9a5a7ca.png)
+> MuddyWater, Techniques Used, [ATT&CK® Navigator](https://mitre-attack.github.io/attack-navigator/)
 
 
 ## Reference
