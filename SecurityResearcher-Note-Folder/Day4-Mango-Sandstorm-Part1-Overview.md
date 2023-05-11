@@ -35,6 +35,11 @@ There are several groups associated with APT29, and each group uses different at
 - Use of cloud file-sharing services
 - Use of commercial remote access applications
 - Tooling: Venom proxy tool, Ligolo reverse tunneling, and home-grown PowerShell programs
+- Exploiting vulnerabilities
+- Social engineering
+- Watering hole attacks
+- Backdoor installation
+- Lateral movement
 
 ### MITRE ATT&CK MuddyWater attack map
 ![image](https://user-images.githubusercontent.com/120234772/236394767-4a35fec6-0897-48ae-bfa3-e22db9a5a7ca.png)
