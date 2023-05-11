@@ -25,7 +25,7 @@ that has been involved in high-profile cyber attacks against various targets, in
 Probably, the main objective of APT29, also known as Cozy Bear, is believed to be espionage and intelligence gathering for the Russian government. Their targets have included government entities, defense contractors, and research organizations, among others. While financial gain may be a secondary objective, their primary focus is on collecting sensitive information and intellectual property.
 
 ## APT29 associated groups 
-Yes, there are several groups associated with APT29, and each group uses different attack techniques. 
+There are several groups associated with APT29, and each group uses different attack techniques. 
 - IRON RITUAL
 - IRON HEMLOCK
 - NobleBaron
