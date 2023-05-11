@@ -20,6 +20,7 @@ Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-pr
 > **Note** : [MERCURY and DEV-1084: Destructive attack on hybrid environment](https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment/)
 
 ## Mango Sandstorm associated groups
+There are several groups associated with APT29, and each group uses different attack techniques. 
 - Earth Vetala
 - Mango Sandstorm (MERCURY)
 - Static Kitten
