@@ -15,7 +15,7 @@ Mango Sandstorm, previously known for using Log4j 2 exploits to attack VMware ap
 Log4j is a widely used Java logging library that allows developers to log events and messages in their applications. It provides flexibility in categorizing and controlling logging output, enabling effective debugging and monitoring of applications.
 
 #### Why was Log4j 2 exploited ?
-Log4j 2, an updated version of Log4j, is a widely used and powerful logging framework in Java. However, it had a critical vulnerability called Log4Shell (CVE-2021-44228, CVE-2021-45046, CVE-2021-44832), which allowed attackers to remotely execute code by exploiting its deserialization functionality. Regarding the details of Log4j 2, you can refer to [Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability](https://www.microsoft.com/en-us/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/).
+Log4j 2, an updated version of Log4j, is a widely used and powerful logging framework in Java. However, it had a critical vulnerability called Log4Shell (CVE-2021-44228, CVE-2021-45046, CVE-2021-44832), ***which allowed attackers to remotely execute code by exploiting its deserialization functionality.*** Regarding the details of Log4j 2, you can refer to [Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability](https://www.microsoft.com/en-us/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/).
 
 
 
