@@ -5,7 +5,7 @@ WIP xxxxxxxx
 2. April 7, 2023, Mango Sandstorm & Storm-1084
 
 ## August 25, 2022, Mango Sandstorm
-
+#### Short Summary
 Mango Sandstorm, previously known for using Log4j 2 exploits to attack VMware apps, has recently been targeting SysAid apps using the same technique. Once they gain initial access, the group establishes persistence, moves laterally within the network using custom and well-known hacking tools, and dumps credentials.
 
 
