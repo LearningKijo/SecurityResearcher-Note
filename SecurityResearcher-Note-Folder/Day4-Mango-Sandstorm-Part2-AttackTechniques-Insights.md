@@ -29,7 +29,5 @@ cmd.exe /C net user admin * /add
 cmd.exe /C net localgroup Administrators admin /add
 cmd.exe /C quser
 ```
-
-## April 7, 2023, Mango Sandstorm & Storm-1084
-Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-premises environments, has now expanded its focus to include both on-premises and cloud environments. After gaining initial access through known vulnerabilities, the attack has been linked to Storm-1084 (formerly known as DEV-1084).
-> **Note** : [MERCURY and DEV-1084: Destructive attack on hybrid environment](https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment/)
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
