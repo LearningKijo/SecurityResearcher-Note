@@ -1,5 +1,8 @@
 # Day 4 - Mango Sandstorm Attack techniques & insights
-WIP
+WIP xxxxxxxx
+
+1. August 25, 2022, Mango Sandstorm
+2. April 7, 2023, Mango Sandstorm & Storm-1084
 
 ## August 25, 2022, Mango Sandstorm
 
