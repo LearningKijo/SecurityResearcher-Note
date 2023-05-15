@@ -1,8 +1,10 @@
 # Day 4 - Mango Sandstorm Attack techniques & insights
-WIP xxxxxxxx
+While I am tracing back the history of Mango Sandstorm, formerly known as MERCURY, I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
 
-1. August 25, 2022, Mango Sandstorm
-2. April 7, 2023, Mango Sandstorm & Storm-1084
+|#|Title|
+|:---|:---|
+| Part 1 | August 25, 2022, Mango Sandstorm  **<we are here !!>** |
+| Part 2 | April 7, 2023, Mango Sandstorm & Storm-1084 (wip)|
 
 ## August 25, 2022, Mango Sandstorm
 #### Short Summary
