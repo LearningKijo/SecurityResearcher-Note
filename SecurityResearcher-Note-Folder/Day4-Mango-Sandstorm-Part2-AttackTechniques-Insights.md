@@ -29,5 +29,13 @@ cmd.exe /C net user admin * /add
 cmd.exe /C net localgroup Administrators admin /add
 cmd.exe /C quser
 ```
+
+#### In persistence, what does the attacker do?
+According to the Microsoft blog, it has been observed that attackers utilize the following techniques for persistence:
+- Dropping a web shell to establish and maintain effective and continuous access to the compromised device.
+- Creating a new user account and elevating its privileges to the local administrator level.
+- Adding leveraged tools to the startup folders and ASEP registry keys to ensure their persistence even after device reboots.
+- Using a credential theft tool such as Mimikatz.
+
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
