@@ -43,5 +43,8 @@ According to the Microsoft blog, it has been observed that attackers utilize the
 #### In lateral movement, what does the attacker do?
 The attackers utilize WMI (Windows Management Instrumentation) for maliciously executing commands, as well as a remote access tool (leveraging RemCom) to run encoded PowerShell commands within the organization.
 
+## Log4j 2 vulnerability
+As the Mango Sandstorm attack was initiated through the Log4j vulnerability, let's delve deeper into the attack and the vulnerability.
+
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
