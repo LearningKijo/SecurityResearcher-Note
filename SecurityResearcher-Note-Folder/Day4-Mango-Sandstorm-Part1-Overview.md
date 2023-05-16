@@ -1,6 +1,12 @@
 # Day 4 - Mango Sandstorm Overview
 While I am tracing back the history of Mango Sandstorm, formerly known as MERCURY, I have a few questions, and I hope that these questions and my curiosity will help someone with their security incident response.
 
+|#|Title|About|
+|:---|:---|:---|
+| Part 1 | Day4-Mango-Sandstorm-Part1-Overview.md **<we are here !!>**  | Mango Sandstorm overview |
+| Part 2 | [Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md)  |August 25, 2022, Mango Sandstorm |
+| Part 3 | Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md (wip) |April 7, 2023, Mango Sandstorm & Storm-1084 |
+
 ## What is Mango Sandstorm ?
 Mango Sandstorm, formerly known as MERCURY, is ***an Iranian-based cyber activity group*** that specializes in sensitive data gathering through advanced cyber attacks, rather than financial gain. Their attack techniques include spear-phishing attacks, exploiting vulnerabilities, malware and social engineering.
 
