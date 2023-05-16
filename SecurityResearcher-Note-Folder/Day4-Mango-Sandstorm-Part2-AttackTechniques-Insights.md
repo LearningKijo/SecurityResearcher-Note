@@ -46,5 +46,8 @@ The attackers utilize WMI (Windows Management Instrumentation) for maliciously e
 ## Log4j 2 vulnerability
 As the Mango Sandstorm attack was initiated through the Log4j vulnerability, let's delve deeper into the attack and the vulnerability.
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/49b682a4-10a9-4b9b-be53-a0c80e00d01b)
+> [Remediating the Log4j vulnerability](https://www.youtube.com/watch?v=ulOTK2pZLNU) | Microsoft Defender for Endpoint
+
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
