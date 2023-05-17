@@ -28,7 +28,7 @@ Log4j is a widely used Java logging library that allows developers to log events
 Log4j 2, an updated version of Log4j, is a widely used and powerful logging framework in Java. However, it had a critical vulnerability called Log4Shell (CVE-2021-44228, CVE-2021-45046, CVE-2021-44832), ***which allowed attackers to remotely execute code by exploiting its deserialization functionality.*** 
 
 #### How does the attacker precisely exploit the vulnerable Log4j 2? 
-Attackers exploit vulnerable Log4j 2 systems by sending data containing a specific string. Log4j 2, while attempting to process this string, accesses a specified URL through the JNDI Lookup feature. This allows attackers to download and execute malicious Java code within the system.
+Attackers exploit vulnerable Log4j 2 systems by sending data containing a specific string. Log4j 2, while attempting to process this string, accesses ***a specified URL through the JNDI Lookup feature***. This allows attackers to download and execute malicious Java code within the system.
 
 #### What commands were executed through the Log4j 2 exploit?
 ```cmd
