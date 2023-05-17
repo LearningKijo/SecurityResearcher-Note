@@ -14,6 +14,13 @@ Mango Sandstorm, previously known for using Log4j 2 exploits to attack VMware ap
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/f67bb7ac-2cc3-4a6e-ab31-06b8db9ce991)
 > **Note** : [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
 
+
+## Log4j 2 vulnerability
+As the Mango Sandstorm attack was initiated through the Log4j vulnerability, let's delve deeper into the attack and the vulnerability.
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/49b682a4-10a9-4b9b-be53-a0c80e00d01b)
+> [Remediating the Log4j vulnerability](https://www.youtube.com/watch?v=ulOTK2pZLNU) | Microsoft Defender for Endpoint
+
 #### What is Log4j?
 Log4j is a widely used Java logging library that allows developers to log events and messages in their applications. It provides flexibility in categorizing and controlling logging output, enabling effective debugging and monitoring of applications.
 
@@ -32,22 +39,6 @@ cmd.exe /C net user admin * /add
 cmd.exe /C net localgroup Administrators admin /add
 cmd.exe /C quser
 ```
-
-#### In persistence, what does the attacker do?
-According to the Microsoft blog, it has been observed that attackers utilize the following techniques for persistence:
-- Dropping a web shell to establish and maintain effective and continuous access to the compromised device.
-- Creating a new user account and elevating its privileges to the local administrator level.
-- Adding leveraged tools to the startup folders and ASEP registry keys to ensure their persistence even after device reboots.
-- Using a credential theft tool such as Mimikatz.
-
-#### In lateral movement, what does the attacker do?
-The attackers utilize WMI (Windows Management Instrumentation) for maliciously executing commands, as well as a remote access tool (leveraging RemCom) to run encoded PowerShell commands within the organization.
-
-## Log4j 2 vulnerability
-As the Mango Sandstorm attack was initiated through the Log4j vulnerability, let's delve deeper into the attack and the vulnerability.
-
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/49b682a4-10a9-4b9b-be53-a0c80e00d01b)
-> [Remediating the Log4j vulnerability](https://www.youtube.com/watch?v=ulOTK2pZLNU) | Microsoft Defender for Endpoint
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
