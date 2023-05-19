@@ -9,6 +9,9 @@ While I am tracing back the history of Mango Sandstorm, formerly known as MERCUR
 | Part 3 | Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md (wip) |April 7, 2023, Mango Sandstorm & Storm-1084 |
 
 ## April 7, 2023, Mango Sandstorm
+
+#### Short Summary
+
 Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-premises environments, has now expanded its focus to include both on-premises and cloud environments. After gaining initial access through known vulnerabilities, the attack has been linked to Storm-1084 (formerly known as DEV-1084).
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/ee623697-5a31-48fe-933a-85fa360ef3c1)
