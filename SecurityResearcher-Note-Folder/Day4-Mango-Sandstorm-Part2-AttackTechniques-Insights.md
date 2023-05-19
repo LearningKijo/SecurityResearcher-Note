@@ -52,7 +52,7 @@ cmd.exe /C net user admin * /add
 cmd.exe /C net localgroup Administrators admin /add
 cmd.exe /C quser
 ```
-### Reference
+## Reference
 1. [Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability](https://www.microsoft.com/en-us/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/)
 2. [Log4j (CVE-2021-44228) RCE Vulnerability Explained](https://www.youtube.com/watch?v=0-abhd-CLwQ)
 
