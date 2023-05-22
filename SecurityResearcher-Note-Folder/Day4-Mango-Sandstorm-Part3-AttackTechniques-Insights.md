@@ -40,3 +40,8 @@ The initial access and lateral movement techniques employed in this attack are s
 The attackers compromised the on-premise environment by leveraging Group Policy Objects (GPOs) to ***disable security tools like antivirus.***
 They also used GPO to ***create a scheduled task for delivering ransomware.*** The ransomware payload was placed in the NETLOGON shares on domain controllers. 
 Ultimately, the attackers encrypted files on targeted devices and left ransom notes.
+
+#### What types of attacks were conducted in the cloud environment?
+- Email impersonation
+- Email dump using Exchange Web Server API
+- Mass Azure resources deletion
