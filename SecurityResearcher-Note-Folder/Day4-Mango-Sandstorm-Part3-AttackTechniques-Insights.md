@@ -34,3 +34,9 @@ This was likely done as an attempt to obfuscate Iran's link to and strategic mot
 - Both were observed to use the same VPN service.
 - Both were observed to use the same tools such as Rport and Ligolo.
 - vatacloud[.]com, the command and control, used by Strom-1084, is controlled by Mango Sandstorm.
+
+#### How do they conduct attacks on on-premise environments?
+The initial access and lateral movement techniques employed in this attack are similar to the previous Mango Sandstorm technique. 
+The attackers compromised the on-premise environment by leveraging Group Policy Objects (GPOs) to ***disable security tools like antivirus.***
+They also used GPO to ***create a scheduled task for delivering ransomware.*** The ransomware payload was placed in the NETLOGON shares on domain controllers. 
+Ultimately, the attackers encrypted files on targeted devices and left ransom notes.
