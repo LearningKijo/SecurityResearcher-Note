@@ -28,3 +28,5 @@ Additionally, there is strong suspicion that  Mango Sandstorm is linked to ***St
 According to Microsoft, DEV-1084 publicly adopted the DarkBit persona and presented itself as a criminal actor interested in extortion. 
 This was likely done as an attempt to obfuscate Iran's link to and strategic motivation for the attack.
 > **Note** : DarkBit - a new ransomware
+
+#### Are there any evidences linking Storm-1084 to Mango Sandstorm?
