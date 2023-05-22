@@ -30,3 +30,7 @@ This was likely done as an attempt to obfuscate Iran's link to and strategic mot
 > **Note** : DarkBit - a new ransomware
 
 #### Are there any evidences linking Storm-1084 to Mango Sandstorm?
+- The email's IP address (146.70.106[.]89) is linked to Mango Sandstorm.
+- Both were observed to use the same VPN service.
+- Both were observed to use the same tools such as Rport and Ligolo.
+- vatacloud[.]com, the command and control, used by Strom-1084, is controlled by Mango Sandstorm.
