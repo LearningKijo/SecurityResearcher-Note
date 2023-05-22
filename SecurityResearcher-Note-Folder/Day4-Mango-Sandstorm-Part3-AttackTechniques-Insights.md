@@ -17,3 +17,8 @@ Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-pr
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/ee623697-5a31-48fe-933a-85fa360ef3c1)
 
 > **Note** : [MERCURY and DEV-1084: Destructive attack on hybrid environment](https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment/)
+
+
+#### How has Mango Sandstorm changed compared to its previous activities?
+Previously, Mango Sandstorm was observed primarily in on-premise environments. However, they have now expanded their activities to include cloud environments as well. 
+Additionally, there is strong suspicion that  Mango Sandstorm is linked to Storm-1084, according to Microsoft.
