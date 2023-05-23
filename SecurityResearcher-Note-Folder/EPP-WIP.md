@@ -1,10 +1,6 @@
 # EPP
-https://learn.microsoft.com/en-us/mem/intune/protect/antivirus-microsoft-defender-settings-windows
 
-```kql
-DeviceTvmSecureConfigurationAssessmentKB
-| where ConfigurationSubcategory == "Antivirus"
-```
+
 
 | # | Configuration Name | memo |
 | :-- | :-- | :-- | 
@@ -17,4 +13,14 @@ DeviceTvmSecureConfigurationAssessmentKB
 | 7 | Security intelligence updates |
 | 8 | Antivirus network connections|
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/b9b85c50-abdd-431c-a762-333482ee702f)
+#### KQL - confirm antivirus configuration
+```kql
+DeviceTvmSecureConfigurationAssessmentKB
+| where ConfigurationSubcategory == "Antivirus"
+```
+[DeviceTvmSecureConfigurationAssessmentKB table in the advanced hunting schema](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicetvmsecureconfigurationassessmentkb-table?view=o365-worldwide)
+
+#### Reference
+[Windows Antivirus policy settings for Microsoft Defender Antivirus for Intune](https://learn.microsoft.com/en-us/mem/intune/protect/antivirus-microsoft-defender-settings-windows)
+
+
