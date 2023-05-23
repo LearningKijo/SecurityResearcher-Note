@@ -1,12 +1,12 @@
 # Microsoft Defender Antivirus config ?
 
 
-
-| # | Configuration Name | memo |
+## Recommendations & Tips (consideration)
+| # | Configuration Name | Comment |
 | :-- | :-- | :-- | 
-| 1 | Real-time protection | - Turn on real-time protection <br> - Turn on behavior monitoring <br> - Scan all downloaded files and attachments .... etc |
-| 2 | Cloud protection | ***Block at first sight*** <br> - Turn on cloud-delivered protection <br> - Cloud-delivered protection level <br> - Defender cloud extended timeout in seconds <br> - Submit Samples Consent |
-| 3 | Submit Samples Consent |  |
+| 1 | Real-time protection | Recommend turning on real-time protection. |
+| 2 | Cloud protection | Recommend turning on cloud protection. <br> - [Block at First Sight(BAFS)](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus?view=o365-worldwide) |
+| 3 | Sample submission | Recommend turning on submit samples consent. <br> - prerequisite for using BAFS |
 | 4 | PUA Protection |
 | 5 | Tamper Protection | 
 | 6 | Scan type - Quick scan |
