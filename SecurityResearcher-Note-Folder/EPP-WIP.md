@@ -13,7 +13,7 @@
 | 4 | PUA Protection | Recommend turning on PUA Protection.
 | 5 | Tamper Protection | Highly recommend turning on Tamper Protection and here are some blogs that discuss this feature. <br> - [Make sure Tamper Protection is turned on](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/make-sure-tamper-protection-is-turned-on/ba-p/2695568) <br> - [Hunting down LemonDuck and LemonCat attacks](https://www.microsoft.com/en-us/security/blog/2021/07/29/when-coin-miners-evolve-part-2-hunting-down-lemonduck-and-lemoncat-attacks/) |
 | 6 | Scan type - Quick scan | In most cases, a quick scan is sufficient and is the recommended option for scheduled scans. <br> - [Schedule regular quick and full scans with Microsoft Defender Antivirus](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/schedule-antivirus-scans?view=o365-worldwide)|
-| 7 | Security intelligence updates |
+| 7 | Antivirus protection updates | To ensure the best level of protection, Microsoft Update allows for rapid releases, which means smaller downloads on a frequent basis. <br> - [Manage the sources for Microsoft Defender Antivirus protection updates](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/manage-protection-updates-microsoft-defender-antivirus?view=o365-worldwide)<br> - [Microsoft Defender Antivirus updates - Previous versions for technical upgrade support](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/msda-updates-previous-versions-technical-upgrade-support?view=o365-worldwide) |
 | 8 | Antivirus network connections|
 
 #### KQL - confirm antivirus configuration
