@@ -45,3 +45,36 @@ Ultimately, the attackers encrypted files on targeted devices and left ransom no
 - Email impersonation
 - Email dump using Exchange Web Server API
 - Mass Azure resources deletion
+
+## KQL : IoCs-Based Threat Hunting
+#### IOCs csv file : [MangoSandstorm-Storm-1084-IOCs-042023.csv](https://github.com/LearningKijo/KQL/blob/main/KQL-XDR-Hunting/ThreatHunting/IOCs-Folder/MangoSandstorm-Storm-1084-IOCs-042023.csv)
+```kql
+// IoCs - MERCURY and DEV-1084: Destructive attack on hybrid environment
+let MangoSandstorm = externaldata(Indicator:string, Type:string, Description:string)
+[@'https://raw.githubusercontent.com/LearningKijo/KQL/main/KQL-XDR-Hunting/ThreatHunting/IOCs-Folder/MangoSandstorm-Storm-1084-IOCs-042023.csv'] with (format='csv', ignorefirstrecord = true);
+let Domains = (MangoSandstorm | where Type == "Domain"| project Indicator);
+let IPaddress = (MangoSandstorm | where Type == "IP address"| project Indicator);
+let SHA256hash = (MangoSandstorm | where Type == "SHA-256"| project Indicator);
+(union isfuzzy=true
+(DeviceNetworkEvents
+| where Timestamp > ago(1d)
+| where RemoteUrl has_any (Domains) or RemoteIP in (IPaddress) 
+| project Timestamp, DeviceId, DeviceName, ActionType, RemoteUrl, RemoteIP, RemotePort, InitiatingProcessFileName
+),
+(DeviceFileEvents
+| where Timestamp > ago(1d)
+| where SHA256 in~ (SHA256hash)
+| project Timestamp, DeviceId, DeviceName, ActionType, FileName, FileSize, FolderPath, SHA256
+),
+(DeviceProcessEvents
+| where Timestamp > ago(1d)
+| where SHA256 in~ (SHA256hash)
+| project Timestamp, DeviceId, DeviceName, ActionType, FileName, FileSize, FolderPath, SHA256, ProcessCommandLine, InitiatingProcessCommandLine
+),
+(DeviceImageLoadEvents
+| where Timestamp > ago(1d)
+| where SHA256 in~ (SHA256hash)
+| project Timestamp, DeviceId, DeviceName, ActionType, FileName, FileSize, FolderPath, SHA256, InitiatingProcessFileName, InitiatingProcessCommandLine
+)
+)
+```
