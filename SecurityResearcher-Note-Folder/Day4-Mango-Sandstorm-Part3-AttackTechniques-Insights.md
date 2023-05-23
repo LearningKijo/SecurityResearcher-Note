@@ -78,3 +78,6 @@ let SHA256hash = (MangoSandstorm | where Type == "SHA-256"| project Indicator);
 )
 )
 ```
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
