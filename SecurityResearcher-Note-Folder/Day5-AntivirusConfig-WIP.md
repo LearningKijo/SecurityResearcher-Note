@@ -39,10 +39,9 @@ DeviceTvmSecureConfigurationAssessmentKB
 ## Note
 If you have any concerns about CPU performance, please check the following parameters:
  
-#### CPU usage limit per scan (CSP: AvgCPULoadFactor) <br>
-This policy setting allows you to configure the maximum percentage CPU utilization permitted during a scan. 
-> **The default value is 50.**
-#### Use low CPU priority for scheduled scans (CSP: EnableLowCPUPriority)
+1. **CPU usage limit per scan (CSP: AvgCPULoadFactor)** <br>
+This policy setting allows you to configure the maximum percentage CPU utilization permitted during a scan. The default value is 50.
+2. **Use low CPU priority for scheduled scans (CSP: EnableLowCPUPriority)**<br>
 This policy setting allows you to enable or disable low CPU priority for scheduled scans.
 
 
