@@ -37,6 +37,14 @@ DeviceTvmSecureConfigurationAssessmentKB
 [DeviceTvmSecureConfigurationAssessmentKB table in the advanced hunting schema](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicetvmsecureconfigurationassessmentkb-table?view=o365-worldwide)
 
 ## Note
+If you have any concerns about CPU performance, please check the following parameters:
+ 
+#### CPU usage limit per scan (CSP: AvgCPULoadFactor) <br>
+This policy setting allows you to configure the maximum percentage CPU utilization permitted during a scan. 
+> **The default value is 50.**
+#### Use low CPU priority for scheduled scans (CSP: EnableLowCPUPriority)
+This policy setting allows you to enable or disable low CPU priority for scheduled scans.
+
 
 #### Reference
 1. [Defender Policy CSP - Windows Client Management](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx)
