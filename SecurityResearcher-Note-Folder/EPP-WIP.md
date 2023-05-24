@@ -1,6 +1,6 @@
-# Microsoft Defender Antivirus config ?
+#### Question : Microsoft Defender Antivirus, is that EPP ?
+This is not just EPP which is designed to only prevent known threats. It includes various feature engines to detect and protect against threats in both **pre-execution and post-execution stages**.
 
-#### Microsoft Defender Antivirus engines
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/da052b9d-cf65-47da-9727-eff144aff868)
 > Defender Antivirus engines - [In hot pursuit of elusive threats: AI-driven behavior-based blocking stops attacks in their tracks](https://www.microsoft.com/en-us/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks/) 
 
