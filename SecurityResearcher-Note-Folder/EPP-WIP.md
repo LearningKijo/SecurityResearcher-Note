@@ -21,7 +21,10 @@
 | 7 | Antivirus protection updates |Keeping your antivirus protection up to date is critical - Fallback order. <br> - [Manage the sources for Microsoft Defender Antivirus protection updates](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/manage-protection-updates-microsoft-defender-antivirus?view=o365-worldwide)<br> - [Microsoft Defender Antivirus updates - Previous versions for technical upgrade support](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/msda-updates-previous-versions-technical-upgrade-support?view=o365-worldwide) |
 | 8 | Antivirus network connections | To ensure Microsoft Defender Antivirus cloud-delivered protection works properly, your security team must configure your network to allow connections between your endpoints and certain Microsoft servers. <br> - [Configure and validate Microsoft Defender Antivirus network connections](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-network-connections-microsoft-defender-antivirus?view=o365-worldwide) | 
 
-#### KQL - confirm antivirus configuration
+#### Antivirus misconfiguration and vulnerable configuration
+By filtering antivirus in TVM and MDE, you can identify any antivirus misconfigurations and vulnerable configurations in your tenant. 
+Using KQL with Advanced Hunting, you can also identify these configurations by using the following KQL query.
+
 ```kql
 DeviceTvmSecureConfigurationAssessmentKB
 | where ConfigurationSubcategory == "Antivirus"
