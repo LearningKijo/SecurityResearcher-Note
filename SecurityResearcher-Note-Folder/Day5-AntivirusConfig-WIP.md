@@ -36,10 +36,11 @@ DeviceTvmSecureConfigurationAssessmentKB
 ```
 [DeviceTvmSecureConfigurationAssessmentKB table in the advanced hunting schema](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicetvmsecureconfigurationassessmentkb-table?view=o365-worldwide)
 
-
+## Note
 
 #### Reference
 1. [Defender Policy CSP - Windows Client Management](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx)
 2. [Windows Antivirus policy settings for Microsoft Defender Antivirus for Intune](https://learn.microsoft.com/en-us/mem/intune/protect/antivirus-microsoft-defender-settings-windows)
+3. [MDE Antivirus Configuration Common Mistakes and Best Practice](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/mde-antivirus-configuration-common-mistakes-and-best-practice/ba-p/2127405)
 
 
