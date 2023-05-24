@@ -1,5 +1,5 @@
-#### Question : Microsoft Defender Antivirus, is that EPP ?
-This is not just EPP which is designed to only prevent known threats. It includes various feature engines to detect and protect against threats in both **pre-execution and post-execution stages**.
+# Day5 - Microsoft Defender Antivirus - Recommendations & Tips
+Microsoft Defender Antivirus is not just EPP which is designed to only prevent known threats. It includes various feature engines to detect and protect against threats in both **pre-execution and post-execution stages**.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/da052b9d-cf65-47da-9727-eff144aff868)
 > Defender Antivirus engines - [In hot pursuit of elusive threats: AI-driven behavior-based blocking stops attacks in their tracks](https://www.microsoft.com/en-us/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks/) 
@@ -19,7 +19,7 @@ This is the great example story I received from a senior colleague whom I deeply
 | 4 | PUA Protection | Recommend turning on PUA Protection.
 | 5 | Tamper Protection | Highly recommend turning on Tamper Protection and here are some blogs that discuss this feature. <br> - [Make sure Tamper Protection is turned on](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/make-sure-tamper-protection-is-turned-on/ba-p/2695568) <br> - [Hunting down LemonDuck and LemonCat attacks](https://www.microsoft.com/en-us/security/blog/2021/07/29/when-coin-miners-evolve-part-2-hunting-down-lemonduck-and-lemoncat-attacks/) |
 
-#### Tips (consideration)
+#### Recommendations (consideration)
 | # | Configuration Name | Comment |
 | :-- | :-- | :-- | 
 | 6 | Scan type - Quick scan | In most cases, a quick scan is sufficient and is the recommended option for scheduled scans. <br> - [Schedule regular quick and full scans with Microsoft Defender Antivirus](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/schedule-antivirus-scans?view=o365-worldwide)|
