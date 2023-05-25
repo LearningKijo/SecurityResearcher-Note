@@ -33,7 +33,7 @@ This was likely done as an attempt to obfuscate Iran's link to and strategic mot
 - The email's IP address (146.70.106[.]89) is linked to Mango Sandstorm.
 - Both were observed to use the same VPN service.
 - Both were observed to use the same tools such as Rport and Ligolo.
-- vatacloud[.]com, the command and control, used by Strom-1084, is controlled by Mango Sandstorm.
+- vatacloud[.]com, the command and control, used by Storm-1084, is controlled by Mango Sandstorm.
 
 #### How do they conduct attacks on on-premise environments?
 The initial access and lateral movement techniques employed in this attack are similar to the previous Mango Sandstorm technique. 
@@ -47,6 +47,7 @@ Ultimately, the attackers encrypted files on targeted devices and left ransom no
 - Mass Azure resources deletion
 
 ## KQL : IoCs-Based Threat Hunting
+Here is an out-of-the-box KQL query to hunt for Mango SandStorm with Storm-1084. IOCs are available from Microsoft blog - [MERCURY and DEV-1084: Destructive attack on hybrid environment](https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment/).
 #### IOCs csv file : [MangoSandstorm-Storm-1084-IOCs-042023.csv](https://github.com/LearningKijo/KQL/blob/main/KQL-XDR-Hunting/ThreatHunting/IOCs-Folder/MangoSandstorm-Storm-1084-IOCs-042023.csv)
 ```kql
 // IoCs - MERCURY and DEV-1084: Destructive attack on hybrid environment
