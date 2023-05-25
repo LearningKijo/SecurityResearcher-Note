@@ -46,16 +46,18 @@ This policy setting allows you to configure the maximum percentage CPU utilizati
 This policy setting allows you to enable or disable low CPU priority for scheduled scans.
 
 #### Microsoft Defender Antivirus exclusions
+If you have any concerns regarding Windows Server or misconfigurations related to exclusions, these documents can be helpful. In particular, they provide well-written guidance on paths, extensions, and processes that are not recommended to be excluded due to the potential for attacks.
 1. [Configure Microsoft Defender Antivirus exclusions on Windows Server](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-server-exclusions-microsoft-defender-antivirus?view=o365-worldwide)
 2. [Common mistakes to avoid when defining exclusions](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/common-exclusion-mistakes-microsoft-defender-antivirus?view=o365-worldwide)
 
 
 
-
-
-#### Reference
+## Reference
 1. [Defender Policy CSP - Windows Client Management](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx)
 2. [Windows Antivirus policy settings for Microsoft Defender Antivirus for Intune](https://learn.microsoft.com/en-us/mem/intune/protect/antivirus-microsoft-defender-settings-windows)
 3. [MDE Antivirus Configuration Common Mistakes and Best Practice](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/mde-antivirus-configuration-common-mistakes-and-best-practice/ba-p/2127405)
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
 
 
