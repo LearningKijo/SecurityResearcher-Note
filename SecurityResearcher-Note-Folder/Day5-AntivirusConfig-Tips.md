@@ -15,7 +15,7 @@ This is the great example story I received from a senior colleague whom I deeply
 | # | Configuration Name | Comment |
 | :-- | :-- | :-- | 
 | 1 | Real-time protection | Recommend turning on real-time protection. |
-| 2 | Cloud protection | Recommend turning on cloud protection. <br> - [Block at First Sight(BAFS)](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus?view=o365-worldwide) |
+| 2 | Cloud protection | Recommend turning on cloud protection. It goes beyond traditional real-time protection by utilizing cloud-based resources<br> - [Block at First Sight(BAFS)](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus?view=o365-worldwide) |
 | 3 | Sample submission | Recommend turning on submit samples consent. <br>  Since it's a prerequisite for using BAFS, you need to select one of the options below: <br> - ***Send safe samples automatically (default)*** <br> - Always Prompt  <br> - Send all samples automatically|
 | 4 | PUA Protection | Recommend turning on PUA Protection.
 | 5 | Tamper Protection | Highly recommend turning on Tamper Protection and here are some blogs that discuss this feature. <br> - [Make sure Tamper Protection is turned on](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/make-sure-tamper-protection-is-turned-on/ba-p/2695568) <br> - [Hunting down LemonDuck and LemonCat attacks](https://www.microsoft.com/en-us/security/blog/2021/07/29/when-coin-miners-evolve-part-2-hunting-down-lemonduck-and-lemoncat-attacks/) |
