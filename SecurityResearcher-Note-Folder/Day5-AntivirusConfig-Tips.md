@@ -1,5 +1,5 @@
 # Day5 - Microsoft Defender Antivirus - Recommendations & Tips
-Microsoft Defender Antivirus is not just EPP which is designed to only prevent known threats. It includes various feature engines to detect and protect against threats in both **pre-execution and post-execution stages**.
+Firstly, Microsoft Defender Antivirus is not just EPP which is designed to only prevent known threats. It includes various feature engines to detect and protect against threats in both **pre-execution and post-execution stages**.
 In this blog, I would like to share recommended configurations and tips for Microsoft Defender Antivirus. I hope that these insights will be helpful for configuring the antivirus in the future.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/da052b9d-cf65-47da-9727-eff144aff868)
