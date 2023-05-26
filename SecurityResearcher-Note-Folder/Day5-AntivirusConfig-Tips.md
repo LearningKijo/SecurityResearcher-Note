@@ -6,7 +6,7 @@ In this blog, I would like to share recommended configurations and tips for Micr
 > Defender Antivirus engines - [In hot pursuit of elusive threats: AI-driven behavior-based blocking stops attacks in their tracks](https://www.microsoft.com/en-us/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks/) 
 
 ## Recommendations & Tips (consideration)
-Regarding Microsoft Defender Antivirus(MDAV) configuration, there is no one-size-fits-all recommendation due to the evolving nature of cyber attacks. 
+Regarding Microsoft Defender Antivirus(MDAV) configuration, there is **no one-size-fits-all recommendation** due to the evolving nature of cyber attacks. 
 However, there are certain features that ***you should enable and consider when deploying MDAV solution.***
 
 This is the great example story I received from a senior colleague whom I deeply respect. When the air conditioner is turned on, everyone has a different comfort level in terms of temperature. This means that the preferred temperature can vary among individuals, ranging from 18°C to 28°C, or even higher. Therefore, in the context of antivirus configuration, while there are certain features that are generally recommended to enable for MDAV, the specific settings, such as scan time, day, update frequency, and others, can vary depending on the organization's needs and business requirements.
