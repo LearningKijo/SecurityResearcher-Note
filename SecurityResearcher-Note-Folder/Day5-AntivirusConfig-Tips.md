@@ -42,7 +42,7 @@ DeviceTvmSecureConfigurationAssessmentKB
 
 ## Note
 #### Cloud block timeout period
-When Microsoft Defender Antivirus finds a suspicious file, it can prevent the file from running while it queries the Microsoft Defender Antivirus cloud service. The default period that the file is blocked is 10 seconds. That sounds great but cloud block timeout period can potentially impact files or programs that require more time to complete their operations. In such cases, if the file or program exceeds the maximum timeout of 60 seconds, it may be interrupted or prevented from executing, which could lead to functionality issues. Therefore, generally speaking, ***a 10-second timeout is recommended***.
+According to [Microsoft docs](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-cloud-block-timeout-period-microsoft-defender-antivirus?view=o365-worldwide), wWhen Microsoft Defender Antivirus finds a suspicious file, it can prevent the file from running while it queries the Microsoft Defender Antivirus cloud service. The default period that the file is blocked is 10 seconds. That sounds great but cloud block timeout period can potentially impact files or programs that require more time to complete their operations. In such cases, if the file or program exceeds the maximum timeout of 60 seconds, it may be interrupted or prevented from executing, which could lead to functionality issues. Therefore, generally speaking, ***a 10-second timeout is recommended***.
 
 #### CPU performance
 If you have any concerns about CPU performance, please check the following parameters:
