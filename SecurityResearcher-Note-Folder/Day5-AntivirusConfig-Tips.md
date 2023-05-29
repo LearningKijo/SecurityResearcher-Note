@@ -28,14 +28,17 @@ This is the great example story I received from a senior colleague whom I deeply
 | 8 | Antivirus network connections | To ensure Microsoft Defender Antivirus cloud-delivered protection works properly, your security team must configure your network to allow connections between your endpoints and certain Microsoft servers. <br> - [Configure and validate Microsoft Defender Antivirus network connections](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-network-connections-microsoft-defender-antivirus?view=o365-worldwide) | 
 
 #### Antivirus misconfiguration and vulnerable configuration
-By filtering antivirus in TVM and MDE, you can identify any antivirus misconfigurations and vulnerable configurations in your tenant. 
+By filtering antivirus in Microsoft Defender Vulnerability Management, MDE, you can identify any antivirus misconfigurations and vulnerable configurations in your tenant. 
 Using KQL with Advanced Hunting, you can also identify these configurations by using the following KQL query.
 
 ```kql
 DeviceTvmSecureConfigurationAssessmentKB
 | where ConfigurationSubcategory == "Antivirus"
 ```
-[DeviceTvmSecureConfigurationAssessmentKB table in the advanced hunting schema](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicetvmsecureconfigurationassessmentkb-table?view=o365-worldwide)
+
+- [What is Microsoft Defender Vulnerability Management](https://learn.microsoft.com/en-us/microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management?view=o365-worldwide)
+- [DeviceTvmSecureConfigurationAssessmentKB table in the advanced hunting schema](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicetvmsecureconfigurationassessmentkb-table?view=o365-worldwide)
+
 
 ## Note
 #### Cloud block timeout period
