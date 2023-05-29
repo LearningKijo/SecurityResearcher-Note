@@ -38,6 +38,8 @@ DeviceTvmSecureConfigurationAssessmentKB
 [DeviceTvmSecureConfigurationAssessmentKB table in the advanced hunting schema](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicetvmsecureconfigurationassessmentkb-table?view=o365-worldwide)
 
 ## Note
+#### Cloud block timeout period
+
 #### CPU performance
 If you have any concerns about CPU performance, please check the following parameters:
  
@@ -46,7 +48,7 @@ This policy setting allows you to configure the maximum percentage CPU utilizati
 2. ***Use low CPU priority for scheduled scans (CSP: EnableLowCPUPriority)***<br>
 This policy setting allows you to enable or disable low CPU priority for scheduled scans.
 
-#### Microsoft Defender Antivirus exclusions
+#### Exclusions
 If you have any concerns regarding Windows Server or misconfigurations related to exclusions, these documents can be helpful. In particular, they provide well-written guidance on paths, extensions, and processes that are not recommended to be excluded due to the potential for attacks.
 1. [Configure Microsoft Defender Antivirus exclusions on Windows Server](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-server-exclusions-microsoft-defender-antivirus?view=o365-worldwide)
 2. [Common mistakes to avoid when defining exclusions](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/common-exclusion-mistakes-microsoft-defender-antivirus?view=o365-worldwide)
