@@ -1,4 +1,5 @@
 # Day 6 - XDR attack disruption  
+Automatic attack disruption in Microsoft 365 Defender uses XDR signals from different sources (endpoints, email, identity, data) to ***automatically contain compromised assets and stop ongoing cyber attacks, minimizing their impact on organizations***.
 
 ## Advanced attacks vs XDR attack disruption
 Microsoft 365 Defender XDR provides coverage for the following three advanced attacks to disrupt further progression.
