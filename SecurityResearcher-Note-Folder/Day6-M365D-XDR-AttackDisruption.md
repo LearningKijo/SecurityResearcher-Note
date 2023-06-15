@@ -22,8 +22,10 @@ AiTM attack refers to ***"Adversary-in-The-Middle"*** phishing technique where a
 - June 8, 2023, [Detecting and mitigating a multi-stage AiTM phishing and BEC campaign](https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/)
 
 #### AiTM overview
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/f6e7664e-398b-4fe9-be2e-643132bc8448)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/10b9b7d8-f1bf-4c73-9259-7d1455c07a0d)
+
 > Figure 1. AiTM attack kill chain, [MS security blog](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/)
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/060e4e7e-d6e7-4bca-91bf-e7b0a7dc4c94)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/170ffb78-9375-46b4-815c-22b6bf670c34)
+
 > Figure 2. AiTM phishing process, [MS security blog](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/)
