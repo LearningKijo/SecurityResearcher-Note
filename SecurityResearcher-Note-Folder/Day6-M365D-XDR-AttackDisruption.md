@@ -20,3 +20,7 @@ AiTM attack refers to ***"Adversary-in-The-Middle"*** phishing technique where a
 - November 16, 2022, [Token tactics: How to prevent, detect, and respond to cloud token theft](https://www.microsoft.com/en-us/security/blog/2022/11/16/token-tactics-how-to-prevent-detect-and-respond-to-cloud-token-theft/)
 - March 13, 2023, [DEV-1101 enables high-volume AiTM campaigns with open-source phishing kit](https://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit/)
 - June 8, 2023, [Detecting and mitigating a multi-stage AiTM phishing and BEC campaign](https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/)
+
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/f6e7664e-398b-4fe9-be2e-643132bc8448)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/69c00873-ccc0-4cf6-8b7e-afa03bf6bdd6)
