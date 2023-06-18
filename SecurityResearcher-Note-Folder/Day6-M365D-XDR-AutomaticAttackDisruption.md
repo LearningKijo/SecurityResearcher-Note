@@ -22,6 +22,7 @@ AiTM attack refers to ***"Adversary-in-The-Middle"*** phishing technique where a
 - June 8, 2023, [Detecting and mitigating a multi-stage AiTM phishing and BEC campaign](https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/)
 
 ## BEC insights
+Business Email Compromise (BEC) is a cyberattack where attackers deceive organizations through fraudulent emails. They impersonate trusted individuals to trick employees into taking unauthorized actions, such as transferring money or revealing sensitive information. BEC attacks can lead to financial losses and reputational damage for businesses.
 
 - May 6, 2021, [Business email compromise: How Microsoft is combating this costly threat](https://www.microsoft.com/en-us/security/blog/2021/05/06/business-email-compromise-how-microsoft-is-combating-this-costly-threat/)
 
