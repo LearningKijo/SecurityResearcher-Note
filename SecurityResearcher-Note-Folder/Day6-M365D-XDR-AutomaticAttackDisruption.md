@@ -23,7 +23,12 @@ AiTM attack refers to ***"Adversary-in-The-Middle"*** phishing technique where a
 
 ## BEC insights
 
+- May 6, 2021, [Business email compromise: How Microsoft is combating this costly threat](https://www.microsoft.com/en-us/security/blog/2021/05/06/business-email-compromise-how-microsoft-is-combating-this-costly-threat/)
+
 ## Human-operated ransomware insights
+
+- [Human-operated ransomware | Microsoft Learn](https://learn.microsoft.com/en-us/security/ransomware/human-operated-ransomware)
+- March 5, 2020, [Human-operated ransomware attacks: A preventable disaster](https://www.microsoft.com/en-us/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
