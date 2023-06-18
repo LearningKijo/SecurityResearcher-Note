@@ -24,3 +24,6 @@ AiTM attack refers to ***"Adversary-in-The-Middle"*** phishing technique where a
 ## BEC insights
 
 ## Human-operated ransomware insights
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
