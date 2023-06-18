@@ -1,4 +1,4 @@
-# Day 6 - XDR attack disruption  
+# Day 6 - XDR automatic attack disruption  
 Automatic attack disruption in Microsoft 365 Defender uses XDR signals from different sources (endpoints, email, identity, data) to ***automatically contain compromised assets and stop ongoing cyber attacks, minimizing their impact on organizations***.
 #### What is the objective of attack disruption?
 The main objective of this feature is to achieve ***containment*** during the incident response phase. In terms of automatic disruption, there are two actions that can be taken: ***"device contain"*** by Microsoft Defender for Endpoint and ***"disable user"*** by Microsoft Defender for Identity.
