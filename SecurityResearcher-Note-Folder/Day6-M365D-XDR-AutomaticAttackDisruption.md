@@ -34,6 +34,13 @@ Human-operated ransomware attacks, also known as ***"hands-on-keyboard"*** attac
 - [Human-operated ransomware | Microsoft Learn](https://learn.microsoft.com/en-us/security/ransomware/human-operated-ransomware)
 - March 5, 2020, [Human-operated ransomware attacks: A preventable disaster](https://www.microsoft.com/en-us/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
+## Reference 
+1. [Automatic attack disruption in Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/automatic-attack-disruption?view=o365-worldwide)
+2. Feb 22 2023, [Automatic disruption of Ransomware and BEC attacks with Microsoft 365 Defender](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/automatic-disruption-of-ransomware-and-bec-attacks-with/ba-p/3738294)
+3. Mar 08 2023, [XDR attack disruption in action – Defending against a recent BEC attack](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/xdr-attack-disruption-in-action-defending-against-a-recent-bec/ba-p/3749822)
+4. May 17 2023, [Automatically disrupt adversary-in-the-middle (AiTM) attacks with XDR](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/automatically-disrupt-adversary-in-the-middle-aitm-attacks-with/ba-p/3821751)
+
+
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
