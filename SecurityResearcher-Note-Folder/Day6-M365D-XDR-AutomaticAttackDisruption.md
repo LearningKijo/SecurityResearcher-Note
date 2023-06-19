@@ -27,6 +27,7 @@ Business Email Compromise (BEC) is a cyberattack where attackers deceive organiz
 - May 6, 2021, [Business email compromise: How Microsoft is combating this costly threat](https://www.microsoft.com/en-us/security/blog/2021/05/06/business-email-compromise-how-microsoft-is-combating-this-costly-threat/)
 
 ## Human-operated ransomware insights
+Human-operated ransomware attacks, also known as ***"hands-on-keyboard"*** attack, refer to a specific type of ransomware attack where skilled human attackers actively participate in various stages of the attack rather than relying solely on automated tools or malware.
 
 - [Human-operated ransomware | Microsoft Learn](https://learn.microsoft.com/en-us/security/ransomware/human-operated-ransomware)
 - March 5, 2020, [Human-operated ransomware attacks: A preventable disaster](https://www.microsoft.com/en-us/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
