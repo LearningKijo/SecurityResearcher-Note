@@ -18,7 +18,7 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 
 
 
-## AiTM - "a multi-stage AiTM phishing and BEC campaign"
+## AiTM - "Multi-stage AiTM phishing and BEC campaign"
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/0ffdec7b-fd2e-45d1-bb00-81305187fa6b)
 
