@@ -20,5 +20,5 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 ### open-source phishing toolkits
 - Evilginx2 
 - Modlishka
-- Muraena.
+- Muraena
 
