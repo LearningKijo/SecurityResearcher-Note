@@ -11,7 +11,7 @@ In this repository, I will cover various security approaches to attack technique
 | Day3 | [Day3-Microsoft-ThreatActorNamingTaxonomy.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day3-Microsoft-ThreatActorNamingTaxonomy.md) | 
 | Day4 | [Day4-Mango-Sandstorm-Part1-Overview.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part1-Overview.md) <br> [Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md) <br> [Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md) |
 | Day5 | [Day5-AntivirusConfig-Tips.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day5-AntivirusConfig-Tips.md) |
-| Day6 | Day6 - XDR - automatic attack disruption (WIP) |
+| Day6 | [Day6-M365D-XDR-AutomaticAttackDisruption.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day6-M365D-XDR-AutomaticAttackDisruption.md) |
 
 ## Topics
 ```kql      
