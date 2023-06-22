@@ -4,14 +4,14 @@
 ### Welcome to @SecurityResearcher-Note
 In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
 ## SecurityResearcher-Note
-| Day | Note |
-|:---|:---|
+| Day | Title | Comment |
+|:---|:---|:---|
 | Day1 | [Day1-Basic-Malware-Analysis.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day1-Basic-Malware-Analysis.md) |  
 | Day2 | [Day2-APT29-Part1-Overview.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part1-Overview.md)<br> [Day2-APT29-Part2-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part2-Midnight-Blizzard.md)<br> [Day2-APT29-Part3-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part3-Midnight-Blizzard.md)<br> [Day2-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day2-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md)  | 
 | Day3 | [Day3-Microsoft-ThreatActorNamingTaxonomy.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day3-Microsoft-ThreatActorNamingTaxonomy.md) | 
 | Day4 | [Day4-Mango-Sandstorm-Part1-Overview.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part1-Overview.md) <br> [Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md) <br> [Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md) |
 | Day5 | [Day5-AntivirusConfig-Tips.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day5-AntivirusConfig-Tips.md) |
-| Day6 | [Day6-M365D-XDR-AutomaticAttackDisruption.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day6-M365D-XDR-AutomaticAttackDisruption.md) |
+| Day6 | [Day6-M365D-XDR-AutomaticAttackDisruption.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day6-M365D-XDR-AutomaticAttackDisruption.md) | XDR containment against AiTM, BEC, Human-operated ransomware | 
 
 ## Topics
 ```kql      
