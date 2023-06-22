@@ -17,12 +17,8 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 > Figure 1. AiTM attack kill chain, [MS security blog, July 12, 2022](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/)
 
 
+### open-source phishing toolkits
+- Evilginx2 
+- Modlishka
+- Muraena.
 
-## AiTM - "Multi-stage AiTM phishing and BEC campaign"
-
-
-The initial AiTM attack begins when a compromised trusted vendor clicks on a suspicious link in an email. Through this attack, the attacker steals the vendor's password and session, allowing them to gain unauthorized access to various cloud resources. They may manipulate the MFA settings and create forwarding rules. Additionally, utilizing common BEC tactics, they extend their phishing campaign to target both internal and external users.
-
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/0ffdec7b-fd2e-45d1-bb00-81305187fa6b)
-
-> Figure 2. AiTM attack kill chain, [MS security blog, June 8, 2023](https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/)
