@@ -24,10 +24,8 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 
 ## KQL : Hunting
 
-
-[13-kql-AiTM-HuntingInsight-Part1.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part1.pdf)
-
-[13-kql-AiTM-HuntingInsight-Part2.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part2.pdf)
+1. [13-kql-AiTM-HuntingInsight-Part1.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part1.pdf)
+2. [13-kql-AiTM-HuntingInsight-Part2.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part2.pdf)
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/cee2680e-f8be-41a0-b24f-18c0c96acfd3)
 
