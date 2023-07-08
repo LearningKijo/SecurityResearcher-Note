@@ -22,3 +22,14 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 - Modlishka
 - Muraena
 
+## KQL : Hunting
+
+
+[13-kql-AiTM-HuntingInsight-Part1.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part1.pdf)
+
+[13-kql-AiTM-HuntingInsight-Part2.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part2.pdf)
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/cee2680e-f8be-41a0-b24f-18c0c96acfd3)
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/d8ec1d31-58a4-49d3-8cc5-5b9543e7093a)
+
