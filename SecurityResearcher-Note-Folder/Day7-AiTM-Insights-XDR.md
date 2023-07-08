@@ -33,6 +33,6 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 - June 8, 2023, [Detecting and mitigating a multi-stage AiTM phishing and BEC campaign](https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/)
 
 ## Other blogs
-- Zscaler, [Large-Scale AiTM Attack targeting enterprise users of Microsoft email services](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services)
-- Zscaler, [AitM Phishing Attack Targeting Enterprise Users of Gmail](https://www.zscaler.jp/blogs/security-research/aitm-phishing-attack-targeting-enterprise-users-gmail)
-- Trellix, [Trellix Insights: Large-Scale AiTM Attack Targeting Enterprise Users](https://kcm.trellix.com/corporate/index?page=content&id=KB96139&locale=en_US)
+- August 02, 2022, [Large-Scale AiTM Attack targeting enterprise users of Microsoft email services](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services) (Zscaler)
+- August 09, 2022, [AitM Phishing Attack Targeting Enterprise Users of Gmail](https://www.zscaler.jp/blogs/security-research/aitm-phishing-attack-targeting-enterprise-users-gmail) (Zscaler)
+- November, 09, 2022, [Trellix Insights: Large-Scale AiTM Attack Targeting Enterprise Users](https://kcm.trellix.com/corporate/index?page=content&id=KB96139&locale=en_US) (Trellix)
