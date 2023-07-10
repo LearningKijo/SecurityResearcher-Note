@@ -17,7 +17,9 @@ As there are tools available on the internet, attackers utilize them for conduct
 - [Muraena](https://github.com/muraenateam/muraena)
 
 ### Initial access - phishing email
-
+As the attacker aims to successfully lure the target to a phishing site and avoid detection by mail security, they primarily rely on two attack techniques, as follows.
+- Type Ⅰ : HTML file
+- Type Ⅱ : Phishing link
 
 ## KQL : Hunting
 
