@@ -21,6 +21,10 @@ As the attacker aims to successfully lure the target to a phishing site and avoi
 - Type Ⅰ : HTML file
 - Type Ⅱ : Phishing link
 
+
+Type Ⅰ - Insights
+- window.location.replace() 
+
 ## KQL : Hunting
 
 1. [13-kql-AiTM-HuntingInsight-Part1.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part1.pdf)
