@@ -20,6 +20,7 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 1. [13-kql-AiTM-HuntingInsight-Part1.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part1.pdf)
 2. [13-kql-AiTM-HuntingInsight-Part2.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part2.pdf)
 3. [13-kql-AiTM-HuntingInsight-Part3.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part3.pdf)
+4. [13-kql-AiTM-HuntingInsight-Part4.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part4.pdf)
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/cee2680e-f8be-41a0-b24f-18c0c96acfd3)
 
@@ -27,6 +28,7 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/79617151-c385-4bf9-8b04-ea57a24318db)
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/462a2a68-c945-4e58-8e37-b3de6bb4659d)
 
 ## MS security blogs : AiTM attack timeline
 
