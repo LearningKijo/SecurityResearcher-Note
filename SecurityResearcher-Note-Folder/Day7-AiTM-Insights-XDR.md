@@ -10,7 +10,8 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 > Figure 1. AiTM attack kill chain, [MS security blog, July 12, 2022](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/)
 
 
-### open-source phishing toolkits
+### Open-source AiTM phishing toolkits
+
 - [Evilginx2](https://github.com/kgretzky/evilginx2)
 - [Modlishka](https://github.com/drk1wi/Modlishka)
 - [Muraena](https://github.com/muraenateam/muraena)
