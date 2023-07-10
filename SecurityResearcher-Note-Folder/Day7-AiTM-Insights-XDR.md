@@ -11,10 +11,13 @@ As part of the "From cookie theft to BEC" attack, the attacker initiates the pro
 
 
 ### Open-source AiTM phishing toolkits
-
+As there are tools available on the internet, attackers utilize them for conducting AiTM attacks.
 - [Evilginx2](https://github.com/kgretzky/evilginx2)
 - [Modlishka](https://github.com/drk1wi/Modlishka)
 - [Muraena](https://github.com/muraenateam/muraena)
+
+### Initial access - phishing email
+
 
 ## KQL : Hunting
 
