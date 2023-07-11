@@ -49,3 +49,6 @@ Based on research conducted by third parties, it has been observed that attacker
 - August 02, 2022, [Large-Scale AiTM Attack targeting enterprise users of Microsoft email services](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services) (Zscaler)
 - August 09, 2022, [AitM Phishing Attack Targeting Enterprise Users of Gmail](https://www.zscaler.jp/blogs/security-research/aitm-phishing-attack-targeting-enterprise-users-gmail) (Zscaler)
 - November, 09, 2022, [Trellix Insights: Large-Scale AiTM Attack Targeting Enterprise Users](https://kcm.trellix.com/corporate/index?page=content&id=KB96139&locale=en_US) (Trellix)
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
