@@ -24,14 +24,15 @@ As the attacker aims to successfully lure the target to a phishing site and avoi
 
 Based on research conducted by third parties, Type Ⅰ has been observed that attackers commonly employ the technique of ***window.location.replace()*** to redirect users to phishing sites.
 
+e.g. 
 | Language | Code |
 |:---------|:-----|
 | JavaScript | window.location.replace("hxxps://example.com") |
 | JavaScript | window.location.href = "hxxps://example.com" | 
 | HTML | \<meta http-equiv="refresh" content="7; url='hxxps://example.com'" /\> |
 | PHP | \<?php header("Location: hxxps://example.com/"); exit; ?\> | 
-
-
+> **Note** <br>
+> JavaScript : "replace()" is used for one-time, immediate page replacement without maintaining history, while setting the "href" property allows navigation to a new URL while preserving the ability to go back using the browser's history.
 
 ### Phishing mail pattern
 At this time, based on third-party research, attackers are targeting enterprise users of Gmail or Outlook with emails related to password reset, password expiry, voice message logs, and accessing office-related and other content.
