@@ -28,6 +28,7 @@ Based on research conducted by third parties, Type Ⅰ has been observed that at
 |:---------|:-----|
 | JavaScript | window.location.replace("hxxps://example.com") |
 | JavaScript | window.location.href = "hxxps://example.com" | 
+| HTML | \<meta http-equiv="refresh" content="7; url='hxxps://example.com'" /\> |
 
 
 ### Phishing mail pattern
