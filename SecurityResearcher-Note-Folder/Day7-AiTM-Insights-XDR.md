@@ -45,6 +45,7 @@ e.g.
 At this time, based on third-party research, attackers are targeting enterprise users of Gmail or Outlook with emails related to password reset, password expiry, voice message logs, and accessing office-related and other content.
 
 ## KQL : Hunting
+Summarized each phase of the AiTM attack. These queries will help in hunting potential AiTM/BEC activities.
 
 1. [13-kql-AiTM-HuntingInsight-Part1.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part1.pdf)
 2. [13-kql-AiTM-HuntingInsight-Part2.pdf](https://github.com/LearningKijo/KQL/blob/main/KQL-Effective-Use/13-kql-AiTM-HuntingInsight-Part2.pdf)
