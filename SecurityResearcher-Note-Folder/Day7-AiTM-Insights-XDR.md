@@ -42,6 +42,7 @@ e.g.
 > **JavaScript** : "replace()" is used for one-time, immediate page replacement without maintaining history, while setting the "href" property allows navigation to a new URL while preserving the ability to go back using the browser's history.
 >
 > **PHP** : JavaScript handles client-side redirection within the browser, while PHP manages server-side redirection on the server before the response is sent to the client's browser.
+<br>
 
 **Open Redirect ?**
 
