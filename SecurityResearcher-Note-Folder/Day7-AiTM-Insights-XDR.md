@@ -22,7 +22,7 @@ As the attacker aims to successfully lure the target to a phishing site and avoi
 - Type Ⅱ : Phishing link
 - Type Ⅲ : [Open Redirect](https://cwe.mitre.org/data/definitions/601.html)
 
-Based on research conducted by third parties, it has been observed that attackers commonly employ the technique of ***window.location.replace()*** to redirect users to phishing sites.
+Based on research conducted by third parties, Type Ⅰ and Type Ⅱ have been observed that attackers commonly employ the technique of ***window.location.replace()*** to redirect users to phishing sites.
 
 ### Phishing mail pattern
 
