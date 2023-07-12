@@ -29,6 +29,7 @@ Based on research conducted by third parties, Type Ⅰ has been observed that at
 | JavaScript | window.location.replace("hxxps://example.com") |
 | JavaScript | window.location.href = "hxxps://example.com" | 
 
+
 ### Phishing mail pattern
 At this time, based on third-party research, attackers are targeting enterprise users of Gmail or Outlook with emails related to password reset, password expiry, voice message logs, and accessing office-related and other content.
 
