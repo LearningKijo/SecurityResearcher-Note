@@ -16,6 +16,9 @@ As there are tools available on the internet, attackers utilize them for conduct
 - [Modlishka](https://github.com/drk1wi/Modlishka)
 - [Muraena](https://github.com/muraenateam/muraena)
 
+### Phishing mail pattern
+At this time, based on third-party research, attackers are targeting enterprise users of Gmail or Outlook with emails related to password reset, password expiry, voice message logs, and accessing office-related and other content.
+
 ### Initial access - phishing email
 As the attacker aims to successfully lure the target to a phishing site and avoid detection by mail security, they primarily rely on two attack techniques, as follows.
 - Type Ⅰ : HTML file attachment
@@ -40,9 +43,10 @@ e.g.
 >
 > **PHP** : JavaScript handles client-side redirection within the browser, while PHP manages server-side redirection on the server before the response is sent to the client's browser.
 
+**Open Redirect ?**
 
-### Phishing mail pattern
-At this time, based on third-party research, attackers are targeting enterprise users of Gmail or Outlook with emails related to password reset, password expiry, voice message logs, and accessing office-related and other content.
+An open redirect is a vulnerability in a web application that allows attackers to redirect users to malicious websites by manipulating URL parameters. It occurs when the application fails to validate or restrict user-supplied input used for redirection. Attackers exploit this vulnerability for phishing or other malicious purposes. Developers should validate and sanitize user input to prevent open redirect vulnerabilities.
+> Reference - [CWE-601: URL Redirection to Untrusted Site ('Open Redirect')](https://cwe.mitre.org/data/definitions/601.html)
 
 ## KQL : Hunting
 Summarized each phase of the AiTM attack. These queries will help in hunting potential AiTM/BEC activities.
