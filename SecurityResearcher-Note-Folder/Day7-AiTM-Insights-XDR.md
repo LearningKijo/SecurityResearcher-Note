@@ -31,8 +31,12 @@ e.g.
 | JavaScript | window.location.href = "hxxps://example.com" | 
 | HTML | \<meta http-equiv="refresh" content="7; url='hxxps://example.com'" /\> |
 | PHP | \<?php header("Location: hxxps://example.com/"); exit; ?\> | 
-> **Note** <br>
-> JavaScript : "replace()" is used for one-time, immediate page replacement without maintaining history, while setting the "href" property allows navigation to a new URL while preserving the ability to go back using the browser's history.
+> **Note**
+>
+> **JavaScript** : "replace()" is used for one-time, immediate page replacement without maintaining history, while setting the "href" property allows navigation to a new URL while preserving the ability to go back using the browser's history.
+>
+> **PHP** : JavaScript handles client-side redirection within the browser, while PHP manages server-side redirection on the server before the response is sent to the client's browser.
+
 
 ### Phishing mail pattern
 At this time, based on third-party research, attackers are targeting enterprise users of Gmail or Outlook with emails related to password reset, password expiry, voice message logs, and accessing office-related and other content.
