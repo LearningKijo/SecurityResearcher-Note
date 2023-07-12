@@ -25,6 +25,7 @@ As the attacker aims to successfully lure the target to a phishing site and avoi
 Based on research conducted by third parties, Type Ⅰ has been observed that attackers commonly employ the technique of ***window.location.replace()*** to redirect users to phishing sites.
 
 ### Phishing mail pattern
+At this time, based on third-party research, attackers are targeting enterprise users of Gmail or Outlook with emails related to password reset, password expiry, voice message logs, and accessing office-related and other content.
 
 ## KQL : Hunting
 
