@@ -24,6 +24,9 @@ As the attacker aims to successfully lure the target to a phishing site and avoi
 
 Based on research conducted by third parties, Type Ⅰ has been observed that attackers commonly employ the technique of ***window.location.replace()*** to redirect users to phishing sites.
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/2b255140-c15e-4027-9ff5-230c2bf3a56e)
+> HTML attachment with URL redirection | [Zscaler, AiTM report](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services)
+
 e.g. 
 | Language | Code |
 |:---------|:-----|
