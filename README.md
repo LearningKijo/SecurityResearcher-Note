@@ -1,4 +1,6 @@
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/1fc3f219-fad4-4b57-b0ed-7d342d16f9c8)
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/a04a64d4-d301-472e-a3b9-796545e3530e)
+
 
 ### Welcome to @SecurityResearcher-Note
 In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
