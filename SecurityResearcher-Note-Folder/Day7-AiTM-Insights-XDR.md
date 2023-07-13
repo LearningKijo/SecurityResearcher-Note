@@ -47,6 +47,14 @@ e.g.
 **Open Redirect ?**
 
 An open redirect is a vulnerability in a web application that allows attackers to redirect users to malicious websites by manipulating URL parameters. It occurs when the application fails to validate or restrict user-supplied input used for redirection. Attackers exploit this vulnerability for phishing or other malicious purposes. 
+
+```url
+PHP : http://example.com/example.php?url=http://malicious.example.com
+```
+```html
+HTML : <a href="http://bank.example.com/redirect?url=http://attacker.example.net">Click here to log in</a>
+```
+
 > Reference - [CWE-601: URL Redirection to Untrusted Site ('Open Redirect')](https://cwe.mitre.org/data/definitions/601.html)
 
 ## KQL : Hunting
