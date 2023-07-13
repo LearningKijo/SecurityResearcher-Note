@@ -57,6 +57,12 @@ HTML : <a href="http://bank.example.com/redirect?url=http://attacker.example.net
 
 > Reference - [CWE-601: URL Redirection to Untrusted Site ('Open Redirect')](https://cwe.mitre.org/data/definitions/601.html)
 
+
+<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/03323293-ffa5-42ea-a8ef-e1fa6bd61aa8" width="800" />
+
+> Open Redirect pages | [Zscaler, AiTM report](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services)
+
+
 ## KQL : Hunting
 Summarized each phase of the AiTM attack. These queries will help in hunting potential AiTM/BEC activities.
 
