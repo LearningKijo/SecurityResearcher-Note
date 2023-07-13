@@ -61,7 +61,11 @@ HTML : <a href="http://bank.example.com/redirect?url=http://attacker.example.net
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/03323293-ffa5-42ea-a8ef-e1fa6bd61aa8" width="800" />
 
 > Open Redirect pages | [Zscaler, AiTM report](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services)
+<br>
 
+**Base64**
+
+According to the Microsoft Security blog, attackers not only use URL redirection methods but also employ base64 encoding in JavaScript to encode the end-user's email address if it exists.
 
 ## KQL : Hunting
 Summarized each phase of the AiTM attack. These queries will help in hunting potential AiTM/BEC activities.
