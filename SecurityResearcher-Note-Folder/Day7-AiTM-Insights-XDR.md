@@ -60,7 +60,7 @@ HTML : <a href="http://bank.example.com/redirect?url=http://attacker.example.net
 
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/03323293-ffa5-42ea-a8ef-e1fa6bd61aa8" width="800" />
 
-> Open Redirect pages | [Zscaler, AiTM report](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services)
+> Open Redirect pages, [Zscaler, AiTM report](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services)
 <br>
 
 **Base64**
@@ -74,7 +74,7 @@ According to the Microsoft Security blog, attackers not only use URL redirection
 
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/0df3ce10-80e3-44f3-a089-339becefbb66" width="800" />
 
-> Source code of the HTML attachment, [From cookie theft to BEC](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/)
+> Source code of the HTML attachment, [Microsoft, AiTM report](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/)
 
 
 
