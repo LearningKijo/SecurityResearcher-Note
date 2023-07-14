@@ -1,4 +1,12 @@
 # Day 8 - Web shell attack insights
+Web shell is a malicious software tool that hackers use to gain unauthorized access to a website or web server. It is like a "backdoor" that allows them to control and manipulate the website remotely.
+
+Once the hackers have installed a web shell on a website, they can perform various malicious activities as follows.
+- Upload, download, and modify files on the website
+- Execute commands on the server, giving them control
+- Steal sensitive information from the website or server
+- Deface the website by changing its appearance
+- Launch additional attacks or use the compromised server for illegal activities
 
 ### MITRE ATT&CK
 Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attack.mitre.org/techniques/T1505/003/)***
