@@ -66,6 +66,12 @@ HTML : <a href="http://bank.example.com/redirect?url=http://attacker.example.net
 **Base64**
 
 According to the Microsoft Security blog, attackers not only use URL redirection methods but also employ base64 encoding in JavaScript to encode the end-user's email address if it exists.
+
+**e.g.** Microsoft observed that the redirector page used the following URL format:
+```
+hxxp://[username].[wildcard domain].[tld]/#[user email encoded in Base64]
+```
+
 |JavaScript | Memo |
 |:----------|:-----|
 | btoa() | Encodes a string in base-64 |
