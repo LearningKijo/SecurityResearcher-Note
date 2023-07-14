@@ -74,6 +74,7 @@ According to the Microsoft Security blog, attackers not only use URL redirection
 
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/0df3ce10-80e3-44f3-a089-339becefbb66" width="800" />
 
+> Source code of the HTML attachment, [From cookie theft to BEC](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/)
 
 
 
