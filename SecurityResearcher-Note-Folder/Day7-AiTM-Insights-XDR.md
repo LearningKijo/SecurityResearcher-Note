@@ -72,6 +72,12 @@ According to the Microsoft Security blog, attackers not only use URL redirection
 | atob() | Decode a base-64 encoded string |
 > Reference  - [Window btoa()](https://www.w3schools.com/jsref/met_win_btoa.asp) / [Window atob()](https://www.w3schools.com/jsref/met_win_atob.asp)
 
+<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/0df3ce10-80e3-44f3-a089-339becefbb66" width="800" />
+
+
+
+
+
 ## KQL : Hunting
 Summarized each phase of the AiTM attack. These queries will help in hunting potential AiTM/BEC activities.
 
