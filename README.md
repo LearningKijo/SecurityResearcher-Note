@@ -14,7 +14,7 @@ In this repository, I will cover various security approaches to attack technique
 | Day5 | [Day5-AntivirusConfig-Tips.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day5-AntivirusConfig-Tips.md) |
 | Day6 | [Day6-M365D-XDR-AutomaticAttackDisruption.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day6-M365D-XDR-AutomaticAttackDisruption.md) | AiTM, BEC, <br> Human-operated ransomware | 
 | Day 7 | [Day7-AiTM-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day7-AiTM-Insights-XDR.md) | AiTM, BEC |
-
+| Day 8 | Day8 Web shell attack (WIP) | Web shell |
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
