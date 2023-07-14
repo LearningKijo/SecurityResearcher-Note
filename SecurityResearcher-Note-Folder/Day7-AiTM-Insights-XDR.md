@@ -66,6 +66,11 @@ HTML : <a href="http://bank.example.com/redirect?url=http://attacker.example.net
 **Base64**
 
 According to the Microsoft Security blog, attackers not only use URL redirection methods but also employ base64 encoding in JavaScript to encode the end-user's email address if it exists.
+|JavaScript | Memo |
+|:----------|:-----|
+| btoa() | Encodes a string in base-64 |
+| atob() | Decode a base-64 encoded string |
+> Reference  - [Window btoa()](https://www.w3schools.com/jsref/met_win_btoa.asp) / [Window atob()](https://www.w3schools.com/jsref/met_win_atob.asp)
 
 ## KQL : Hunting
 Summarized each phase of the AiTM attack. These queries will help in hunting potential AiTM/BEC activities.
