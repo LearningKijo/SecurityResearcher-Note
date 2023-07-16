@@ -12,6 +12,11 @@ Once the hackers have installed a web shell on a website, they can perform vario
 
 Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attack.mitre.org/techniques/T1505/003/)***
 
+<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e986e761-d8a1-43c6-ba4b-63e4389d11d4" width="800" />
+
+> [Web shell attack deep dive](https://www.youtube.com/watch?v=jvGUahJGJnY), Microsoft Security 
+
+
 ## MS security blogs 
 - February 4, 2020, [Ghost in the shell: Investigating web shell attacks](https://www.microsoft.com/en-us/security/blog/2020/02/04/ghost-in-the-shell-investigating-web-shell-attacks/)
 - February 11, 2021, [Web shell attacks continue to rise](https://www.microsoft.com/en-us/security/blog/2021/02/11/web-shell-attacks-continue-to-rise/)
