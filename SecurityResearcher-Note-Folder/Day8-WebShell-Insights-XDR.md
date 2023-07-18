@@ -16,6 +16,9 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 
 > [Web shell attack deep dive](https://www.youtube.com/watch?v=jvGUahJGJnY), Microsoft Security 
 
+### Target 
+[shodan.io](https://www.shodan.io/)
+
 
 ## MS security blogs 
 - February 4, 2020, [Ghost in the shell: Investigating web shell attacks](https://www.microsoft.com/en-us/security/blog/2020/02/04/ghost-in-the-shell-investigating-web-shell-attacks/)
