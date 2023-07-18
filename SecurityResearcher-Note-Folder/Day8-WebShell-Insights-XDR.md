@@ -16,7 +16,7 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 
 > [Web shell attack deep dive](https://www.youtube.com/watch?v=jvGUahJGJnY), Microsoft Security 
 
-### Target 
+### Entry points
 [shodan.io](https://www.shodan.io/)
 
 
