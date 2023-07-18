@@ -20,6 +20,7 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 ## MS security blogs 
 - February 4, 2020, [Ghost in the shell: Investigating web shell attacks](https://www.microsoft.com/en-us/security/blog/2020/02/04/ghost-in-the-shell-investigating-web-shell-attacks/)
 - February 11, 2021, [Web shell attacks continue to rise](https://www.microsoft.com/en-us/security/blog/2021/02/11/web-shell-attacks-continue-to-rise/)
+- December 12, 2022, [IIS modules: The evolution of web shells and how to detect them ](https://www.microsoft.com/en-us/security/blog/2022/12/12/iis-modules-the-evolution-of-web-shells-and-how-to-detect-them/)
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
