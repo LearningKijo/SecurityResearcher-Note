@@ -17,7 +17,7 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 > [Web shell attack deep dive](https://www.youtube.com/watch?v=jvGUahJGJnY), Microsoft Security 
 
 ### Programming language
-ASP, PHP, JSP, Python, Perl, Bash
+***ASP, PHP, JSP,*** Python, Perl, Bash
 
 ### Entry points
 [shodan.io](https://www.shodan.io/) is a search engine that scans all types of devices connected to the internet. It collects information about devices such as webcams, routers, servers, industrial control systems, and makes it searchable from its platform. Users can search for specific devices, locations, or software versions to find potentially vulnerable devices that could be targeted for attacks. 
