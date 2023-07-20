@@ -19,7 +19,7 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 ### Programming language
 ***ASP, PHP, JSP,*** Python, Perl, Bash
 
-### Entry points (Web shell installation)
+### Entry points (web shell installation)
 Web Shells are installed through:
 
 1. Exploiting ***vulnerabilities*** on Internet-facing web servers.
