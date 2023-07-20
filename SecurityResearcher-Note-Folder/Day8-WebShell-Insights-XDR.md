@@ -25,14 +25,14 @@ Web Shells are installed through:
 1. Exploiting ***vulnerabilities*** on Internet-facing web servers.
 2. Exploiting ***misconfigurations or weak configurations*** on Internet-facing web servers.
 
-E.g. 
+**E.g.**   SQL injection, Cross-site scripting (XSS), Local File Inclusion (LFI), Remote file inclusion (RFI)
 
 ### Threat Actors
 
-## MS security blogs 
-- February 4, 2020, [Ghost in the shell: Investigating web shell attacks](https://www.microsoft.com/en-us/security/blog/2020/02/04/ghost-in-the-shell-investigating-web-shell-attacks/)
-- February 11, 2021, [Web shell attacks continue to rise](https://www.microsoft.com/en-us/security/blog/2021/02/11/web-shell-attacks-continue-to-rise/)
-- December 12, 2022, [IIS modules: The evolution of web shells and how to detect them ](https://www.microsoft.com/en-us/security/blog/2022/12/12/iis-modules-the-evolution-of-web-shells-and-how-to-detect-them/)
+## Reference
+- September 23, 2020, [Web shell attack deep dive | Microsoft Security](https://www.youtube.com/watch?v=jvGUahJGJnY)
+- February 11, 2021, [Web shell attacks continue to rise | Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2021/02/11/web-shell-attacks-continue-to-rise/)
+
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
