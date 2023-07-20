@@ -20,9 +20,12 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 ***ASP, PHP, JSP,*** Python, Perl, Bash
 
 ### Entry points
-- Vulnerability
-- Configuration weaknesses
-- [shodan.io](https://www.shodan.io/) is a search engine that scans all types of devices connected to the internet. It collects information about devices such as webcams, routers, servers, industrial control systems, and makes it searchable from its platform. Users can search for specific devices, locations, or software versions to find potentially vulnerable devices that could be targeted for attacks. 
+Web Shells are installed through:
+
+1. Exploiting ***vulnerabilities*** on Internet-facing web servers.
+2. Exploiting ***misconfigurations or weak configurations*** on Internet-facing web servers.
+
+E.g. 
 
 ### Threat Actors
 
