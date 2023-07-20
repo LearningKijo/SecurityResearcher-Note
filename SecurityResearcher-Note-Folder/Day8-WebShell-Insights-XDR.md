@@ -27,8 +27,6 @@ Web Shells are installed through:
 
 **E.g.**   SQL injection, Cross-site scripting (XSS), Local File Inclusion (LFI), Remote file inclusion (RFI), Unpatched Internet-facing web servers
 
-### Threat Actors
-
 ## Reference
 - September 23, 2020, [Web shell attack deep dive | Microsoft Security](https://www.youtube.com/watch?v=jvGUahJGJnY)
 - February 11, 2021, [Web shell attacks continue to rise | Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2021/02/11/web-shell-attacks-continue-to-rise/)
