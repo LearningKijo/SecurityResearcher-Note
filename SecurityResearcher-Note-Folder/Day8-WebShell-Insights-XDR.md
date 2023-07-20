@@ -17,6 +17,8 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 > [Web shell attack deep dive](https://www.youtube.com/watch?v=jvGUahJGJnY), Microsoft Security 
 
 ### Programming language
+A web shell is a malicious code implanted on web servers, written in web development programming languages like ...
+
 ***ASP, PHP, JSP,*** Python, Perl, Bash
 
 ### Entry points (web shell installation)
