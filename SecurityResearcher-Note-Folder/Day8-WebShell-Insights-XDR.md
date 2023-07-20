@@ -32,8 +32,14 @@ Web Shells are installed through:
 ## Web Shell breach
 Web shells are commonly leveraged by attackers as an initial access in various types of attacks. Let me introduce some attack scenarios involving the use of web shells.
 
-#### A BlackByte ransomware
+### A BlackByte ransomware
 In this attack, the attacker utilized a variety of tools and techniques to carry out their objective of deploying BlackByte 2.0 ransomware. They gained initial access by exploiting ProxyShell vulnerabilities and targeted unpatched Microsoft Exchange Servers to install the web shell.
+
+ProxyShell vulnerabilities : xxxxxx
+1. CVE-2021-34473
+2. CVE-2021-34523
+3. CVE-2021-31207
+
 > July 6, 2023, [The five-day job: A BlackByte ransomware intrusion case study](https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/)
 
 ## Reference
