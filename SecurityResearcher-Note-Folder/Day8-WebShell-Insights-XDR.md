@@ -25,7 +25,7 @@ Web Shells are installed through:
 1. Exploiting ***vulnerabilities*** on Internet-facing web servers.
 2. Exploiting ***misconfigurations or weak configurations*** on Internet-facing web servers.
 
-**E.g.**   SQL injection, Cross-site scripting (XSS), Local File Inclusion (LFI), Remote file inclusion (RFI)
+**E.g.**   SQL injection, Cross-site scripting (XSS), Local File Inclusion (LFI), Remote file inclusion (RFI), Unpatched Internet-facing web servers
 
 ### Threat Actors
 
