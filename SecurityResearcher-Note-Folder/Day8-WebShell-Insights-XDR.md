@@ -29,9 +29,12 @@ Web Shells are installed through:
 
 **E.g.**   SQL injection, Cross-site scripting (XSS), Local File Inclusion (LFI), Remote file inclusion (RFI), Unpatched Internet-facing web servers
 
-## A BlackByte ransomware
+## Web Shell breach
+Web shells are commonly leveraged by attackers as an initial access in various types of attacks. Let me introduce some attack scenarios involving the use of web shells.
 
-[The five-day job: A BlackByte ransomware intrusion case study](https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/)
+#### A BlackByte ransomware
+In this attack, the attacker utilized a variety of tools and techniques to carry out their objective of deploying BlackByte 2.0 ransomware. They gained initial access by exploiting ProxyShell vulnerabilities and targeted unpatched Microsoft Exchange Servers to install the web shell.
+> July 6, 2023, [The five-day job: A BlackByte ransomware intrusion case study](https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/)
 
 ## Reference
 - September 23, 2020, [Web shell attack deep dive | Microsoft Security](https://www.youtube.com/watch?v=jvGUahJGJnY)
