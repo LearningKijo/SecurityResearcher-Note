@@ -33,12 +33,15 @@ Web Shells are installed through:
 Web shells are commonly leveraged by attackers as an initial access in various types of attacks. Let me introduce some attack scenarios involving the use of web shells.
 
 ### A BlackByte ransomware
-In this attack, the attacker utilized a variety of tools and techniques to carry out their objective of deploying BlackByte 2.0 ransomware. They gained initial access by exploiting ProxyShell vulnerabilities and targeted unpatched Microsoft Exchange Servers to install the web shell.
+In this attack, the attacker utilized a variety of tools and techniques to carry out their objective of deploying BlackByte 2.0 ransomware. They gained initial access by exploiting [ProxyShell vulnerabilities](https://techcommunity.microsoft.com/t5/exchange-team-blog/proxyshell-vulnerabilities-and-your-exchange-server/ba-p/2684705) and targeted unpatched Microsoft Exchange Servers to install the web shell.
 
-ProxyShell vulnerabilities : xxxxxx
-1. CVE-2021-34473
-2. CVE-2021-34523
-3. CVE-2021-31207
+**ProxyShell** : refers to three Exchange vulnerabilities discovered and patched by Microsoft in 2021. When combined, these flaws enable unauthenticated remote code execution, granting attackers full control over the Exchange server and potential access to other parts of the organization's network.
+
+| CVE            | MSRC   | Comment   |
+|:---------------|:-------|:----------|
+| CVE-2021-34473 | Microsoft Exchange Server Remote Code Execution Vulnerability |
+| CVE-2021-34523 | Microsoft Exchange Server Elevation of Privilege Vulnerability |
+| CVE-2021-31207 | Microsoft Exchange Server Security Feature Bypass Vulnerability |
 
 > July 6, 2023, [The five-day job: A BlackByte ransomware intrusion case study](https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/)
 
