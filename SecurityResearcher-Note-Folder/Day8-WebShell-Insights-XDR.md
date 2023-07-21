@@ -37,11 +37,11 @@ In this attack, the attacker utilized a variety of tools and techniques to carry
 
 **ProxyShell** : refers to three Exchange vulnerabilities discovered and patched by Microsoft in 2021. When combined, these flaws enable unauthenticated remote code execution, granting attackers full control over the Exchange server and potential access to other parts of the organization's network.
 
-| CVE            | MSRC - Microsoft Exchange Server | Comment   |
+| CVE            | MSRC - Microsoft Exchange Server | NVD / NIST |
 |:---------------|:-------|:----------|
-| CVE-2021-34473 | [Remote Code Execution Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34473) |
-| CVE-2021-34523 | [Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34523) |
-| CVE-2021-31207 | [Security Feature Bypass Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31207) |
+| CVE-2021-34473 | [Remote Code Execution Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34473) | [CVE-2021-34473 Detail](https://nvd.nist.gov/vuln/detail/CVE-2021-34473) |
+| CVE-2021-34523 | [Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34523) | [CVE-2021-34523 Detail](https://nvd.nist.gov/vuln/detail/CVE-2021-34523) |
+| CVE-2021-31207 | [Security Feature Bypass Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31207) | [CVE-2021-31207 Detail](https://nvd.nist.gov/vuln/detail/CVE-2021-31207) |
 
 > July 6, 2023, [The five-day job: A BlackByte ransomware intrusion case study](https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/)
 
