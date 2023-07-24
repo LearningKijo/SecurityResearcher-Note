@@ -50,6 +50,8 @@ Cadet Blizzard, a Russian GRU-sponsored threat group, carried out attacks on sev
 
 As the initial access method, Cadet Blizzard employed the web shell technique by exploiting vulnerabilities in Confluence servers([CVE-2021-26084](https://nvd.nist.gov/vuln/detail/CVE-2021-26084)), Exchange servers (including [CVE-2022-41040](https://nvd.nist.gov/vuln/detail/CVE-2022-41040) and ProxyShell), and likely commodity vulnerabilities in various open-source platforms like content management systems.
 
+<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/f045afb4-f98c-4556-ac8d-1211a6aa5a3a" width="800" />
+
 > June 14, 2023, [Cadet Blizzard emerges as a novel and distinct Russian threat actor](https://www.microsoft.com/en-us/security/blog/2023/06/14/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor/)
 
 ## Reference
