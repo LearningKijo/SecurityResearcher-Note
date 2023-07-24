@@ -48,7 +48,7 @@ In this attack, the attacker utilized a variety of tools and techniques to carry
 ### Cadet Blizzard
 Cadet Blizzard, a Russian GRU-sponsored threat group, carried out attacks on several government agencies in Ukraine in mid-January 2022, causing significant disruptions and destructive events.
 
-As the initial access method, Cadet Blizzard employed the web shell technique by exploiting vulnerabilities in Confluence servers(CVE-2021-26084), Exchange servers (including CVE-2022-41040 and ProxyShell), and likely commodity vulnerabilities in various open-source platforms like content management systems.
+As the initial access method, Cadet Blizzard employed the web shell technique by exploiting vulnerabilities in Confluence servers([CVE-2021-26084](https://nvd.nist.gov/vuln/detail/CVE-2021-26084)), Exchange servers (including [CVE-2022-41040](https://nvd.nist.gov/vuln/detail/CVE-2022-41040) and ProxyShell), and likely commodity vulnerabilities in various open-source platforms like content management systems.
 
 > June 14, 2023, [Cadet Blizzard emerges as a novel and distinct Russian threat actor](https://www.microsoft.com/en-us/security/blog/2023/06/14/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor/)
 
