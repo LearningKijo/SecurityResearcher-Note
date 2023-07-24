@@ -43,6 +43,8 @@ In this attack, the attacker utilized a variety of tools and techniques to carry
 | CVE-2021-34523 | [Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34523) | [CVE-2021-34523 Detail](https://nvd.nist.gov/vuln/detail/CVE-2021-34523) |
 | CVE-2021-31207 | [Security Feature Bypass Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31207) | [CVE-2021-31207 Detail](https://nvd.nist.gov/vuln/detail/CVE-2021-31207) |
 
+<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/af009983-282d-4275-9d9d-6807d8c4693f" width="800" />
+
 > July 6, 2023, [The five-day job: A BlackByte ransomware intrusion case study](https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/)
 
 ### Cadet Blizzard
@@ -50,7 +52,8 @@ Cadet Blizzard, a Russian GRU-sponsored threat group, carried out attacks on sev
 
 As the initial access method, Cadet Blizzard employed the web shell technique by exploiting vulnerabilities in Confluence servers([CVE-2021-26084](https://nvd.nist.gov/vuln/detail/CVE-2021-26084)), Exchange servers (including [CVE-2022-41040](https://nvd.nist.gov/vuln/detail/CVE-2022-41040) and ProxyShell), and likely commodity vulnerabilities in various open-source platforms like content management systems.
 
-<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/f045afb4-f98c-4556-ac8d-1211a6aa5a3a" width="800" />
+
+<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/41777ad2-fa04-439e-8716-db336ff3b0af" width="800" />
 
 > June 14, 2023, [Cadet Blizzard emerges as a novel and distinct Russian threat actor](https://www.microsoft.com/en-us/security/blog/2023/06/14/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor/)
 
