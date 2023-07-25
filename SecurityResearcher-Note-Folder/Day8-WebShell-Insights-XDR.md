@@ -64,12 +64,13 @@ As the initial access method, Cadet Blizzard employed the web shell technique by
 
 As web shell attacks continue to increase, exploiting misconfigurations and vulnerabilities, Microsoft security team is actively investigating the matter and offering in-depth insights in their blog. Microsoft stated that the attack kill chain is ***"one of increasingly more common incidents of web shell attacks affecting multiple organizations in various sectors"***.
 
+These nation-state cyberattacks have utilized web shells as the initial access point in their campaigns.
 
 | Threat Actor | Comment |
 |:-------------|:--------|
-| Diamond Sleet (ZINC) |  North Korea-based activity group |
-| Secret Blizzard (KRYPTON)| Russia-based activity group |
-| Granite Typhoon (GALLIUM) |  China-based activity group |
+| [Diamond Sleet (ZINC)](https://www.microsoft.com/en-us/security/blog/2021/01/28/zinc-attacks-against-security-researchers/) |  North Korea-based activity group |
+| [Secret Blizzard (KRYPTON)](https://www.ncsc.gov.uk/news/turla-group-exploits-iran-apt-to-expand-coverage-of-victims)| Russia-based activity group |
+| [Granite Typhoon (GALLIUM)](https://www.microsoft.com/en-us/security/blog/2019/12/12/gallium-targeting-global-telecom/) |  China-based activity group |
 
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/823a30c0-997c-4164-b6ad-90296ae9b7e3" width="800" />
 
