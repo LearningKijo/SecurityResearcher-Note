@@ -62,7 +62,14 @@ As the initial access method, Cadet Blizzard employed the web shell technique by
 
 ### Ghost in the shell
 
-As web shell attacks continue to increase, exploiting misconfigurations and vulnerabilities, Microsoft security team is actively investigating the matter and offering in-depth insights in their blog. Microsoft stated that the attack kill chain is ***"one of increasingly more common incidents of web shell attacks affecting multiple organizations in various sectors"***
+As web shell attacks continue to increase, exploiting misconfigurations and vulnerabilities, Microsoft security team is actively investigating the matter and offering in-depth insights in their blog. Microsoft stated that the attack kill chain is ***"one of increasingly more common incidents of web shell attacks affecting multiple organizations in various sectors"***.
+
+
+| Threat Actor | Comment |
+|:-------------|:--------|
+| Diamond Sleet (ZINC) |  North Korea-based activity group |
+| Secret Blizzard (KRYPTON)| Russia-based activity group |
+| Granite Typhoon (GALLIUM) |  China-based activity group |
 
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/823a30c0-997c-4164-b6ad-90296ae9b7e3" width="800" />
 
