@@ -77,6 +77,26 @@ These nation-state cyberattacks have utilized web shells as the initial access p
 > February 4, 2020, [Ghost in the shell: Investigating web shell attacks](https://www.microsoft.com/en-us/security/blog/2020/02/04/ghost-in-the-shell-investigating-web-shell-attacks/)
 
 ## KQL : Threat Hunting
+Regarding KQL threat hunting, I came across some amazing blogs that focus on web shell hunting. Let me introduce them here.
+
+
+```kql
+let timeWindow = 3d;
+//Script file extensions to match on, can be expanded for your environment
+let scriptExtensions = dynamic([".php", ".jsp", ".js", ".aspx", ".asmx", ".asax", ".cfm", ".shtml"]);
+SecurityAlert
+| where TimeGenerated > ago(timeWindow)
+| where ProviderName == "MDATP"
+//Parse and expand the alert JSON
+| extend alertData = parse_json(Entities)
+| mvexpand alertData
+| where alertData.Type == "file"
+//This can be expanded to include more file types
+| where alertData.Name has_any(scriptExtensions)
+| extend FileName = tostring(alertData.Name), Directory = tostring(alertData.Directory)
+| project TimeGenerated, FileName, Directory
+```
+> Jun 09 2020, [Web shell threat hunting with Azure Sentinel and Microsoft Threat Protection](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/web-shell-threat-hunting-with-azure-sentinel-and-microsoft/ba-p/1448065)
 
 ```kql
 let timeWindow = 3d; 
@@ -104,6 +124,7 @@ W3CIISLog
 | project StartTime, EndTime, AttackerIP, AttackerUserAgent, SiteName, ShellLocation 
 ```
 > Mar 25 2021, [Web Shell Threat Hunting with Azure Sentinel](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/web-shell-threat-hunting-with-azure-sentinel/ba-p/2234968)
+
 
 ## Reference
 - September 23, 2020, [Web shell attack deep dive | Microsoft Security](https://www.youtube.com/watch?v=jvGUahJGJnY)
