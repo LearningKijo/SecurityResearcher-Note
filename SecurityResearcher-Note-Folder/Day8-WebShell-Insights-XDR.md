@@ -80,7 +80,8 @@ These nation-state cyberattacks have utilized web shells as the initial access p
 Regarding KQL threat hunting, I came across some amazing blogs that focus on web shell hunting. Let me introduce them here.
 
 
-#### This query is designed to track web shell installation activities on a Sharepoint Server by combining the W3CIISLog table and the SecurityAlert table, which originates from Microsoft Defender for Endpoint alerts.
+#### Web Shell Attack on Sharepoint Server Exploiting CVE-2019-0604
+This query is designed to track web shell installation activities on a Sharepoint Server by combining the W3CIISLog table and the SecurityAlert table, which originates from Microsoft Defender for Endpoint alerts.
 ```kql
 let alertTimeWindow = 1h;
 let logTimeWindow = 7d;
