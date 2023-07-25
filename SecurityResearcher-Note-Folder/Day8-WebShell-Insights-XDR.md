@@ -62,6 +62,8 @@ As the initial access method, Cadet Blizzard employed the web shell technique by
 
 ### Ghost in the shell
 
+As web shell attacks continue to increase, exploiting misconfigurations and vulnerabilities, Microsoft security team is actively investigating the matter and offering in-depth insights in their blog. Microsoft stated that the attack kill chain is ***"one of increasingly more common incidents of web shell attacks affecting multiple organizations in various sectors"***
+
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/823a30c0-997c-4164-b6ad-90296ae9b7e3" width="800" />
 
 > February 4, 2020, [Ghost in the shell: Investigating web shell attacks](https://www.microsoft.com/en-us/security/blog/2020/02/04/ghost-in-the-shell-investigating-web-shell-attacks/)
