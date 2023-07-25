@@ -76,7 +76,7 @@ These nation-state cyberattacks have utilized web shells as the initial access p
 
 > February 4, 2020, [Ghost in the shell: Investigating web shell attacks](https://www.microsoft.com/en-us/security/blog/2020/02/04/ghost-in-the-shell-investigating-web-shell-attacks/)
 
-## KQL
+## KQL : Threat Hunting
 
 ```kql
 let timeWindow = 3d; 
