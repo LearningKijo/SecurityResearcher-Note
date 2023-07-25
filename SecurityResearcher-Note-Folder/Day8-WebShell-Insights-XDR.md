@@ -125,6 +125,9 @@ W3CIISLog
 ```
 > Jun 09 2020, [Web shell threat hunting with Azure Sentinel and Microsoft Threat Protection](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/web-shell-threat-hunting-with-azure-sentinel-and-microsoft/ba-p/1448065)
 
+
+#### Web Shell Attack on Exchange servers exploiting vulnerabilities - [Silk Typhoon (HAFNIUM)](https://www.microsoft.com/en-us/security/blog/2021/03/02/hafnium-targeting-exchange-servers/)
+This query is designed to track web shell installation activities on an Exchange Server by combining the W3CIISLog table and the SecurityAlert table, which originates from Microsoft Defender for Endpoint alerts.
 ```kql
 let timeWindow = 3d; 
 //Script file extensions to match on, can be expanded for your environment 
