@@ -6,7 +6,7 @@ Extended detection and response describes ***a unified security incident detecti
 > Gartner® Innovation Insight for Extended Detection and Response
 
 ## Incident Response with Microsoft Security
-When organizations purchase E5 security, their first challenge is often product deployment. However, the next significant challenge arises in security operations, particularly dealing with daily incident response. While Microsoft provides detailed insights and various features, SOC teams might feel overwhelmed when alerts and incidents are generated in their environment. They might struggle to determine where to start their investigation and what capabilities they can leverage in Microsoft 365 Defender, XDR. In light of this, I aim to help expand visibility and provide assistance to SOC teams.
+When organizations purchase E5 security, their first challenge is often product deployment. However, the next significant challenge arises in security operations, particularly dealing with daily incident response. While Microsoft provides detailed insights and various features, SOC teams might feel overwhelmed when alerts and incidents are generated in their environment. They might struggle to determine where to start their investigation and what capabilities they can leverage in XDR, Microsoft 365 Defender. In light of this, I aim to help expand visibility and provide assistance to SOC teams.
 
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e1730b31-c62b-4996-b5f5-03e01e81c5af" width="800" />
 
