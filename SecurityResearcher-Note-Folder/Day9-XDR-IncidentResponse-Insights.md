@@ -1,7 +1,9 @@
 # Day9 - XDR Incident Response insights
 WIP
 
-## XDR
+## What is XDR ?
+Extended detection and response describes ***a unified security incident detection and response platform*** that automatically collects and ***correlates data from multiple proprietary security components***. 
+> Gartner® Innovation Insight for Extended Detection and Response
 
 ## Incident Response
 
