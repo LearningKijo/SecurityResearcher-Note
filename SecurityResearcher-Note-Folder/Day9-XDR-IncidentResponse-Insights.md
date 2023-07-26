@@ -7,6 +7,9 @@ Extended detection and response describes ***a unified security incident detecti
 
 ## Incident Response
 
+<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e1730b31-c62b-4996-b5f5-03e01e81c5af" width="800" />
+
+
 ## Response actions
 
 |Entitity   |Actions              |
