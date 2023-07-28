@@ -2,10 +2,12 @@
 When organizations purchase E5 security, their first challenge is often product deployment. However, ***the next significant challenge arises in security operations***, particularly dealing with daily incident response. While Microsoft provides detailed insights and various features, SOC teams might feel overwhelmed when alerts and incidents are generated in their environment. 
 
 When alerts/incidents were generated in your tenant, it is possible that some individuals may have the following concerns and challenges.
-1) ***No idea where to start the investigation***
-2) ***Where exactly do I have to look***
-3) ***What kind of options do I have?***
-4) ***what capabilities they can leverage in XDR, Microsoft 365 Defender.***
+
+1. ***No idea where to start the investigation...***
+2. ***Where exactly do I have to look ?***
+3. ***What kind of options do I have ?***
+4. ***What capabilities can I leverage in XDR ?***
+
 
 In light of this, I aim to help expand visibility and provide assistance to SOC teams.
 
