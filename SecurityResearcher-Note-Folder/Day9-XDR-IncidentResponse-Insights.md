@@ -1,5 +1,5 @@
 # Day9 - XDR Incident Response insights
-When organizations purchase E5 security, their first challenge is often product deployment. However, ***the next significant challenge arises in security operations***, particularly dealing with daily incident response. While Microsoft provides detailed insights and various features, SOC teams might feel overwhelmed when alerts and incidents are generated in their environment. 
+When organizations purchase E5 security, their first challenge is often product deployment. However, ***the next significant challenge arises in "security operations"***, particularly dealing with daily incident response. While Microsoft provides detailed insights and various features, SOC teams might feel overwhelmed when alerts and incidents are generated in their environment. 
 
 When alerts/incidents were generated in your tenant, it is possible that some individuals may have the following concerns and challenges.
 
@@ -9,8 +9,7 @@ When alerts/incidents were generated in your tenant, it is possible that some in
 4. ***What capabilities can I leverage in XDR ?***
 
 
-In light of this, I aim to help expand visibility and provide assistance to SOC teams.
-
+In light of this, I aim to expand their understanding in ***XDR*** and ***Microsoft 365 Defender*** to help them overcome these challenges.
 ## What is XDR ?
 Extended detection and response describes ***a unified security incident detection and response platform*** that automatically collects and ***correlates data from multiple proprietary security components***. 
 > Gartner® Innovation Insight for Extended Detection and Response
