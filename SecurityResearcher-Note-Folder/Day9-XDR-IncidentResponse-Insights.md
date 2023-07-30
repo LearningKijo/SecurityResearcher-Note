@@ -14,6 +14,16 @@ In light of this, I aim to expand their understanding in ***XDR*** and ***Micros
 Extended detection and response describes ***a unified security incident detection and response platform*** that automatically collects and ***correlates data from multiple proprietary security components***. 
 > Gartner® Innovation Insight for Extended Detection and Response
 
+## Incident XDR
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/a0ba7eb1-5fa4-41a8-b865-8fed7ff18886)
+> MDI : Microsoft Defender for Identity <br>
+> MDO : Microsoft Defender fot Office 365 <br>
+> MDA : Microsoft Defender for Cloud Apps <br>
+> MDE : Microsoft Defender for Endpoint
+
+
+
+
 ## Incident Response with Microsoft Security
 
 
