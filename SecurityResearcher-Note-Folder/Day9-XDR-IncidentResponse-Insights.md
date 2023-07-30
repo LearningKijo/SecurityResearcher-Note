@@ -15,7 +15,10 @@ Extended detection and response describes ***a unified security incident detecti
 > Gartner® Innovation Insight for Extended Detection and Response
 
 ## Incident XDR
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/a0ba7eb1-5fa4-41a8-b865-8fed7ff18886)
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
+
+
 > MDI : Microsoft Defender for Identity <br>
 > MDO : Microsoft Defender fot Office 365 <br>
 > MDA : Microsoft Defender for Cloud Apps <br>
