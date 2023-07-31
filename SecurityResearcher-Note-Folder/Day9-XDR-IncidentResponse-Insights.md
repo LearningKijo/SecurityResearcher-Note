@@ -10,6 +10,14 @@ When alerts/incidents were generated in your tenant, it is possible that some in
 
 
 In light of this, I aim to expand their understanding in ***XDR*** and ***Microsoft 365 Defender*** to help them overcome these challenges.
+Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 Defender.
+
+| #    | Title | About | 
+|:-----|:----- |:------|
+|1     | XDR overview  ***<we are here !!>*** |       |
+|2     | XDR Incident Response | |
+
+
 ## What is XDR ?
 Extended detection and response describes ***a unified security incident detection and response platform*** that automatically collects and ***correlates data from multiple proprietary security components***. 
 > Gartner® Innovation Insight for Extended Detection and Response
@@ -27,20 +35,6 @@ Extended detection and response describes ***a unified security incident detecti
 
 
 
-## Incident Response with Microsoft Security
-
-
-<img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e1730b31-c62b-4996-b5f5-03e01e81c5af" width="800" />
-
-
-## Response actions
-
-|Entitity   |Actions              |
-|:----------|:---------------------|
-| Devices   | - Initiate Automated Investigation <br> - Initiate Live Response Session  <br> - Restrict app execution <br> - Isolate device <br> - Contain device |
-| Files     | - Stop and quarantine file <br> - Manage indicator |
-| Users     | - Disable user in Active Directory <br> - Suspend user in Azure Active Directory <br> - Reset user password |
-| Mailboxes | - Move to Inbox <br> - Move to Junk <br> - Move to Deleted Items <br> - Soft delete <br> - Hard delete <br> -  Trigger investigation <br> - the Tenant Allow/Block List |
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
