@@ -25,12 +25,15 @@ Extended detection and response describes ***a unified security incident detecti
 ## XDR, Microsoft 365 Defender
 In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender***, which provides a wide range of protection, including the following:
 
-1. Microsoft Defender fot Office 365 (MDO) 
-2. Microsoft Defender for Cloud Apps (MDA)
-3. Microsoft Defender for Endpoint (MDE)
-4. Microsoft Defender for Identity (MDI)
-5. Azure Active Directory Identity Protection (AADID)
+| Product | About   |
+|:--------|:--------|
+| Microsoft Defender fot Office 365 (MDO) | | 
+| Microsoft Defender for Cloud Apps (MDA) | |
+| Microsoft Defender for Endpoint (MDE)   | |
+| Microsoft Defender for Identity (MDI)   | |
+| Azure Active Directory Identity Protection (AADID) | |
 
+> [What is Microsoft 365 Defender?](https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender?view=o365-worldwide)
 
 ## Gartner® Magic Quadrant™
 Before we dive into the power of XDR and Microsoft 365 Defender in this blog, let's take a fascinating look at the market research results for Endpoint Protection/XDR over the past 2 years. 
