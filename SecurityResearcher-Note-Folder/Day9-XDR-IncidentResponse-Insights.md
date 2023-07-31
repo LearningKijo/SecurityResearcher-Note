@@ -31,8 +31,6 @@ In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender*
 4. Microsoft Defender for Identity (MDI)
 5. Azure Active Directory Identity Protection (AADID)
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/4f83e4cb-16c8-46ae-9647-df58e53a4094)
-> [Microsoft 365 Defender: Stop attacks with automated cross-domain (XDR) security | LRN201](https://www.youtube.com/watch?v=EywifwD8I1c)
 
 ## Gartner® Magic Quadrant™
 Before we dive into the power of XDR and Microsoft 365 Defender in this blog, let's take a fascinating look at the market research results for Endpoint Protection/XDR over the past 2 years. 
