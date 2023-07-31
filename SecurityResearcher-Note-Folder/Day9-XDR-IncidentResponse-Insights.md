@@ -47,9 +47,9 @@ As shown in the results over the past two years, Microsoft has consistently stay
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
 
+## Automated investigation and response
 
-
-## Threat Hunting XDR
+## Threat Hunting with KQL
 
 
 #### Disclaimer
