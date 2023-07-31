@@ -47,9 +47,10 @@ In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender*
 > [What is Microsoft 365 Defender?](https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender?view=o365-worldwide)
 
 ### XDR advantages in Microsoft 365 Defender
-1. Incident
-2. Automated investigation and response
-3. Threat Hunting with KQL
+1. Combined incidents queue
+2. Automatic attack disruption
+3. Automated investigation and response
+4. Threat Hunting, KQL
 
 ## Incident XDR
 
