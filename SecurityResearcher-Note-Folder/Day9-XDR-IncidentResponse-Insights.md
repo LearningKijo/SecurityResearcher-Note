@@ -14,7 +14,7 @@ Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 D
 
 | #    | Title | About | 
 |:-----|:----- |:------|
-|1     | XDR overview  ***<we are here !!>*** |       |
+|1     | XDR overview  ***<we are here !!>*** | This blog is for people who are not aware of XDR, and it aims to start the journey of exploring XDR, specifically Microsoft 365 Defender. |
 |2     | XDR Incident Response | |
 
 
