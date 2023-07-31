@@ -57,6 +57,8 @@ In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender*
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
 >  Peach Sandstorm (HOLMIUM) techniques, [Inside Microsoft 365 Defender: Mapping attack chains from cloud to endpoint](https://www.microsoft.com/en-us/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/)
 
+## Automatic attack disruption
+
 ## Automated investigation and response
 
 ## Threat Hunting with KQL
