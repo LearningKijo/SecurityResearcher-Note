@@ -22,6 +22,14 @@ Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 D
 Extended detection and response describes ***a unified security incident detection and response platform*** that automatically collects and ***correlates data from multiple proprietary security components***. 
 > Gartner® Innovation Insight for Extended Detection and Response
 
+## XDR, Microsoft 365 Defender
+In Microsoft Security, we have an XDR solution called Microsoft 365 Defender, which provides a wide range of protection, including the following:
+
+1. Microsoft Defender fot Office 365 (MDO) 
+2. Microsoft Defender for Cloud Apps (MDA)
+3. Microsoft Defender for Endpoint (MDE)
+4. Microsoft Defender for Identity (MDI)
+5. Azure Active Directory Identity Protection (AADID)
 
 ## Gartner® Magic Quadrant™
 Before we dive into the power of XDR and Microsoft 365 Defender in this blog, let's take a fascinating look at the market research results for Endpoint Protection/XDR over the past 2 years. 
@@ -39,11 +47,6 @@ As shown in the results over the past two years, Microsoft has consistently stay
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
 
-
-> MDI : Microsoft Defender for Identity <br>
-> MDO : Microsoft Defender fot Office 365 <br>
-> MDA : Microsoft Defender for Cloud Apps <br>
-> MDE : Microsoft Defender for Endpoint
 
 
 ## Threat Hunting XDR
