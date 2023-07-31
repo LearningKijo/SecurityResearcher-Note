@@ -22,6 +22,13 @@ Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 D
 Extended detection and response describes ***a unified security incident detection and response platform*** that automatically collects and ***correlates data from multiple proprietary security components***. 
 > Gartner® Innovation Insight for Extended Detection and Response
 
+
+## Gartner® Magic Quadrant™
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/b4039697-5aec-4d5d-a710-a7fa5310ada6)
+> - [Microsoft is named a Leader in the 2022 Gartner® Magic Quadrant™ for Endpoint Protection Platforms](https://www.microsoft.com/en-us/security/blog/2023/03/02/microsoft-is-named-a-leader-in-the-2022-gartner-magic-quadrant-for-endpoint-protection-platforms/)<br>
+> - [Gartner names Microsoft a Leader in the 2021 Endpoint Protection Platforms Magic Quadrant](https://www.microsoft.com/en-us/security/blog/2021/05/11/gartner-names-microsoft-a-leader-in-the-2021-endpoint-protection-platforms-magic-quadrant/)
+
+
 ## Incident XDR
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
@@ -33,7 +40,7 @@ Extended detection and response describes ***a unified security incident detecti
 > MDE : Microsoft Defender for Endpoint
 
 
-
+## Threat Hunting XDR
 
 
 #### Disclaimer
