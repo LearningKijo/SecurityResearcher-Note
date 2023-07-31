@@ -24,9 +24,15 @@ Extended detection and response describes ***a unified security incident detecti
 
 
 ## Gartner® Magic Quadrant™
+Before we dive into the power of XDR and Microsoft 365 Defender in this blog, let's take a fascinating look at the market research results for Endpoint Protection/XDR over the past 2 years. 
+As shown in the results over the past two years, Microsoft has consistently stayed its position as ***a Leader***. 
+
+> According to [the Gartner report](https://www.gartner.com/doc/reprints?id=1-2AJ91JO6&ct=220707&st=sb) in 2022, Microsoft's highest scores are for its market understanding and overall viability. This reflects the strong performance of its security business and an early move to define and ***evolve the emerging XDR category***. Microsoft achieved this through ***deep integration and automation between Microsoft Defender for Endpoint and other Microsoft products***, particularly Azure Active Directory, enabling an emerging identity threat detection and response (ITDR) capability.
+
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/b4039697-5aec-4d5d-a710-a7fa5310ada6)
-> - [Microsoft is named a Leader in the 2022 Gartner® Magic Quadrant™ for Endpoint Protection Platforms](https://www.microsoft.com/en-us/security/blog/2023/03/02/microsoft-is-named-a-leader-in-the-2022-gartner-magic-quadrant-for-endpoint-protection-platforms/)<br>
-> - [Gartner names Microsoft a Leader in the 2021 Endpoint Protection Platforms Magic Quadrant](https://www.microsoft.com/en-us/security/blog/2021/05/11/gartner-names-microsoft-a-leader-in-the-2021-endpoint-protection-platforms-magic-quadrant/)
+
+- [Microsoft is named a Leader in the 2022 Gartner® Magic Quadrant™ for Endpoint Protection Platforms](https://www.microsoft.com/en-us/security/blog/2023/03/02/microsoft-is-named-a-leader-in-the-2022-gartner-magic-quadrant-for-endpoint-protection-platforms/)
+- [Gartner names Microsoft a Leader in the 2021 Endpoint Protection Platforms Magic Quadrant](https://www.microsoft.com/en-us/security/blog/2021/05/11/gartner-names-microsoft-a-leader-in-the-2021-endpoint-protection-platforms-magic-quadrant/)
 
 
 ## Incident XDR
