@@ -73,6 +73,7 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 | Human-operated ransomware attacks | [Automatic disruption of Ransomware and BEC attacks with Microsoft 365 Defender](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/automatic-disruption-of-ransomware-and-bec-attacks-with/ba-p/3738294) | 
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/8097addd-e570-4bf9-a8f1-be3fa6f456ff)
+> Incident view showing the yellow bar where [automatic attack disruption](https://learn.microsoft.com/en-us/microsoft-365/security/defender/automatic-attack-disruption?view=o365-worldwide) took action
 
 ## Automated investigation and response
 
