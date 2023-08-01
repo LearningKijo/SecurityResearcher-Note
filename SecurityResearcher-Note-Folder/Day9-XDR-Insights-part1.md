@@ -65,9 +65,12 @@ Automatic attack disruption in Microsoft 365 Defender uses XDR signals from diff
 > The main objective of this feature is to achieve ***containment*** during the incident response phase. In terms of automatic disruption, there are two actions that can be taken: ***"device contain"*** by Microsoft Defender for Endpoint and ***"disable user"*** by Microsoft Defender for Identity.
 
 Microsoft 365 Defender XDR provides coverage for the following three advanced attacks to disrupt further progression.
-1. Adversary-in-the-middle attacks (AiTM)
-2. Business email compromise (BEC)
-3. Human-operated ransomware attacks
+
+| Advanced attack | Microsoft Security blog |
+|:----------------|:------------------------|
+| Adversary-in-the-middle attacks (AiTM) | [Automatically disrupt adversary-in-the-middle (AiTM) attacks with XDR](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/automatically-disrupt-adversary-in-the-middle-aitm-attacks-with/ba-p/3821751)| 
+| Business email compromise (BEC) | [XDR attack disruption in action – Defending against a recent BEC attack](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/xdr-attack-disruption-in-action-defending-against-a-recent-bec/ba-p/3749822) | 
+| Human-operated ransomware attacks | [Automatic disruption of Ransomware and BEC attacks with Microsoft 365 Defender](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/automatic-disruption-of-ransomware-and-bec-attacks-with/ba-p/3738294) | 
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/8097addd-e570-4bf9-a8f1-be3fa6f456ff)
 
