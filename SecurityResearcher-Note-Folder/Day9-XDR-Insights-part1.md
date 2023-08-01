@@ -53,6 +53,7 @@ In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender*
 4. Threat Hunting, KQL
 
 ## Combined incidents queue, XDR
+Thanks to the power of XDR, Microsoft 365 Defender incident correlates multiple defender alerts and all affected entities into a cohesive view - ***a single unified incident***.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
 >  Peach Sandstorm (HOLMIUM) techniques, [Inside Microsoft 365 Defender: Mapping attack chains from cloud to endpoint](https://www.microsoft.com/en-us/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/)
