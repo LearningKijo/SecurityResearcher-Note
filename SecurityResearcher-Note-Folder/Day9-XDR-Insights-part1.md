@@ -55,8 +55,13 @@ In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender*
 ## Combined incidents queue, XDR
 Thanks to the power of XDR, Microsoft 365 Defender incident correlates multiple defender alerts and all affected entities into a cohesive view - ***a single unified incident***.
 
+Peach Sandstorm (previously HOLMIUM) attack is the great example of how Microsoft 365 Defender efficiently detects individual alerts and seamlessly correlates them into a single incident, showcasing the power of XDR.
+
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
 >  Peach Sandstorm (HOLMIUM) techniques, [Inside Microsoft 365 Defender: Mapping attack chains from cloud to endpoint](https://www.microsoft.com/en-us/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/)
+
+![3m0twjyu](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/c4525b0a-1d6b-49e7-90de-08cb07d9f009)
+
 
 ## Automatic attack disruption
 Automatic attack disruption in Microsoft 365 Defender uses XDR signals from different sources (endpoints, email, identity, data) to ***automatically contain compromised assets and stop ongoing cyber attacks, minimizing their impact on organizations***.
