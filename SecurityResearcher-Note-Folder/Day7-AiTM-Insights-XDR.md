@@ -2,8 +2,6 @@
 
 AiTM attack refers to ***"Adversary-in-The-Middle"*** phishing technique where attackers intercept communication between a user and a legitimate website, stealing passwords and session cookies to gain unauthorized access and perform fraudulent activities.
 
-> **Note**
->
 
 ## AiTM - "From cookie theft to BEC" 
 As part of the "From cookie theft to BEC" attack, the attacker initiates the process by sending phishing emails to the target. Upon clicking a link in the email, the user is directed to a fake website. At this point, the attackers establish a proxy server between the target user and the intended website. This setup allows the attacker to intercept and capture the user's password and session cookie, providing them with the means to authenticate and access the user's session on the website. After successfully authenticating, for example, to Outlook, they can read email content or create a forwarding rule to identify the target of the fraud. Once they have identified the target, they take action to initiate multiple fraud attempts.
