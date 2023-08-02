@@ -61,6 +61,8 @@ Thanks to the power of XDR, Microsoft 365 Defender incident correlates multiple 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/23388f31-bcd3-443a-a6f0-290d89248bc3)
 >  Peach Sandstorm attack techniques with Microsoft 365 Defender 
 
+As evidenced by the incident below, Microsoft 365 Defender successfully captured HOLMIUM activities and consolidated 10 alerts into a single incident. This streamlined approach empowers the SOC team to readily comprehend affected assets and promptly implement containment measures. Additionally, the Incident view presents the 10 alerts chronologically, enabling the SOC team to discern the attack's progression and origin.
+
 ![3m0twjyu](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/c4525b0a-1d6b-49e7-90de-08cb07d9f009)
 > Peach Sandstorm detection & incident page in Microsoft 365 Defender
 
