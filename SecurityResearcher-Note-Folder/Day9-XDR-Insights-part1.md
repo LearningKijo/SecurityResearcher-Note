@@ -100,7 +100,7 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
 >  Advanced Hunting page in Microsoft 365 Defender portal
 
-> **Hint**
+> **Tip**
 >
 > xxxxxx
 #### Disclaimer
