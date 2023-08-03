@@ -93,6 +93,10 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 ## Threat Hunting with KQL
 Advanced Hunting is an incredible XDR feature within Microsoft 365 Defender. This capability enables us to analyze vast amounts of security-related data across their organization's endpoints, identities, applications, emails, and more by leveraging ***Kusto Query Language*** (KQL).
 
+> **Warn**
+>
+> The data stays up to 30 days in Microsoft 365 Defender.
+
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
 
 
