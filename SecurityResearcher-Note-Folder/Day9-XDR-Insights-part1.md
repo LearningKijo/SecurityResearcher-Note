@@ -87,6 +87,9 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 
 ## Automated investigation and response
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/536b3cef-c0c7-4d57-b7a3-2df762b14596)
+
+
 ## Threat Hunting with KQL
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
