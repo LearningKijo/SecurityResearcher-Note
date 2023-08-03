@@ -95,7 +95,7 @@ Advanced Hunting is an incredible XDR feature within Microsoft 365 Defender. Thi
 
 > **Warning**
 >
-> The data stays up to 30 days in Microsoft 365 Defender.
+> The data from all tables remains available for up to **30 days** in Advanced Hunting, Microsoft 365 Defender.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
 
