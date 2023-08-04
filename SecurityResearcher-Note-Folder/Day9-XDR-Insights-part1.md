@@ -86,6 +86,8 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 > Incident view showing the yellow bar where [automatic attack disruption](https://learn.microsoft.com/en-us/microsoft-365/security/defender/automatic-attack-disruption?view=o365-worldwide) took action
 
 ## Automated investigation and response
+[Automated investigation and response](https://learn.microsoft.com/en-us/microsoft-365/security/defender/m365d-autoir?view=o365-worldwide) (AIR)
+
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/536b3cef-c0c7-4d57-b7a3-2df762b14596)
 
