@@ -35,7 +35,8 @@ As shown in the results over the past two years, Microsoft has consistently stay
 - [Gartner names Microsoft a Leader in the 2021 Endpoint Protection Platforms Magic Quadrant](https://www.microsoft.com/en-us/security/blog/2021/05/11/gartner-names-microsoft-a-leader-in-the-2021-endpoint-protection-platforms-magic-quadrant/)
 
 ## XDR, Microsoft 365 Defender
-In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender***, which provides a wide range of protection, including the following:
+In Microsoft Security, we have an XDR solution called [Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender?view=o365-worldwide)
+, which provides a wide range of protection, including the following Defender suite:
 
 | Product | Protection   |
 |:--------|:--------|
@@ -45,9 +46,8 @@ In Microsoft Security, we have an XDR solution called ***Microsoft 365 Defender*
 | Microsoft Defender for Identity (MDI)   | On-premise-based identity security  |
 | Azure Active Directory Identity Protection (AADID) | Cloud-based identity security |
 
-> [What is Microsoft 365 Defender?](https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender?view=o365-worldwide)
-
 ### XDR advantages in Microsoft 365 Defender
+Firstly, there are a number of great features in Microsoft 365 Defender, and I would like to spotlight four pivotal attributes that have the potential to optimize your security operations, as outlined below:
 1. Combined incidents queue
 2. Automatic attack disruption
 3. Automated investigation and response
