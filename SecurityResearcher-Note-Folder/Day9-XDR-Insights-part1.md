@@ -99,7 +99,7 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 
 > **Warning**
 >
-> The data from all tables remains available for up to **30 days** in Advanced Hunting, Microsoft 365 Defender.
+> The data from all tables remains available for up to **30 days** in Advanced Hunting, Microsoft 365 Defender. If you wish to retain raw data (logs) for more than 30 days, I recommend utilizing [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview), which allows you to keep the data for up to 2 years.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
 >  Advanced Hunting page in Microsoft 365 Defender portal
