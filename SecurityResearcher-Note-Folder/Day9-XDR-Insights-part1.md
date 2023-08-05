@@ -104,8 +104,6 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
 >  Advanced Hunting page in Microsoft 365 Defender portal
 
-> **Note**
-
 #### Microsoft 365 Defender / KQL Webcast 
 This webinar is an excellent resource for those who are new to KQL in Microsoft 365 Defender. Each webinar in the series covers the fundamentals of KQL and demonstrates great use cases. As my work mainly focuses on XDR in Microsoft 365 Defender, I found these webinars particularly helpful and informative.
 
