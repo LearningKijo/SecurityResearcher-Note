@@ -14,15 +14,15 @@ In this repository, I will cover various security approaches to attack technique
 | Day4 | [Day4-Mango-Sandstorm-Part1-Overview.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part1-Overview.md) <br> [Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part2-AttackTechniques-Insights.md) <br> [Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day4-Mango-Sandstorm-Part3-AttackTechniques-Insights.md) |  Iran-based activity group |
 | Day5 | [Day5-AntivirusConfig-Tips.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day5-AntivirusConfig-Tips.md) |
 | Day6 | [Day6-M365D-XDR-AutomaticAttackDisruption.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day6-M365D-XDR-AutomaticAttackDisruption.md) | AiTM, BEC, <br> Human-operated ransomware | 
-| Day 7 | [Day7-AiTM-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day7-AiTM-Insights-XDR.md) | AiTM, BEC |
-| Day 8 | [Day8-WebShell-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day8-WebShell-Insights-XDR.md) | Web shell |
+| Day7 | [Day7-AiTM-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day7-AiTM-Insights-XDR.md) | AiTM, BEC |
+| Day8 | [Day8-WebShell-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day8-WebShell-Insights-XDR.md) | Web shell |
 | Day9 | [Day9-XDR-Insights-part1.md] SOON !!! | XDR |
 
 ## SecurityExperience-Note
 | EXP |  Title | Comment | 
 |:----|:-------|:--------|
-| 1   | YARA tool | still learning |
-| 2   | MSTICPy   | merging data   |
+| 8h   | YARA tool | still learning |
+| 10h  | MSTICPy   | merging data   |
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
