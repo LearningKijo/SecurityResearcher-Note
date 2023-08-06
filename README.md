@@ -4,6 +4,7 @@
 
 ### Welcome to @SecurityResearcher-Note
 In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
+
 ## SecurityResearcher-Note
 | Day | Title | Comment |
 |:---|:---|:---|
@@ -16,6 +17,12 @@ In this repository, I will cover various security approaches to attack technique
 | Day 7 | [Day7-AiTM-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day7-AiTM-Insights-XDR.md) | AiTM, BEC |
 | Day 8 | [Day8-WebShell-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day8-WebShell-Insights-XDR.md) | Web shell |
 | Day9 | [Day9-XDR-Insights-part1.md] SOON !!! | XDR |
+
+## SecurityExperience-Note
+| EXP |  Title | Comment | 
+|:----|:-------|:--------|
+| 1   | YARA tool | still learning |
+| 2   | MSTICPy   | merging data   |
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
