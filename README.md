@@ -19,10 +19,10 @@ In this repository, I will cover various security approaches to attack technique
 | Day9 | [Day9-XDR-Insights-part1.md] SOON !!! | XDR |
 
 ## SecurityExperience-Note
-| EXP |  Title | Comment | 
+| ExP/Lv |  Title | Comment | 
 |:----|:-------|:--------|
-| 8h   | YARA tool | still learning |
-| 10h  | MSTICPy   | merging data   |
+| Lv.100  | YARA tool | still learning |
+| Lv.200 | MSTICPy   | merging data   |
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
