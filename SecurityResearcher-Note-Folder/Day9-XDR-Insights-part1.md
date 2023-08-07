@@ -105,6 +105,12 @@ Once alerts are generated in Microsoft 365 Defender, AIR triggers a playbook, in
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
 >  Advanced Hunting page in Microsoft 365 Defender portal
 
+By combining two different tables from different products, you can gain additional insights. 
+For instance, when you merge email and identity tables, you can obtain not only information about email cases classified as malware/phishing but also relevant user account details, including city, country, job title, and more.
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3411cce2-64dd-4114-8e6b-10daab947b97)
+
+
 #### Microsoft 365 Defender / KQL Webcast 
 This webinar is an excellent resource for those who are new to KQL in Microsoft 365 Defender. Each webinar in the series covers the fundamentals of KQL and demonstrates great use cases. As my work mainly focuses on XDR in Microsoft 365 Defender, I found these webinars particularly helpful and informative.
 
