@@ -34,6 +34,7 @@ As shown in the results over the past two years, Microsoft has consistently stay
 - [Microsoft is named a Leader in the 2022 Gartner® Magic Quadrant™ for Endpoint Protection Platforms](https://www.microsoft.com/en-us/security/blog/2023/03/02/microsoft-is-named-a-leader-in-the-2022-gartner-magic-quadrant-for-endpoint-protection-platforms/)
 - [Gartner names Microsoft a Leader in the 2021 Endpoint Protection Platforms Magic Quadrant](https://www.microsoft.com/en-us/security/blog/2021/05/11/gartner-names-microsoft-a-leader-in-the-2021-endpoint-protection-platforms-magic-quadrant/)
 
+
 ## XDR, Microsoft 365 Defender
 In Microsoft Security, we have an XDR solution called [Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender?view=o365-worldwide)
 , which provides a wide range of protection, including the following Defender suite:
@@ -110,14 +111,15 @@ For instance, when you merge email and identity tables, you can obtain not only 
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3411cce2-64dd-4114-8e6b-10daab947b97)
 
+For those interested in learning KQL, recommend the following webinars
 
-#### Microsoft 365 Defender / KQL Webcast 
-This webinar is an excellent resource for those who are new to KQL in Microsoft 365 Defender. Each webinar in the series covers the fundamentals of KQL and demonstrates great use cases. As my work mainly focuses on XDR in Microsoft 365 Defender, I found these webinars particularly helpful and informative.
+- #### Microsoft 365 Defender / KQL Webcast 
+  This webinar is an excellent resource for those who are new to KQL in Microsoft 365 Defender. Each webinar in the series covers the fundamentals of KQL and demonstrates great use cases. As my work mainly focuses on XDR in Microsoft 365 Defender, I found these webinars particularly helpful and informative.
 
-1. [M365 Defender (MTP) webinar: Tracking the Adversary E1: KQL Fundamentals](https://www.youtube.com/watch?v=0D9TkGjeJwM).
-2. [M365 Defender (MTP) webinar: Tracking the Adversary E2: Joins](https://www.youtube.com/watch?v=LMrO6K5TWOU).
-3. [M365 Defender (MTP) webinar: Tracking the Adversary E3: Summarizing, Pivoting, and Visualizing Data](https://www.youtube.com/watch?v=UKnk9U1NH6Y).
-4. [M365 Defender (MTP) webinar: Tracking the Adversary E4 Let’s hunt! Applying KQL to incident tracking](https://www.youtube.com/watch?v=2EUxOc_LNd8&list=RDCMUCGTUbqE3SJiLgtvWjIkSQuQ&index=3). <br>
+  1. [M365 Defender (MTP) webinar: Tracking the Adversary E1: KQL Fundamentals](https://www.youtube.com/watch?v=0D9TkGjeJwM).
+  2. [M365 Defender (MTP) webinar: Tracking the Adversary E2: Joins](https://www.youtube.com/watch?v=LMrO6K5TWOU).
+  3. [M365 Defender (MTP) webinar: Tracking the Adversary E3: Summarizing, Pivoting, and Visualizing Data](https://www.youtube.com/watch?v=UKnk9U1NH6Y).
+  4. [M365 Defender (MTP) webinar: Tracking the Adversary E4 Let’s hunt! Applying KQL to incident tracking](https://www.youtube.com/watch?v=2EUxOc_LNd8&list=RDCMUCGTUbqE3SJiLgtvWjIkSQuQ&index=3). <br>
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
