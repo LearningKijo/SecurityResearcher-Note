@@ -10,7 +10,7 @@ When alerts/incidents were generated in your tenant, some people may have the fo
 
 
 In light of this, I aim to expand their understanding in ***XDR*** and ***Microsoft 365 Defender*** to help them overcome these challenges.
-Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 Defender.
+Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 Defender and now let's start with Part 1.
 
 | #    | Title | About | 
 |:-----|:----- |:------|
