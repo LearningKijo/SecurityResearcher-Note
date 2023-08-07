@@ -90,9 +90,10 @@ Microsoft 365 Defender XDR provides coverage for the following three advanced at
 
 [Automated investigation and response](https://learn.microsoft.com/en-us/microsoft-365/security/defender/m365d-autoir?view=o365-worldwide) (AIR) in Microsoft 365 Defender significantly enhances security team efficiency by automatically investigating generated incidents and responding to malicious entities. This automated process resolves numerous incidents without any interaction from the security team.
 
+Once alerts are generated in Microsoft 365 Defender, AIR triggers a playbook, initiates the investigation process, and takes remediation actions for both devices and emails.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/536b3cef-c0c7-4d57-b7a3-2df762b14596)
-
+>  Automated Investigation and Response page in Microsoft 365 Defender portal
 
 ## Threat Hunting with KQL
 [Advanced Hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide) is an incredible XDR feature within Microsoft 365 Defender. This capability enables us to analyze vast amounts of security-related data across their organization's endpoints, identities, applications, emails, and more by leveraging ***Kusto Query Language*** (KQL).
