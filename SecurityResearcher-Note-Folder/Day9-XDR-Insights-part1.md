@@ -121,5 +121,12 @@ For those interested in learning KQL, recommend the following webinars
   3. [M365 Defender (MTP) webinar: Tracking the Adversary E3: Summarizing, Pivoting, and Visualizing Data](https://www.youtube.com/watch?v=UKnk9U1NH6Y).
   4. [M365 Defender (MTP) webinar: Tracking the Adversary E4 Let’s hunt! Applying KQL to incident tracking](https://www.youtube.com/watch?v=2EUxOc_LNd8&list=RDCMUCGTUbqE3SJiLgtvWjIkSQuQ&index=3). <br>
 
+- #### Microsoft Sentinel webinar / KQL part 1-3 
+  After attending the Microsoft 365 Defender Webcast, I continued to explore KQL in greater depth. For those using Microsoft Sentinel and Azure Data Explorer, these webinars can provide an excellent starting point for learning KQL.
+
+  1. [Azure Sentinel webinar: KQL part 1 of 3 - Learn the KQL you need for Azure Sentinel!](https://www.youtube.com/watch?v=EDCBLULjtCM)
+  2. [Azure Sentinel webinar: KQL part 2 of 3 - KQL hands-on lab exercises!](https://www.youtube.com/watch?v=YKD_OFLMpf8)
+  3. [Azure Sentinel webinar: KQL part 3 of 3 - Optimizing Azure Sentinel KQL queries performance!](https://www.youtube.com/watch?v=jN1Cz0JcLYU)
+ 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
