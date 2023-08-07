@@ -44,7 +44,7 @@ In Microsoft Security, we have an XDR solution called [Microsoft 365 Defender](h
 | Microsoft Defender for Cloud Apps (MDA) | App & Data security |
 | Microsoft Defender for Endpoint (MDE)   | Endpoint security |
 | Microsoft Defender for Identity (MDI)   | On-premise-based identity security  |
-| Azure Active Directory Identity Protection (AADID) | Cloud-based identity security |
+| Microsoft Entra ID Protection | Cloud-based identity security |
 
 ### XDR advantages in Microsoft 365 Defender
 Firstly, there are a number of great features in Microsoft 365 Defender, and I would like to spotlight four pivotal attributes that have the potential to optimize your security operations, as outlined below:
