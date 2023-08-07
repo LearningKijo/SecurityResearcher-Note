@@ -109,7 +109,7 @@ Once alerts are generated in Microsoft 365 Defender, AIR triggers a playbook, in
 By combining two different tables from different products, you can gain additional insights. 
 For instance, when you merge email and identity tables, you can obtain not only information about email cases classified as malware/phishing but also relevant user account details, including city, country, job title, and more.
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3411cce2-64dd-4114-8e6b-10daab947b97)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/c4e16dc5-99f6-40e1-b232-3842a7b8b2f6)
 
 For those interested in learning KQL, recommend the following webinars
 
