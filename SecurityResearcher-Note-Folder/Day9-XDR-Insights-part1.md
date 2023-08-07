@@ -1,4 +1,4 @@
-# Day9 - XDR Incident Response insights
+# Day 9 - XDR Incident Response insights
 When organizations purchase E5 security, their first challenge is often product deployment. However, ***the next significant challenge arises in "security operations"***, particularly dealing with daily incident response. While Microsoft provides detailed insights and various features, SOC teams might feel overwhelmed when alerts and incidents are generated in their environment. 
 
 When alerts/incidents were generated in your tenant, some people may have the following concerns and challenges.
