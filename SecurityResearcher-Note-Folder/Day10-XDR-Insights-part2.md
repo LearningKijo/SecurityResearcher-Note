@@ -27,7 +27,7 @@ To effectively utilize Microsoft 365 Defender, please keep in mind the following
 |  2   | Response    | - Eradication & Recovery <br> - Extend investigation      | 
 
 ###  1. Investigate
-When alerts/incidents were generated in your tenant, firstly what you have to do is to understand the incident map.
+When alerts/incidents were generated in your tenant, firstly what you have to do is to understand ***the incident map**.
 
 >**Warning**
 > 
