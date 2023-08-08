@@ -15,4 +15,13 @@ Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 D
 | #    | Title | About | 
 |:-----|:----- |:------|
 |1     | [XDR overview](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day9-XDR-Insights-part1.md)  | This blog is for people who are not aware of XDR. <br> It aims to start the journey of exploring XDR, specifically Microsoft 365 Defender. |
-|2     | XDR Incident Response ***<we are here !!>***  | Coming soon !! |
+|2     | XDR Incident Response ***<we are here !!>***  | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while Part 2 delves into core incident investigation and remediation techniques.|
+
+## Incident response in Microsoft 365 Defender 
+
+To effectively utilize Microsoft 365 Defender, please keep in mind the following two concepts when you receive alerts and incidents in your tenant.
+
+| #    | Step        |     ToDo                                                    |
+|:-----|:------------|:------------------------------------------------------------| 
+|  1   | Investigate | 1. Contain compromised assets <br> 2. Investigate incidents | 
+|  2   | Response    | 1. Eradication & Recovery <br> 2. Extend investigation      | 
