@@ -23,5 +23,10 @@ To effectively utilize Microsoft 365 Defender, please keep in mind the following
 
 | #    | Step        |     ToDo                                                    |
 |:-----|:------------|:------------------------------------------------------------| 
-|  1   | Investigate | 1. Contain compromised assets <br> 2. Investigate incidents | 
+|  1   | Investigate | - [x] Contain compromised assets <br> - Investigate incidents | 
 |  2   | Response    | 1. Eradication & Recovery <br> 2. Extend investigation      | 
+
+###  1. Investigate / Contain compromised assets
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/6702b8a1-edfa-42a7-bba3-f22d5bcee42b)
+
