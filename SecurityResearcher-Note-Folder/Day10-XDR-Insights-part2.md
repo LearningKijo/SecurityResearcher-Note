@@ -28,12 +28,12 @@ To effectively utilize Microsoft 365 Defender, please keep in mind the following
 
 ###  1. Investigate
 When alerts/incidents were generated in your tenant, firstly what you have to do is to understand ***the incident map***.
-
+- confirm how and where the attack started ?
+- identify any compromised assets, such as devices, users, mailboxes, apps and more.
+  
 >**Warning**
 > 
->Don't look at the alert page, as there are a number of alerts, and they are not mapped as a single incident. This can overwhelm the SOC team.
+> Look at the incident page and Don't look at the alert page, as there are a number of alerts, and they are not mapped as a single incident. This can overwhelm the SOC team.
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/6702b8a1-edfa-42a7-bba3-f22d5bcee42b)
-
-
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/c5d78549-8e99-417a-94d8-1f238a40adbc)
 
