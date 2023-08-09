@@ -35,5 +35,6 @@ When alerts/incidents were generated in your tenant, firstly what you have to do
 > 
 > Look at the incident page and Don't look at the alert page, as there are a number of alerts, and they are not mapped as a single incident. This can overwhelm the SOC team.
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/c5d78549-8e99-417a-94d8-1f238a40adbc)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/91b08e64-8e4d-4238-a45a-1a2639da14c7)
+
 
