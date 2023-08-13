@@ -71,7 +71,6 @@ As evidenced by the incident below, Microsoft 365 Defender successfully captured
 Automatic attack disruption in Microsoft 365 Defender uses XDR signals from different sources (endpoints, email, identity, data) to ***automatically contain compromised assets and stop ongoing cyber attacks, minimizing their impact on organizations***.
 
 > **Note**
-> 
 > What is the objective of attack disruption? - 
 > The main objective of this feature is to achieve ***containment*** during the incident response phase. In terms of automatic disruption, there are two actions that can be taken: ***"device contain"*** by Microsoft Defender for Endpoint and ***"disable user"*** by Microsoft Defender for Identity.
 
@@ -100,7 +99,6 @@ Once alerts are generated in Microsoft 365 Defender, AIR triggers a playbook, in
 [Advanced Hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide) is an incredible XDR feature within Microsoft 365 Defender. This capability enables us to analyze vast amounts of security-related data across their organization's endpoints, identities, applications, emails, and more by leveraging ***Kusto Query Language*** (KQL).
 
 > **Warning**
->
 > The data from all tables remains available for up to **30 days** in Advanced Hunting, Microsoft 365 Defender. If you wish to retain raw data (logs) for more than 30 days, I recommend utilizing [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview), which allows you to keep the data for up to **2 years**.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
