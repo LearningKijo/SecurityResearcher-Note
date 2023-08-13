@@ -48,4 +48,6 @@ The following are important checkpoints to understand the holistic view of the i
 - XXXXXX
 - XXXXXX
 
+> Pic 
+
 ###  2. Response 
