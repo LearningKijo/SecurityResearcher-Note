@@ -26,7 +26,7 @@ To effectively utilize Microsoft 365 Defender, please keep in mind the following
 |:-----|:------------|:------------------------------------------------------------| 
 |  1   | Investigate | - Contain compromised assets <br> - Investigate incidents | 
 |  2   | Response    | - Eradication & Recovery <br> - Extend investigation      | 
-> Note
+> **Note**
 >
 > Step 2, Response part, will be covered in Part 3. [SOON]
 
