@@ -37,7 +37,6 @@ When alerts/incidents were generated in your tenant, firstly what you have to do
 
   
 >**Warning**
-> 
 > Instead of looking at the alert page initially, focus on ***the incident page***. This is because numerous alerts may not be mapped as a single incident, potentially overwhelming the SOC team.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/847ad975-76d2-4990-817e-03c569f0ba4d)
