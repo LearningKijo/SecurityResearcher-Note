@@ -18,7 +18,7 @@ Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 D
 |2     | XDR Incident Investigation ***<we are here !!>***  | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while ***Part 2 delves into core incident investigation.*** |
 |3     | XDR  Incident Response | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while ***Part 3 delves into core incident response.*** | 
 
-## Incident response in Microsoft 365 Defender 
+## Incident Investigation in Microsoft 365 Defender 
 
 To effectively utilize Microsoft 365 Defender, please keep in mind the following two concepts when you receive alerts and incidents in your tenant.
 
@@ -27,7 +27,6 @@ To effectively utilize Microsoft 365 Defender, please keep in mind the following
 |  1   | Investigate | - Contain compromised assets <br> - Investigate incidents | 
 |  2   | Response    | - Eradication & Recovery <br> - Extend investigation      | 
 > **Important**
->
 > Step 2, Response part, will be covered in Part 3. [SOON]
 
 ###  1. Investigate
@@ -55,6 +54,7 @@ The following are important checkpoints to understand the holistic view of the i
 
 > Pic
 
+## Reference
 
-
-###  2. Response 
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
