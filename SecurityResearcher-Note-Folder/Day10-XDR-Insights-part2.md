@@ -1,4 +1,4 @@
-# Day 10 - XDR Incident Response insights
+# Day 10 - XDR Incident Investigation insights
 When organizations purchase E5 security, their first challenge is often product deployment. However, ***the next significant challenge arises in "security operations"***, particularly dealing with daily incident response. While Microsoft provides detailed insights and various features, SOC teams might feel overwhelmed when alerts and incidents are generated in their environment. 
 
 When alerts/incidents were generated in your tenant, some people may have the following concerns and challenges.
@@ -15,7 +15,7 @@ Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 D
 | #    | Title | About | 
 |:-----|:----- |:------|
 |1     | [XDR overview](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day9-XDR-Insights-part1.md)  | This blog is for people who are not aware of XDR. <br> It aims to start the journey of exploring XDR, specifically Microsoft 365 Defender. |
-|2     | XDR Incident Response ***<we are here !!>***  | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while ***Part 2 delves into core incident investigation.*** |
+|2     | XDR Incident Investigation ***<we are here !!>***  | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while ***Part 2 delves into core incident investigation.*** |
 |3     | XDR  Incident Response | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while ***Part 3 delves into core incident response.*** | 
 
 ## Incident response in Microsoft 365 Defender 
