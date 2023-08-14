@@ -48,11 +48,11 @@ This provides preliminary and useful information before proceeding with actions 
 
 The following are important checkpoints to understand the holistic view of the incident.
 
-1. Incidents page -> ***[Attack story]***
+ - Incidents page -> ***[Attack story]***
 
    - [ ] Alerts
    - [ ] Incident graph
-2. Incident page -> ***[Summary]***
+ - Incident page -> ***[Summary]***
 
    - [ ] Alerts and categories
    - [ ] Scope
