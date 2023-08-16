@@ -65,8 +65,8 @@ The following are important checkpoints to understand the holistic view of the i
 
 | Points                | Details     |
 |:----------------------|:------------|
-| Alerts and categories ||
-| Scope                 ||
+| Alerts and categories |Alerts and categories provide you not only with alerts in chronological order, but also with MITRE ATT&CK tactics. Thanks to MITRE ATT&CK, the SOC team can envision the scope of this attack and more, including how it has spread across different areas.|
+| Scope                 |Within the scope, this provides information about impacted assets, such as devices, user accounts, mailboxes, and applications. This information aids in determining the subsequent steps, such as containment to stop the ongoing attack and mitigate its impact.|
 
 #### @ Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more
 
