@@ -50,17 +50,22 @@ The following are important checkpoints to understand the holistic view of the i
 
  - Incidents page -> ***[Attack story]***
 
-   - [ ] Alerts
-   - [ ] Incident graph
-  
+| Points         | Details     |
+|:---------------|:------------|
+| Incident Title ||
+| Alerts         ||
+| Incident graph ||
+
  ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/9024828f-ae49-42d4-b19f-37c01f7badfe)
 >  Incidents page -> [Attack story]
 
  - Incident page -> ***[Summary]***
 
-   - [ ] Alerts and categories
-   - [ ] Scope
-  
+| Points                | Details     |
+|:----------------------|:------------|
+| Alerts and categories ||
+| Scope                 ||
+
 
 
 ## Reference
