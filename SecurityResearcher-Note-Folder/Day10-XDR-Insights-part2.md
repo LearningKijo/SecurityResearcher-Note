@@ -54,9 +54,9 @@ The following are important checkpoints to understand the holistic view of the i
 
 | Points         | Details     |
 |:---------------|:------------|
-| Incident Title ||
-| Alerts         ||
-| Incident graph ||
+| Incident Title |Title is the primary element that helps you upon opening an incident. It assists in grasping a concise overview of the incident. For instance, 'Multi-stage incident involving initial access & Command and Control on Multiple endpoints.' This title helps you envision a scenario where two attack techniques are observed on multiple devices.|
+| Alerts         |This is the best place for tracking the timeline of alerts within the incident, particularly when investigating the breach's initiation. These alerts offer insights into the initial stages of the breach, including details about how and where the compromise originated.|
+| Incident graph |This incident graph visualizes the maximum level of relationships, such as alerts associated with the incident and entities linked to those alerts. Therefore, by simultaneously viewing this incident graph along with incident titles and alerts, it helps in comprehending and understanding the overall picture of what is happening within the incident. |
 
  ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/9024828f-ae49-42d4-b19f-37c01f7badfe)
 >  Incidents page -> [Attack story]
