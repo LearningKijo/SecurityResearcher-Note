@@ -41,7 +41,9 @@ When alerts/incidents were generated in your tenant, firstly what you have to do
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/847ad975-76d2-4990-817e-03c569f0ba4d)
 
-#### @ Confirm how and where the attack started ?
+#### @ Confirm how and where the attack started ? 
+#### @ How far the attack has gone into your tenant ?
+
 When it comes to **"Investigation"**, it's important to grasp a holistic view of the generated incident.
 ***In other words, you don't need to deeply understand the detailed information of processes, files, registries, and device activities originating from individual alerts at this stage.***
 This provides preliminary and useful information before proceeding with actions in the containment process.
@@ -66,7 +68,7 @@ The following are important checkpoints to understand the holistic view of the i
 | Alerts and categories ||
 | Scope                 ||
 
-
+#### @ Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more
 
 ## Reference
 
