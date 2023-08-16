@@ -50,7 +50,6 @@ This provides preliminary and useful information before proceeding with actions 
 
 The following are important checkpoints to understand the holistic view of the incident.
 
- - Incidents page -> ***[Attack story]***
 
 | Points         | Details     |
 |:---------------|:------------|
