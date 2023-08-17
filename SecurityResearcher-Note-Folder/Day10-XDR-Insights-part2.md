@@ -73,8 +73,6 @@ The following are important checkpoints to understand the holistic view of the i
 |:--------|:--------|
 | Device  | - Restrict App Execution <br> - Initiate Automated Investigation <br> - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  |
 | User Accounts | - Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password |
-| Mailboxes | xxxxxx |
-| Applications | xxxxxx | 
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/aa777077-71fc-4526-93fb-833fa55c2685)
 > e.g. device actions 
