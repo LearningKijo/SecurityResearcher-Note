@@ -70,13 +70,15 @@ The following are important checkpoints to understand the holistic view of the i
 #### @ Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more
 Once you find the compromised asset, you have to take containment actions to stop the ongoing attack. I have summarized several containment-related actions within Microsoft 365 Defender as follows.
 
-| Asset   | Action  | Comment |
-|:--------|:--------|:--------|
-| Device  | - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  | Isolating the device from the internet is highly critical to minimize the impact on the endpoint. Once the internet connection is disabled, the SOC team can allocate time for in-depth investigation and proceed with eradication tasks, such as removing malicious files, deleting registry keys, terminating processes, and more.| 
+| Asset   | Action  | 
+|:--------|:--------|
+| Device  | - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  | |
 | User Accounts | - Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password |
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3379a4c5-7a86-45fb-9176-88344aceefe5)
 > e.g. Device actions 
+
+Isolating the device from the internet is highly critical to minimize the impact on the endpoint. Once the internet connection is disabled, the SOC team can allocate time for in-depth investigation and proceed with eradication tasks, such as removing malicious files, deleting registry keys, terminating processes, and more.
 
 ## Reference
 
