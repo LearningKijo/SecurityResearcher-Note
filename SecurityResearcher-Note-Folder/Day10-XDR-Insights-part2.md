@@ -75,7 +75,7 @@ Once you find the compromised asset, you have to take containment actions to sto
 | Device  | - Restrict App Execution <br> - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  |
 | User Accounts | - Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password |
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3c7fe3ea-9a2c-4f6e-abd7-dc502eb9f40f)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/0e6bb2b1-7e13-4bd9-aeea-9ac74eebca3f)
 > e.g. Device actions 
 
 ## Reference
