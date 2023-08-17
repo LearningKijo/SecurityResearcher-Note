@@ -68,10 +68,11 @@ The following are important checkpoints to understand the holistic view of the i
 | Scope                 |Within the scope, this provides information about impacted assets, such as devices, user accounts, mailboxes, and applications. This information aids in determining the subsequent steps, such as containment to stop the ongoing attack and mitigate its impact.|
 
 #### @ Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more
+Once you find the compromised asset, you have to take containment actions to stop the ongoing attack. I have summarized several containment-related actions within Microsoft 365 Defender as follows.
 
-| Asset   | Action  |
-|:--------|:--------|
-| Device  | - Restrict App Execution <br> - Initiate Automated Investigation <br> - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  |
+| Asset   | Action  | Comment |
+|:--------|:--------|:--------|
+| Device  | - Restrict App Execution <br> - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  |
 | User Accounts | - Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password |
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/aa777077-71fc-4526-93fb-833fa55c2685)
