@@ -64,19 +64,21 @@ The following are important checkpoints to understand the holistic view of the i
 
 | Points                | Details     |
 |:----------------------|:------------|
-| Alerts and categories |Alerts and categories provide you not only with alerts in chronological order, but also with MITRE ATT&CK tactics. Thanks to MITRE ATT&CK, the SOC team can envision the scope of this attack and more, including how it has spread across different areas.|
-| Scope                 |Within the scope, this provides information about impacted assets, such as devices, user accounts, mailboxes, and applications. This information aids in determining the subsequent steps, such as containment to stop the ongoing attack and mitigate its impact.|
+| Alerts and categories | Alerts and categories provide you not only with alerts in chronological order, but also with MITRE ATT&CK tactics. Thanks to MITRE ATT&CK, the SOC team can envision the scope of this attack and more, including how it has spread across different areas.|
+| Scope                 | Within the scope, this provides information about impacted assets, such as devices, user accounts, mailboxes, and applications. This information aids in determining the subsequent steps, such as containment to stop the ongoing attack and mitigate its impact.|
 
 #### @ Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more
 Once you find the compromised asset, you have to take containment actions to stop the ongoing attack. I have summarized several containment-related actions within Microsoft 365 Defender as follows.
 
 | Asset   | Action  | 
 |:--------|:--------|
-| Device  | - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  | |
-| User Accounts | - Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password |
+| Device  | - [Initiate Live Response Session](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide) <br> - ***[Isolate Device](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/respond-machine-alerts?view=o365-worldwide#isolate-devices-from-the-network)*** <br> - ***[Contain Device](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/respond-machine-alerts?view=o365-worldwide#contain-devices-from-the-network)***  | |
+| User Accounts | [- Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password](https://learn.microsoft.com/en-us/defender-for-identity/remediation-actions) |
 
 > **Important**
+> #### Automatic attack disruption
 > While the above actions are performed manually, in cases where advanced attacks such as AiTM, BEC, and Human-operated ransomware are detected in Microsoft 365 Defender, [Automatic attack disruption feature](https://learn.microsoft.com/en-us/microsoft-365/security/defender/automatic-attack-disruption?view=o365-worldwide) designed for containment will help you stop the ongoing breach.
+> #### Automated investigation and response
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3379a4c5-7a86-45fb-9176-88344aceefe5)
 > e.g. Device actions 
