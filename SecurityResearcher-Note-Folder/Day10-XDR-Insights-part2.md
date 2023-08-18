@@ -81,8 +81,10 @@ Once you find the compromised asset, you have to take containment actions to sto
 > #### Automated investigation and response (AIR)
 > As [AIR](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide) is enabled by default, certain alerts & incidents will be automatically investigated and remediated. This process is primarily triggered when an alert is detected in your tenant, but there is also a manual option. If needed, you can initiate AIR.
 
+
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3379a4c5-7a86-45fb-9176-88344aceefe5)
 > e.g. Device actions 
+
 
 Isolating the device from the internet is highly critical to minimize the impact on the endpoint. Once the internet connection is disabled, the SOC team can allocate time for in-depth investigation and proceed with eradication tasks, such as removing malicious files, deleting registry keys, terminating processes, and more.
 
