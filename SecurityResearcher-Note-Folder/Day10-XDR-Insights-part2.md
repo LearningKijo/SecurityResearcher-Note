@@ -86,6 +86,8 @@ Once you find the compromised asset, you have to take containment actions to sto
 
 Isolating the device from the internet is highly critical to minimize the impact on the endpoint. Once the internet connection is disabled, the SOC team can allocate time for in-depth investigation and proceed with eradication tasks, such as removing malicious files, deleting registry keys, terminating processes, and more.
 
+Resetting passwords is a highly effective method to prevent unauthorized access by attackers. Additionally, disabling Azure AD user accounts and on-premises AD accounts are powerful actions that effectively cut off access to their associated resources.
+
 ## Reference
 
 #### Disclaimer
