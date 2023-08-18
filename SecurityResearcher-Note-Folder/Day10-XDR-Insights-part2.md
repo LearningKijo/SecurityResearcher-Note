@@ -60,12 +60,13 @@ The following are important checkpoints to understand the holistic view of the i
  ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/9024828f-ae49-42d4-b19f-37c01f7badfe)
 > Incidents page -> [Attack story]
 
-> Incidents page -> [Summary]
 
 | Points                | Details     |
 |:----------------------|:------------|
 | Alerts and categories | Alerts and categories provide you not only with alerts in chronological order, but also with MITRE ATT&CK tactics. Thanks to MITRE ATT&CK, the SOC team can envision the scope of this attack and more, including how it has spread across different areas.|
 | Scope                 | Within the scope, this provides information about impacted assets, such as devices, user accounts, mailboxes, and applications. This information aids in determining the subsequent steps, such as containment to stop the ongoing attack and mitigate its impact.|
+
+> Incidents page -> [Summary]
 
 #### @ Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more
 Once you find the compromised asset, you have to take containment actions to stop the ongoing attack. I have summarized several containment-related actions within Microsoft 365 Defender as follows.
