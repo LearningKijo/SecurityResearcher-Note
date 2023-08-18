@@ -78,7 +78,8 @@ Once you find the compromised asset, you have to take containment actions to sto
 > **Important**
 > #### Automatic attack disruption
 > While the above actions are performed manually, in cases where advanced attacks such as AiTM, BEC, and Human-operated ransomware are detected in Microsoft 365 Defender, [Automatic attack disruption feature](https://learn.microsoft.com/en-us/microsoft-365/security/defender/automatic-attack-disruption?view=o365-worldwide) designed for containment will help you stop the ongoing breach.
-> #### Automated investigation and response
+> #### Automated investigation and response (AIR)
+> As AIR is enabled by default, certain alerts & incidents will be automatically investigated and remediated. This process is primarily triggered when an alert is detected in your tenant, but there is also a manual option. If needed, you can initiate AIR.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3379a4c5-7a86-45fb-9176-88344aceefe5)
 > e.g. Device actions 
