@@ -75,6 +75,9 @@ Once you find the compromised asset, you have to take containment actions to sto
 | Device  | - Initiate Live Response Session <br> - ***Isolate Device*** <br> - ***Contain Device***  | |
 | User Accounts | - Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password |
 
+> **Important**
+> While the above actions are performed manually, in cases where advanced attacks such as AiTM, BEC, and human-operated ransomware are detected in Microsoft 365 Defender, an automatic attack disruption feature designed for containment will help you stop the ongoing breach.
+
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/3379a4c5-7a86-45fb-9176-88344aceefe5)
 > e.g. Device actions 
 
