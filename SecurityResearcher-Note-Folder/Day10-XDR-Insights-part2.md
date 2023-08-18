@@ -58,9 +58,9 @@ The following are important checkpoints to understand the holistic view of the i
 | Incident graph |This incident graph visualizes the maximum level of relationships, such as alerts associated with the incident and entities linked to those alerts. Therefore, by simultaneously viewing this incident graph along with incident titles and alerts, it helps in comprehending and understanding the overall picture of what is happening within the incident. |
 
  ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/9024828f-ae49-42d4-b19f-37c01f7badfe)
->  Incidents page -> [Attack story]
+> Incidents page -> [Attack story]
 
- - Incident page -> ***[Summary]***
+> Incidents page -> [Summary]
 
 | Points                | Details     |
 |:----------------------|:------------|
