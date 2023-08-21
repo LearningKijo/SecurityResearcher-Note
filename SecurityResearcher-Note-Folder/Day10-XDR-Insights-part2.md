@@ -95,8 +95,11 @@ Resetting passwords is a highly effective method to prevent unauthorized access 
 > In the beginning, we usually initiate the process of identifying the incident to classify whether it is a false positive or true positive. If it is indeed a true positive, we delve into the incident to gain a comprehensive overview and identify compromised assets before moving on to containment. Following containment, we isolate or shut down the asset to halt the ongoing attack. The subsequent steps involve further investigation, eradication, remediation, and more. I hope I can share a story about further investigation and eradication in the next part of the blog.
 
 ## Reference
-1. [Incident response with Microsoft 365 Defender | Overview](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
-2. 
+- [Incident response with Microsoft 365 Defender | Overview](https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview?view=o365-worldwide)
+- June 10, 2020, [Inside Microsoft 365 Defender: Attack modeling for finding and stopping lateral movement](https://www.microsoft.com/en-us/security/blog/2020/06/10/the-science-behind-microsoft-threat-protection-attack-modeling-for-finding-and-stopping-evasive-ransomware/)
+- June 18, 2020, [Inside Microsoft 365 Defender: Mapping attack chains from cloud to endpoint](https://www.microsoft.com/en-us/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/)
+- July 9, 2020, [Inside Microsoft 365 Defender: Correlating and consolidating attacks into incidents](https://www.microsoft.com/en-us/security/blog/2020/07/09/inside-microsoft-threat-protection-correlating-and-consolidating-attacks-into-incidents/)
+- July 29, 2020, [Inside Microsoft 365 Defender: Solving cross-domain security incidents through the power of correlation analytics](https://www.microsoft.com/en-us/security/blog/2020/07/29/inside-microsoft-threat-protection-solving-cross-domain-security-incidents-through-the-power-of-correlation-analytics/)
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
