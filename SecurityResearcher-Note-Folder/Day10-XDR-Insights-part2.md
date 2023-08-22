@@ -91,7 +91,11 @@ Isolating the device from the internet is highly critical to minimize the impact
 
 Resetting passwords is a highly effective method to prevent unauthorized access by attackers. Additionally, disabling Azure AD user accounts and on-premises AD accounts are powerful actions that effectively cut off access to their associated resources.
 
-**Custom detection rule**
+**Custom detection rules**
+
+While this topic may slightly differ from containment in incident response, I also want to introduce the concept of [custom detection rules](https://learn.microsoft.com/en-us/microsoft-365/security/defender/custom-detection-rules?view=o365-worldwide). 
+If there are specific activities ***you wish to monitor or track***, you can write a KQL query in Advanced Hunting and create custom detection rules. 
+An advantageous aspect is that when the rule (KQL query) corresponds to matched data within your tenant's activities, it can trigger actions aimed at the relevant asset.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/a0903dcf-d9ad-494f-b07f-35cb48c737ba)
 
