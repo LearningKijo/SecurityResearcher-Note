@@ -17,7 +17,8 @@ In this repository, I will cover various security approaches to attack technique
 | Day7 | [Day7-AiTM-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day7-AiTM-Insights-XDR.md) | AiTM, BEC |
 | Day8 | [Day8-WebShell-Insights-XDR.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day8-WebShell-Insights-XDR.md) | Web shell |
 | Day9 | [Day9-XDR-Insights-part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day9-XDR-Insights-part1.md)| XDR |
-| Day10 | [Day10-XDR-Insights-part2.md] SOON | XDR | 
+| Day10 | [Day10-XDR-Insights-part2.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day10-XDR-Insights-part2.md) | XDR | 
+| Day11 | SOON |
 
 ## SecurityExperience-Note
 | ExP/Lv |  Title | Comment | 
