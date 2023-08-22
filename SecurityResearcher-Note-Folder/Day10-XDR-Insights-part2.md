@@ -98,7 +98,7 @@ If there are specific activities ***you wish to monitor or track***, you can wri
 An advantageous aspect is that when the rule (KQL query) corresponds to matched data within your tenant's activities, it can trigger actions aimed at the relevant asset.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/a0903dcf-d9ad-494f-b07f-35cb48c737ba)
-
+> KQL query -> custom detection rules in Advanced Hunting
 
 
 > **Note**
