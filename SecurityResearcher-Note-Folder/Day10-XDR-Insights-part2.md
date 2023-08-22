@@ -57,7 +57,7 @@ The following are important checkpoints to understand the holistic view of the i
 | Alerts         |This is the best place for tracking the timeline of alerts within the incident, particularly when investigating the breach's initiation. These alerts offer insights into the initial stages of the breach, including details about how and where the compromise originated.|
 | Incident graph |This incident graph visualizes the maximum level of relationships, such as alerts associated with the incident and entities linked to those alerts. Therefore, by simultaneously viewing this incident graph along with incident titles and alerts, it helps in comprehending and understanding the overall picture of what is happening within the incident. |
 
- ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/9024828f-ae49-42d4-b19f-37c01f7badfe)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e8baebb1-9f61-4cd3-9e21-b45e2f42db84)
 > Incidents page -> [Attack story]
 
 
@@ -66,6 +66,7 @@ The following are important checkpoints to understand the holistic view of the i
 | Alerts and categories | Alerts and categories provide you not only with alerts in chronological order, but also with MITRE ATT&CK tactics. Thanks to MITRE ATT&CK, the SOC team can envision the scope of this attack and more, including how it has spread across different areas.|
 | Scope                 | Within the scope, this provides information about impacted assets, such as devices, user accounts, mailboxes, and applications. This information aids in determining the subsequent steps, such as containment to stop the ongoing attack and mitigate its impact.|
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/d89574ba-167e-4cb7-af8a-edd4c7ee93aa)
 > Incidents page -> [Summary]
 
 #### @ Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more
