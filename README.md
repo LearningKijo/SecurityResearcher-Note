@@ -19,7 +19,7 @@ In this repository, I will cover various security approaches to attack technique
 | Day9 | [Day9-XDR-Insights-part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day09-XDR-Insights-part1.md)| XDR |
 | Day10 | [Day10-XDR-Insights-part2.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day10-XDR-Insights-part2.md) | XDR | 
 | Day11 | SOON | XDR | 
-| Day12 | [Day12-Volt-Typhoon-Base64.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.md) | China-based activity group <br> Base64, Credential dumping |
+| Day12 | [Day12-Volt-Typhoon-Base64.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.md) <br> [Day12-Volt-Typhoon-Base64.pdf](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.pdf) - <*PDF>* | China-based activity group <br> Base64, Credential dumping |
 
 ## SecurityExperience-Note
 | ExP/Lv |  Title | Comment | 
