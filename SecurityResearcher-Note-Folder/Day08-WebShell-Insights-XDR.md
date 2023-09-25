@@ -161,6 +161,8 @@ W3CIISLog
 - September 23, 2020, [Web shell attack deep dive | Microsoft Security](https://www.youtube.com/watch?v=jvGUahJGJnY)
 - February 11, 2021, [Web shell attacks continue to rise | Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2021/02/11/web-shell-attacks-continue-to-rise/)
 
+## Video
+- [Unveiling Webshells: The Stealthy Webserver Malware | Cybersecurity Deep Dive](https://www.youtube.com/watch?v=gJJ-A3YUXG0) by Michael Melone
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
