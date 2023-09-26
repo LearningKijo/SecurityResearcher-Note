@@ -109,7 +109,11 @@ Summarized each phase of the AiTM attack. These queries will help in hunting pot
 - March 13, 2023, [DEV-1101 enables high-volume AiTM campaigns with open-source phishing kit](https://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit/)
 - June 8, 2023, [Detecting and mitigating a multi-stage AiTM phishing and BEC campaign](https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/)
 
-## Other blogs
+## MS blogs : AiTM attack insights
+- Jul 31, 2023, [AiTM & BEC threat hunting with KQL](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/aitm-amp-bec-threat-hunting-with-kql/ba-p/3885166)
+- Sep 19, 2023, [A day in the life of a Defender Experts for XDR analyst](https://techcommunity.microsoft.com/t5/microsoft-security-experts-blog/a-day-in-the-life-of-a-defender-experts-for-xdr-analyst/ba-p/3932140)
+
+## Other blogs 
 - August 02, 2022, [Large-Scale AiTM Attack targeting enterprise users of Microsoft email services](https://www.zscaler.com/blogs/security-research/large-scale-aitm-attack-targeting-enterprise-users-microsoft-email-services) (Zscaler)
 - August 09, 2022, [AitM Phishing Attack Targeting Enterprise Users of Gmail](https://www.zscaler.jp/blogs/security-research/aitm-phishing-attack-targeting-enterprise-users-gmail) (Zscaler)
 - November, 09, 2022, [Trellix Insights: Large-Scale AiTM Attack Targeting Enterprise Users](https://kcm.trellix.com/corporate/index?page=content&id=KB96139&locale=en_US) (Trellix)
