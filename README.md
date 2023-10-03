@@ -5,7 +5,7 @@
 ### Welcome to @SecurityResearcher-Note
 In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
 
-## SecurityResearcher-Note
+## Security Research-Note
 | Day | Title | Comment |
 |:---|:---|:---|
 | Day1 | [Day1-Basic-Malware-Analysis.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day01-Basic-Malware-Analysis.md) |  
@@ -21,7 +21,10 @@ In this repository, I will cover various security approaches to attack technique
 | Day11 | [Day11-MalwareAnalysis-Insights-part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day11-MalwareAnalysis-Insights-part1.md) | Malware Analysis <br> EDR, XDR | 
 | Day12 | [Day12-Volt-Typhoon-Base64.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.md) <br> [Day12-Volt-Typhoon-Base64.pdf](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.pdf) - <*PDF>* | China-based activity group <br> Base64, Credential dumping |
 
-## SecurityExperience-Note
+## Product Research-Note
+N/A
+
+## Security Experience-Note
 | ExP/Lv |  Title | Comment | 
 |:----|:-------|:--------|
 | Lv.100  | YARA tool | still learning |
