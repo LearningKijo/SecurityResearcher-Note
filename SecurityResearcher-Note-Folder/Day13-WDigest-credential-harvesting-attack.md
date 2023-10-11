@@ -1,10 +1,9 @@
 # Day 13 - WDigest credential harvesting - attack
 Hi there !! Thank you for visiting [@SecurityResearch-Note](https://github.com/LearningKijo/SecurityResearcher-Note). 
-Today, I'm diving into the WDigest credential harvesting attack, breaking it down into two parts. 
-In this attack blog, I'll cover the attack overview and techniques.
-
-1. WDigest credential harvesting - attack **<we are here !!>**
-2. WDigest credential harvesting - detection & hunting
+Today, I'm diving into the WDigest credential harvesting attack, breaking it down into three parts. 
+1. WDigest credential harvesting - Attack technique 
+2. WDigest credential harvesting - EPP & EDR detection
+3. WDigest credential harvesting - Threat Hunting
 
 #### Attack overview
 WDigest, an outdated authentication protocol still found in corporate networks, is exploited by attackers to steal passwords and evade security measures. 
