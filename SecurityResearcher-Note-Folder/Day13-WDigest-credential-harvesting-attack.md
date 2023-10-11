@@ -13,7 +13,7 @@ Its use exposes passwords in plain text, making it a favored target. Attackers m
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/05b4876b-ebe3-48fc-8b59-398cffe0d928)
 > WDigest credential harvesting attack flow, [Threat Analytics](https://learn.microsoft.com/en-us/microsoft-365/security/defender/threat-analytics?view=o365-worldwide) in Microsoft 365 Defender
 
-## Attack flow
+## Attack technique
 The attack flow begins with disabling the antivirus solution to change a registry key, enabling WDigest, and downloading the Mimikatz tool. 
 Following this, a command is executed to enable WDigest and run the Mimikatz tool using the "sekurlsa::wdigest" command.
 
@@ -58,6 +58,10 @@ mimikatz # sekurlsa::wdigest
 > [!Important]
 > In terms of endpoint protection, Microsoft Defender Antivirus and Microsoft Defender for Endpoint are the most effective solutions for preventing and detecting Mimikatz activities.
 > Additionally, when it comes to addressing lateral movement and enhancing identity visibility, Microsoft Defender for Identity is a valuable product for detecting such activities.
+
+## EPP & EDR detection
+
+## Threat Hunting
 
 ## Reference
 1. [Forcing WDigest to Store Credentials in Plaintext](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/forcing-wdigest-to-store-credentials-in-plaintext)
