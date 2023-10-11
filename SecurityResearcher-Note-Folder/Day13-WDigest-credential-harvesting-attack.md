@@ -80,7 +80,7 @@ If the attempt is successful, WDigest will load on the next restart and begin to
 #### ***Alert : Malicious credential theft tool execution detected***
 A known credential theft tool execution command line was detected. Either the process itself or its command line indicated an intent to dump users' credentials, keys, plain-text passwords and more.
 > [!Note]
-> The two mimikatz commands (mimikatz # privilege::debug, mimikatz # sekurlsa::wdigest) which I simulated on the device were also detected by Microsoft Defender for Endpoint
+> The two mimikatz commands (mimikatz # privilege::debug, mimikatz # sekurlsa::wdigest) which I simulated on the device were detected by Microsoft Defender for Endpoint. Also, An alert - 'Mimikatz credential theft tool' was triggered when downloading Mimikatz on the device.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/d4325269-853e-4488-837d-2a56e77b0928)
 
