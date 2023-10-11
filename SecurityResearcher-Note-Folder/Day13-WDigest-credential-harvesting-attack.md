@@ -66,6 +66,9 @@ All the attack techniques, from disabling antivirus to executing Mimikatz, were 
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/1c9c3f9d-4ff2-4269-b67f-f6d6a67f72b3)
 
+In the incident page, you might see a number of alerts, related assets, MITRE techniques, and more. 
+At the same time, I'd like to highlight some alerts from the simulation as shown below.
+
 #### ***Alert : Microsoft Defender Antivirus protection turned off***
 A protection feature in Microsoft Defender Antivirus has been turned off. An attacker might be trying to evade detection.
 
