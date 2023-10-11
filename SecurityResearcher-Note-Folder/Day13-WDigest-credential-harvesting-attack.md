@@ -69,9 +69,6 @@ All the attack techniques, from disabling antivirus to executing Mimikatz, were 
 #### ***Alert : Microsoft Defender Antivirus protection turned off***
 A protection feature in Microsoft Defender Antivirus has been turned off. An attacker might be trying to evade detection.
 
-> [!Note]
-> Microsoft Defender for Endpoint detected a command to disable antivirus.
-
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/dde8b17c-38bc-4847-87fc-d8940ebc8313)
 
 #### ***Alert : WDigest configuration change***
@@ -83,7 +80,7 @@ If the attempt is successful, WDigest will load on the next restart and begin to
 #### ***Alert : Malicious credential theft tool execution detected***
 A known credential theft tool execution command line was detected. Either the process itself or its command line indicated an intent to dump users' credentials, keys, plain-text passwords and more.
 > [!Note]
-> the two mimiktaz commands (mimikatz # privilege::debug, mimikatz # sekurlsa::wdigest) which I simulated on the device were also detected by Microsoft Defender for Endpoint
+> The two mimikatz commands (mimikatz # privilege::debug, mimikatz # sekurlsa::wdigest) which I simulated on the device were also detected by Microsoft Defender for Endpoint
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/d4325269-853e-4488-837d-2a56e77b0928)
 
