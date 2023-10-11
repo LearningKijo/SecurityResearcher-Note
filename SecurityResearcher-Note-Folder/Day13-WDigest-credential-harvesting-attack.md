@@ -91,6 +91,16 @@ A known credential theft tool execution command line was detected. Either the pr
 ## Threat Hunting
 For threat hunting purposes, here are some KQL queries to track activities like disabling antivirus, changing WDigest configurations, and executing Mimikatz tool.
 
+#### Defender Antivirus configuration
+
+```kql
+DeviceRegistryEvents
+| where Timestamp > ago(30d)
+| where RegistryKey has @"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender"
+| project-reorder Timestamp, DeviceId, DeviceName, ActionType, RegistryKey, RegistryValueType, RegistryValueName, RegistryValueData
+| sort by Timestamp desc 
+```
+
 #### WDigest configuration change
 This query helps identify attempts to enable WDigest credentiall caching through the registry.
 
