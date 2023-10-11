@@ -86,6 +86,8 @@ A known credential theft tool execution command line was detected. Either the pr
 
 
 ## Threat Hunting
+For threat hunting purposes, here are some KQL queries to track activities like disabling antivirus, changing WDigest configurations, and executing Mimikatz tool.
+
 #### WDigest configuration change
 This query helps identify attempts to enable WDigest credentiall caching through the registry.
 
