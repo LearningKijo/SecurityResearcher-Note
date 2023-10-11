@@ -2,7 +2,7 @@
 Hi there !! Thank you for visiting [@SecurityResearch-Note](https://github.com/LearningKijo/SecurityResearcher-Note). 
 Today, I'm diving into the WDigest credential harvesting attack, breaking it down into three parts. 
 1. WDigest credential harvesting - Attack technique 
-2. WDigest credential harvesting - EPP & EDR detection
+2. WDigest credential harvesting - Detection
 3. WDigest credential harvesting - Threat Hunting
 
 #### Attack overview
@@ -59,9 +59,61 @@ mimikatz # sekurlsa::wdigest
 > In terms of endpoint protection, Microsoft Defender Antivirus and Microsoft Defender for Endpoint are the most effective solutions for preventing and detecting Mimikatz activities.
 > Additionally, when it comes to addressing lateral movement and enhancing identity visibility, Microsoft Defender for Identity is a valuable product for detecting such activities.
 
-## EPP & EDR detection
+## Detection
+After simulating a WDigest credential harvesting attack, let's examine how this attack is mapped into a single incident in Microsoft 365 Defender portal.
+
+All the attack techniques, from disabling antivirus to executing Mimikatz, were detected by Microsoft Defender for Endpoint, generating 11 alerts. Additionally, Threat Analytics provides insights related to Mimikatz and WDigest credential harvesting.
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/1c9c3f9d-4ff2-4269-b67f-f6d6a67f72b3)
+
+#### ***Alert : Microsoft Defender Antivirus protection turned off***
+A protection feature in Microsoft Defender Antivirus has been turned off. An attacker might be trying to evade detection.
+
+> [!Note]
+> Microsoft Defender for Endpoint detected a command to disable antivirus.
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/dde8b17c-38bc-4847-87fc-d8940ebc8313)
+
+#### ***Alert : WDigest configuration change***
+An attempt to turn on the WDigest authentication provider through the registry was observed.
+If the attempt is successful, WDigest will load on the next restart and begin to store credentials as plaintext in LSASS process memory. An attacker might be attempting to collect those credentials.
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/8065422f-a296-46a3-82a0-71a0997108db)
+
+#### ***Alert : Malicious credential theft tool execution detected***
+A known credential theft tool execution command line was detected. Either the process itself or its command line indicated an intent to dump users' credentials, keys, plain-text passwords and more.
+> [!Note]
+> the two mimiktaz commands (mimikatz # privilege::debug, mimikatz # sekurlsa::wdigest) which I simulated on the device were also detected by Microsoft Defender for Endpoint
+
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/d4325269-853e-4488-837d-2a56e77b0928)
+
 
 ## Threat Hunting
+#### WDigest configuration change
+This query helps identify attempts to enable WDigest credentiall caching through the registry.
+
+```kql
+union DeviceRegistryEvents, DeviceProcessEvents
+// Find attempts to turn on WDigest credential caching
+| where RegistryKey contains "wdigest" and RegistryValueName == "UseLogonCredential" and RegistryValueData == "1" or 
+// Find processes created with commandlines that attempt to turn on WDigest caching
+ProcessCommandLine has "WDigest" and ProcessCommandLine has "UseLogonCredential" and ProcessCommandLine has "dword" and ProcessCommandLine has "1"
+| project Timestamp, DeviceName, PreviousRegistryValueData,  
+RegistryKey, RegistryValueName, RegistryValueData, FileName, ProcessCommandLine, 
+InitiatingProcessAccountName, InitiatingProcessFileName, 
+InitiatingProcessCommandLine, InitiatingProcessParentFileName
+```
+> **Source** : WDigest credential harvesting, Threat Analytics in Microsoft 365 Defender
+
+#### Mimikatz CommandLine
+
+```kql
+DeviceProcessEvents
+| where Timestamp > ago(30d)
+| where FileName in~ ("powershell.exe","powershell_ise.exe", "mimikatz.exe")
+| where ProcessCommandLine has_any ("sekurlsa","kerberos","crypto", "vault", "lsadump") or InitiatingProcessCommandLine has_any ("sekurlsa","kerberos","crypto", "vault", "lsadump")
+| summarize make_set(ProcessCommandLine) by DeviceId, DeviceName
+```
 
 ## Reference
 1. [Forcing WDigest to Store Credentials in Plaintext](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/forcing-wdigest-to-store-credentials-in-plaintext)
