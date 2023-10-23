@@ -23,13 +23,10 @@ In this repository, I will cover various security approaches to attack technique
 | Day13 | [Day13-WDigest-credential-harvesting-attack.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day13-WDigest-credential-harvesting-attack.md) | WDigest <br> Mimikatz  | 
 
 ## Product Research-Note
-N/A
+TBD
 
 ## Security Experience-Note
-| ExP/Lv |  Title | Comment | 
-|:----|:-------|:--------|
-| Lv.100  | YARA tool | still learning |
-| Lv.200 | MSTICPy   | merging data   |
+TBD
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
