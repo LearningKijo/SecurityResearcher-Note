@@ -23,12 +23,10 @@ In this repository, I will cover various security approaches to attack technique
 | Day13 | [Day13-WDigest-credential-harvesting-attack.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day13-WDigest-credential-harvesting-attack.md) | WDigest <br> Mimikatz  | 
 
 ## Microsoft Security Blog
-| Day | Blog | Comment |
-|:---|:---|:---|
-| Jul 31 2023 | [AiTM & BEC threat hunting with KQL](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/aitm-amp-bec-threat-hunting-with-kql/ba-p/3885166) | AiTM, BEC, KQL <br> Threat Hunting |
+- Jul 31 2023, [AiTM & BEC threat hunting with KQL](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/aitm-amp-bec-threat-hunting-with-kql/ba-p/3885166)
 
 ## Event Speaker
-#### Microsoft 365 Defender Virtual Ninja Training
+#### [Microsoft 365 Defender Virtual Ninja Training](https://adoption.microsoft.com/en-us/ninja-show/)
 - November 6 2023, [Advanced Hunting & Data visualization in Microsoft 365 Defender](https://www.youtube.com/watch?v=2jSqr-nzWn8&ab_channel=MicrosoftSecurityCommunity)
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/64097aa2-092d-464b-b879-2e2ce26d56d5)
