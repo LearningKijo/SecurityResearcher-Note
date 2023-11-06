@@ -35,6 +35,7 @@ While I was reading through Microsoft security blog - [Shrootless](https://www.m
 
 ***"In short, if there is a process with entitlements that allow it to modify the critical system, it is possible to bypass SIP on macOS."***
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/fbe77589-a3a7-47fc-bcd3-0acbf1b30885)
 
 > e.g. ‘Shrootless’ - system_installd entitlements
 
@@ -49,6 +50,7 @@ When installing an Apple-signed package, 'system_installd' handles the installat
 If the package contains post-install scripts, they're executed using the 'zsh' shell, which ***automatically runs commands from the '/etc/zshenv' file***, even in non-interactive mode. 
 This creates a potential avenue for attackers to perform arbitrary operations by creating a malicious '/etc/zshenv' file and waiting for 'system_installd' to invoke 'zsh'.
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/5462c1bb-434f-4b19-936f-930acb5e77e9)
 
 
 ## SIP Bypass - Migraine
@@ -58,6 +60,7 @@ This vulnerability also has the potential to bypass System Integrity Protection.
 As a result, an attacker can exploit this flow to run suspicious or malicious code by leveraging the Migration Assistant's interaction with these processes. 
 By executing arbitrary code within the context of these trusted processes, the attacker can effectively bypass SIP protections and carry out actions that could compromise system integrity or install persistent malware.
 
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/502ba15f-83f2-4728-a20f-ff04f3c7d9c3)
 
 ## Reference
 - October 28, 2021, [Microsoft finds new macOS vulnerability, Shrootless, that could bypass System Integrity Protection](https://www.microsoft.com/en-us/security/blog/2021/10/28/microsoft-finds-new-macos-vulnerability-shrootless-that-could-bypass-system-integrity-protection/)
