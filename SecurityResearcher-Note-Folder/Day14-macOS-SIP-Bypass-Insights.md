@@ -42,8 +42,11 @@ While I was reading through Microsoft security blog - [Shrootless](https://www.m
 > [!Important]
 According to Apple's documentation, an [entitlements](https://developer.apple.com/documentation/bundleresources/entitlements) is a right or privilege that grants an executable particular capabilities.
 
+## SIP Bypass case
+Shrootless and Migraine are great examples of SIP bypass, both discovered by Microsoft Threat Intelligence team, Microsoft.
+As each blog covers the details, I would like to share a high-level insight with a summary below.
 
-## SIP Bypass - Shrootless
+### Shrootless
 On October 21, 2021, [Microsoft](https://www.microsoft.com/en-us/security/blog/2021/10/28/microsoft-finds-new-macos-vulnerability-shrootless-that-could-bypass-system-integrity-protection/) discovered a new macOS vulnerability, known as [CVE-2021-30892](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30892) or Shrootless, which has the potential to bypass System Integrity Protection.
 While examining macOS processes with SIP bypass entitlements, ***Microsoft found 'system_installd,' which had a powerful 'com.apple.rootless.install.heritable' entitlement, allowing child processes to bypass SIP restrictions.***
 When installing an Apple-signed package, 'system_installd' handles the installation. 
@@ -53,7 +56,7 @@ This creates a potential avenue for attackers to perform arbitrary operations by
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/5462c1bb-434f-4b19-936f-930acb5e77e9)
 
 
-## SIP Bypass - Migraine
+### Migraine
 After the discovery of Shrootless (CVE-2021-30892), [Microsoft](https://www.microsoft.com/en-us/security/blog/2023/05/30/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection/) identified a new macOS vulnerability with similarities, referred to as [CVE-2023-32369](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32369) or Migraine, on May 30, 2023. 
 This vulnerability also has the potential to bypass System Integrity Protection. The attack can be initiated by starting the migration process through the Migration Assistant, which is one of the processes with entitlements to bypass SIP security checks. The Migration Assistant, in turn, interacts with other processes that have the necessary entitlements. ***Among these processes are bash and perl, which are interpreters capable of executing arbitrary code.***
 
@@ -61,6 +64,8 @@ As a result, an attacker can exploit this flow to run suspicious or malicious co
 By executing arbitrary code within the context of these trusted processes, the attacker can effectively bypass SIP protections and carry out actions that could compromise system integrity or install persistent malware.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/502ba15f-83f2-4728-a20f-ff04f3c7d9c3)
+
+If you are interested in the details, I highly recommend reading the blogs, and you can find the links in the Reference section.
 
 ## Reference
 - October 28, 2021, [Microsoft finds new macOS vulnerability, Shrootless, that could bypass System Integrity Protection](https://www.microsoft.com/en-us/security/blog/2021/10/28/microsoft-finds-new-macos-vulnerability-shrootless-that-could-bypass-system-integrity-protection/)
