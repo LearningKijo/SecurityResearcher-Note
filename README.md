@@ -20,7 +20,8 @@ In this repository, I will cover various security approaches to attack technique
 | Day10 | [Day10-XDR-Insights-part2.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day10-XDR-Insights-part2.md) | XDR | 
 | Day11 | [Day11-MalwareAnalysis-Insights-part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day11-MalwareAnalysis-Insights-part1.md) <br> [Day11-MalwareAnalysis-Insights-part2.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day11-MalwareAnalysis-Insights-part2.md) | Malware Analysis <br> EDR, XDR | 
 | Day12 | [Day12-Volt-Typhoon-Base64.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.md) <br> [Day12-Volt-Typhoon-Base64.pdf](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.pdf) - <*PDF>* | China-based activity group <br> Base64, Credential dumping |
-| Day13 | [Day13-WDigest-credential-harvesting-attack.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day13-WDigest-credential-harvesting-attack.md) | WDigest <br> Mimikatz  | 
+| Day13 | [Day13-WDigest-credential-harvesting-attack.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day13-WDigest-credential-harvesting-attack.md) | WDigest, Mimikatz  | 
+| Day14 | [Day14-macOS-SIP-Bypass-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day14-macOS-SIP-Bypass-Insights.md) | SIP Bypass <br> macOS vulnerability |
 
 ## Microsoft Security Blog
 - Jul 31 2023, [AiTM & BEC threat hunting with KQL](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/aitm-amp-bec-threat-hunting-with-kql/ba-p/3885166)
