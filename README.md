@@ -5,6 +5,10 @@
 ### Welcome to @SecurityResearcher-Note
 In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
 
+1. [Security Research-Note](https://github.com/LearningKijo/SecurityResearcher-Note#security-research-note)
+2. [Product Research-Note](https://github.com/LearningKijo/SecurityResearcher-Note#product-research-note)
+
+
 ## Security Research-Note
 | Day  | Title | Comment |
 |:-----|:------|:--------|
@@ -28,21 +32,19 @@ In this repository, I will cover various security approaches to attack technique
 |:-----|:------|:--------|
 | Day1 | MDE-MDI-BetterTogether-Part1.md [Coming soon] | Reconnaissance | 
 
+## Security Experience-Note
+TBD
 
-## Microsoft Security Blog
+## Other
+#### Microsoft Security Blog
 - Jul 31 2023, [AiTM & BEC threat hunting with KQL](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/aitm-amp-bec-threat-hunting-with-kql/ba-p/3885166)
 
-## Event Speaker
+#### Event Speaker
 #### [Microsoft 365 Defender Virtual Ninja Training](https://adoption.microsoft.com/en-us/ninja-show/)
 - November 8 2023, [Advanced Hunting & Data visualization in Microsoft 365 Defender](https://www.youtube.com/watch?v=2jSqr-nzWn8&ab_channel=MicrosoftSecurityCommunity)
 - November 8 2023, [The Virtual Ninja Show | Season 6 Episode 2](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/the-virtual-ninja-show-season-6-episode-2/ev-p/3969120)
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/64097aa2-092d-464b-b879-2e2ce26d56d5)
-
-
-
-## Security Experience-Note
-TBD
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
