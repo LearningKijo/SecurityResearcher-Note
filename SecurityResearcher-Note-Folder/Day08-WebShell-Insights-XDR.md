@@ -15,7 +15,7 @@ Persistence > Server Software Component, ***T1505.003, [Web Shell](https://attac
 ### Web shell diagram
 <img src="https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e986e761-d8a1-43c6-ba4b-63e4389d11d4" width="800" />
 
-> **Note**
+> [!Note]
 > Web shell attacks are on the rise worldwide. Join this session with Microsoft Security Research to investigate a real-world web shell attack, and how Threat Protection security solutions from Microsoft detect and respond to it.
 > 
 > [Web shell attack deep dive](https://www.youtube.com/watch?v=jvGUahJGJnY), Microsoft Security 
