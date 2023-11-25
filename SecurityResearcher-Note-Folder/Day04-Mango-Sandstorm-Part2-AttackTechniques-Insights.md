@@ -12,7 +12,8 @@ While I am tracing back the history of Mango Sandstorm, formerly known as MERCUR
 Mango Sandstorm, previously known for using Log4j 2 exploits to attack VMware apps, has recently been targeting SysAid apps using the same technique. Once they gain initial access, the group establishes persistence, moves laterally within the network using custom and well-known hacking tools, and dumps credentials.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/f67bb7ac-2cc3-4a6e-ab31-06b8db9ce991)
-> **Note** : [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
+> [!Note]
+> [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
 
 
 ## Log4j 2 vulnerability
@@ -29,7 +30,8 @@ Log4j 2, an updated version of Log4j, is a widely used and powerful logging fram
 
 #### How does the attacker precisely exploit the vulnerable Log4j 2? 
 Attackers exploit vulnerable Log4j 2 systems by sending data containing a specific string. Log4j 2, while attempting to process this string, accesses ***a specified URL through the JNDI Lookup feature***. This allows attackers to download and execute malicious Java code within the system.
-> **Note** : Java Naming and Directory Interface (JNDI)<br>
+> [!Note]
+> Java Naming and Directory Interface (JNDI) <br>
 > It is a Java API that helps applications find and access data and resources using names.
 
 #### A specified URL?
