@@ -38,7 +38,7 @@ e.g.
 | JavaScript | window.location.href = "hxxps://example.com" | 
 | HTML | \<meta http-equiv="refresh" content="7; url='hxxps://example.com'" /\> |
 | PHP | \<?php header("Location: hxxps://example.com/"); exit; ?\> | 
-> **Note**
+> [!Note]
 >
 > **JavaScript** : "replace()" is used for one-time, immediate page replacement without maintaining history, while setting the "href" property allows navigation to a new URL while preserving the ability to go back using the browser's history.
 >
