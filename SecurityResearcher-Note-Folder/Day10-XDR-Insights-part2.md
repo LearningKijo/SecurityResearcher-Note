@@ -26,8 +26,7 @@ To effectively utilize Microsoft 365 Defender, please keep in mind the following
 |:-----|:------------|:------------------------------------------------------------| 
 |  1   | Investigate | - Contain compromised assets <br> - Investigate incidents | 
 |  2   | Response    | - Eradication & Recovery <br> - Extend investigation      | 
-> **Important**
-> Step 2, Response part, will be covered in Part 3. [SOON]
+
 
 ###  1. Investigate
 When alerts/incidents were generated in your tenant, firstly what you have to do is to understand ***a holistic view of the generated incident***.
@@ -78,7 +77,7 @@ Once you find the compromised asset, you have to take containment actions to sto
 | Devices  | - [Initiate Live Response Session](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide) <br> - ***[Isolate Device](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/respond-machine-alerts?view=o365-worldwide#isolate-devices-from-the-network)*** <br> - ***[Contain Device](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/respond-machine-alerts?view=o365-worldwide#contain-devices-from-the-network)***  | |
 | User Accounts | [- Suspend user in Azure AD <br> - Disable user in Active Directory <br> - Reset user password](https://learn.microsoft.com/en-us/defender-for-identity/remediation-actions) |
 
-> **Important**
+> [!Important]
 > #### Automatic attack disruption
 > While the above actions are performed manually, in cases where advanced attacks such as AiTM, BEC, and Human-operated ransomware are detected in Microsoft 365 Defender, [Automatic attack disruption feature](https://learn.microsoft.com/en-us/microsoft-365/security/defender/automatic-attack-disruption?view=o365-worldwide) designed for containment will help you stop the ongoing breach.
 > #### Automated investigation and response (AIR)
@@ -103,7 +102,7 @@ An advantageous aspect is that when the rule (KQL query) corresponds to matched 
 > KQL query -> custom detection rules in Advanced Hunting
 
 
-> **Note**
+> [!Note]
 > In the beginning, we usually initiate the process of identifying the incident to classify whether it is a false positive or true positive. If it is indeed a true positive, we delve into the incident to gain a comprehensive overview and identify compromised assets before moving on to containment. Following containment, we isolate or shut down the asset to halt the ongoing attack. The subsequent steps involve further investigation, eradication, remediation, and more. I hope I can share a story about further investigation and eradication in the next part of the blog.
 
 ## Reference
