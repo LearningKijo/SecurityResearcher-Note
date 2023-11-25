@@ -16,7 +16,7 @@ Therefore, in this blog, I am going to explore the power of XDR, Microsoft 365 D
 |:-----|:----- |:------|
 |1     | [XDR overview](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day9-XDR-Insights-part1.md)  | This blog is for people who are not aware of XDR. <br> It aims to start the journey of exploring XDR, specifically Microsoft 365 Defender. |
 |2     | XDR Incident Investigation ***<we are here !!>***  | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while ***Part 2 delves into core incident investigation.*** |
-|3     | XDR  Incident Response | This blog focuses on Incident Response in the Microsoft 365 Defender portal. <br> Part 1 covers the fundamentals, while ***Part 3 delves into core incident response.*** | 
+
 
 ## Incident Investigation in Microsoft 365 Defender 
 
