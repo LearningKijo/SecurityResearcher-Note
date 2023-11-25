@@ -16,7 +16,8 @@ Mango Sandstorm, previously known for using Log4j 2 exploits and targeting on-pr
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/ee623697-5a31-48fe-933a-85fa360ef3c1)
 
-> **Note** : [MERCURY and DEV-1084: Destructive attack on hybrid environment](https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment/)
+> [!Note]
+> [MERCURY and DEV-1084: Destructive attack on hybrid environment](https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment/)
 
 
 #### How has Mango Sandstorm changed compared to its previous activities?
@@ -27,7 +28,8 @@ Additionally, there is strong suspicion that  Mango Sandstorm is linked to ***St
 ####  What is Storm-1084?
 According to Microsoft, DEV-1084 publicly adopted the DarkBit persona and presented itself as a criminal actor interested in extortion. 
 This was likely done as an attempt to obfuscate Iran's link to and strategic motivation for the attack.
-> **Note** : DarkBit - a new ransomware
+> [!Note]
+> DarkBit - a new ransomware
 
 #### Are there any evidences linking Storm-1084 to Mango Sandstorm?
 - The email's IP address (146.70.106[.]89) is linked to Mango Sandstorm.
