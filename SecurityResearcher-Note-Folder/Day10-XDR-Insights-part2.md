@@ -35,7 +35,7 @@ When alerts/incidents were generated in your tenant, firstly what you have to do
 - [ ] Identify & Contain compromised assets, such as devices, users, mailboxes, apps and more.
 
   
->**Warning**
+> [!Warning]
 > Instead of looking at the alert page initially, focus on ***the incident page***. This is because numerous alerts may not be mapped as a single incident, potentially overwhelming the SOC team.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/7df02513-bc93-430b-8aac-a4f57b4287fb)
