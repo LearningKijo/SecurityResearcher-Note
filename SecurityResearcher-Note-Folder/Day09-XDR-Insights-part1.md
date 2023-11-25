@@ -26,7 +26,7 @@ Extended detection and response describes ***a unified security incident detecti
 ## Gartner® Magic Quadrant™
 Before we dive into the power of XDR and Microsoft 365 Defender in this blog, let's take a fascinating look at the market research results for Endpoint Protection/XDR over the past 2 years. 
 As shown in the results over the past two years, Microsoft has consistently stayed its position as ***a Leader***. 
-> **Important**
+> [!Important]
 > According to [the Gartner report](https://www.gartner.com/doc/reprints?id=1-2AJ91JO6&ct=220707&st=sb) in 2022, Microsoft's highest scores are for its market understanding and overall viability. This reflects the strong performance of its security business and an early move to define and ***evolve the emerging XDR category***. Microsoft achieved this through ***deep integration and automation between Microsoft Defender for Endpoint and other Microsoft products***, particularly Azure Active Directory, enabling an emerging identity threat detection and response (ITDR) capability.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/b4039697-5aec-4d5d-a710-a7fa5310ada6)
@@ -70,7 +70,7 @@ As evidenced by the incident below, Microsoft 365 Defender successfully captured
 ## Automatic attack disruption
 Automatic attack disruption in Microsoft 365 Defender uses XDR signals from different sources (endpoints, email, identity, data) to ***automatically contain compromised assets and stop ongoing cyber attacks, minimizing their impact on organizations***.
 
-> **Note**
+> [!Note]
 > What is the objective of attack disruption? - 
 > The main objective of this feature is to achieve ***containment*** during the incident response phase. In terms of automatic disruption, there are two actions that can be taken: ***"device contain"*** by Microsoft Defender for Endpoint and ***"disable user"*** by Microsoft Defender for Identity.
 
@@ -98,7 +98,7 @@ Once alerts are generated in Microsoft 365 Defender, AIR triggers a playbook, in
 ## Threat Hunting with KQL
 [Advanced Hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide) is an incredible XDR feature within Microsoft 365 Defender. This capability enables us to analyze vast amounts of security-related data across their organization's endpoints, identities, applications, emails, and more by leveraging ***Kusto Query Language*** (KQL).
 
-> **Warning**
+> [!Warning]
 > The data from all tables remains available for up to **30 days** in Advanced Hunting, Microsoft 365 Defender. If you wish to retain raw data (logs) for more than 30 days, I recommend utilizing [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview), which allows you to keep the data for up to **2 years**.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e890a657-829d-444d-a369-cceb8b37862f)
