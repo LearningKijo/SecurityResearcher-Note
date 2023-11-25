@@ -6,8 +6,8 @@
 In this repository, I will cover various security approaches to attack techniques and share new discoveries about security breaches. Through the new discoveries and learnings shared in this repository, I hope to provide helpful insights  for those involved in security operations, hunting, incident response, and more.
 
 ## Security Research-Note
-| Day | Title | Comment |
-|:---|:---|:---|
+| Day  | Title | Comment |
+|:-----|:------|:--------|
 | Day1 | [Day1-Basic-Malware-Analysis.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day01-Basic-Malware-Analysis.md) |  
 | Day2 | [Day2-APT29-Part1-Overview.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day02-APT29-Part1-Overview.md)<br> [Day2-APT29-Part2-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day02-APT29-Part2-Midnight-Blizzard.md)<br> [Day2-APT29-Part3-Midnight-Blizzard.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day02-APT29-Part3-Midnight-Blizzard.md)<br> [Day2-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day02-APT29-Part4-Midnight-Blizzard-MDE-EvaluationLab.md)  | Russia-based activity group | 
 | Day3 | [Day3-Microsoft-ThreatActorNamingTaxonomy.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day03-Microsoft-ThreatActorNamingTaxonomy.md) | 
@@ -23,6 +23,12 @@ In this repository, I will cover various security approaches to attack technique
 | Day13 | [Day13-WDigest-credential-harvesting-attack.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day13-WDigest-credential-harvesting-attack.md) | WDigest, Mimikatz  | 
 | Day14 | [Day14-macOS-SIP-Bypass-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day14-macOS-SIP-Bypass-Insights.md) | SIP Bypass <br> macOS vulnerability |
 
+## Product Research-Note
+| Day  | Title | Comment |
+|:-----|:------|:--------|
+| Day1 | MDE-MDI-BetterTogether-Part1.md [Coming soon] | Reconnaissance | 
+
+
 ## Microsoft Security Blog
 - Jul 31 2023, [AiTM & BEC threat hunting with KQL](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/aitm-amp-bec-threat-hunting-with-kql/ba-p/3885166)
 
@@ -33,8 +39,7 @@ In this repository, I will cover various security approaches to attack technique
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/64097aa2-092d-464b-b879-2e2ce26d56d5)
 
-## Product Research-Note
-TBD
+
 
 ## Security Experience-Note
 TBD
