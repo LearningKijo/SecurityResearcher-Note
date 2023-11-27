@@ -9,7 +9,7 @@ This collected data will be used by the adversary to aid in other phases of the 
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/ea593e3e-d171-4101-80b6-48e80a0aa0eb)
 
-## Detection
+## Detection, XDR
 
 The attacker wants to collect on-premise Active Directory (AD) information initially, and they executed some 'net' commands on the compromised device. 
 The significant aspect of deploying MDI is the ability to visualize the detection of what is happening on the compromised device in terms of identity. 
@@ -53,6 +53,21 @@ During my simulation, specifically focused on reconnaissance, we observed severa
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/189ca17a-bc7f-40c8-9cd1-464a0002cee8)
 > MDE alert: Suspicious sequence of exploration activities
+
+## Hunting with KQL
+Because the compromised device was protected by MDE, it captured net command activities and stored them in the DeviceProcessEvents table. In the end, by writing a query, you can see all net command activities in Advanced Hunting.
+
+```kusto
+DeviceProcessEvents
+| where Timestamp > ago(7d)
+| where FileName == "net.exe"
+| summarize CmdList = make_set(strcat(format_datetime(Timestamp,'yyyy-M-dd H:mm:ss'), " : ", ProcessCommandLine)) by DeviceId, DeviceName
+| extend Case = array_length(CmdList)
+| project DeviceId, DeviceName, Case, CmdList
+| order by Case desc 
+```
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/8aefd6d0-2c15-432a-9f49-2db312203136)
+>  Advanced Hunting :  tracking net command activities
 
 ## Simulation 
 ```powershell
