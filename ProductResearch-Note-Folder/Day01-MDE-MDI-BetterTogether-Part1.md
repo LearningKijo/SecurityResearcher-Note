@@ -7,8 +7,7 @@ Let's start by looking at reconnaissance in Part 1.
 Reconnaissance is the initial phase in which attackers gather information about the target network or system, identify vulnerabilities, and collect information. 
 This collected data will be used by the adversary to aid in other phases of the attack, such as initial access and credential theft.
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/78adf8e0-f334-4488-bbac-b342447fc15f)
-
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/ea593e3e-d171-4101-80b6-48e80a0aa0eb)
 
 ## Detection
 
@@ -32,27 +31,27 @@ Notably, the capability to correlate alerts from different Defender products int
 Thanks to this capability, the page provides information on how many alerts were generated in this attack and displays related entities with a comprehensive graph. 
 Furthermore, for taking further actions, Microsoft Defender XDR captures all related assets, such as accounts and devices involved in this attack.
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/b0af1b19-0fae-4802-b09d-7228ce7fd317)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/5c2ebf8f-09ab-4336-838c-301da379eb75)
 > Incident page : Discovery incident on one endpoint reported by multiple sources 
 
 #### MDI alert
 Regarding identity detection, MDI generated an alert related to reconnaissance, providing a high-level overview, attack details, and a graph. 
 The attacker (from the compromised device) executed suspicious SAMR queries to the server, searching all users, groups, Domain Admins, and Schema Admins
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/d0537f32-672d-4c1e-a0d8-024d2a79fa04)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/562f108f-c254-404f-a9c7-0f51d62b0e9a)
 > MDI alert : User and group membership reconnaissance (SMAR)
 
 #### MDE alerts
 Another benefit of deploying MDE is the ability to capture device-level activities. Unlike MDI alerts, MDE alerts provide details of executed commands on the compromised device. 
 This capability allows for the visualization of all command activities chronologically in the alert story and the mapping of all related entities, such as a suspicious PowerShell script, as highlighted in 'Ninja.ps1'.
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/3d4b0107-8a6b-4fbb-830a-b14a05a71259)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/641c457c-9dd6-4dba-a921-901b2cb6d3cd)
 > MDE alert : Anomalous account lookups, executed commands
 
 MDE can capture a PowerShell script mapping to MITRE ATT&CK™ techniques. 
 During my simulation, specifically focused on reconnaissance, we observed several tactics of discovery and a few executions.
 
-![image](https://github.com/LearningKijo/Malware-Analysis/assets/120234772/40e1cea8-b208-4559-bea8-9dbb76b68a87)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/189ca17a-bc7f-40c8-9cd1-464a0002cee8)
 > MDE alert: Suspicious sequence of exploration activities
 
 ## Simulation 
