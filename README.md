@@ -30,7 +30,7 @@ In this repository, I will cover various security approaches to attack technique
 ## Product Research-Note
 | Day  | Title | Comment |
 |:-----|:------|:--------|
-| Day1 | MDE-MDI-BetterTogether-Part1.md [Coming soon] | Reconnaissance, SAMR | 
+| Day1 | [Day01-MDE-MDI-BetterTogether-Part1](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/ProductResearch-Note-Folder/Day01-MDE-MDI-BetterTogether-Part1.md#simulation) | Reconnaissance, SAMR | 
 | Day2 | MDE-MDI-BetterTogether-Part2.md [Coming soon] | Reconnaissance |
 
 ## Security Experience-Note
