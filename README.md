@@ -30,7 +30,8 @@ In this repository, I will cover various security approaches to attack technique
 ## Product Research-Note
 | Day  | Title | Comment |
 |:-----|:------|:--------|
-| Day1 | MDE-MDI-BetterTogether-Part1.md [Coming soon] | Reconnaissance | 
+| Day1 | MDE-MDI-BetterTogether-Part1.md [Coming soon] | Reconnaissance, SMAR | 
+| Day2 | MDE-MDI-BetterTogether-Part2.md [Coming soon] | Reconnaissance |
 
 ## Security Experience-Note
 TBD
