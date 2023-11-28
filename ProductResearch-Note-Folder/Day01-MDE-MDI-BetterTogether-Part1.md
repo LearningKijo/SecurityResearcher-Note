@@ -61,6 +61,7 @@ Because the compromised device was protected by MDE, it captured net command act
 DeviceProcessEvents
 | where Timestamp > ago(7d)
 | where FileName == "net.exe"
+| where ProcessCommandLine has_any ("/domain", "user", "group")
 | summarize CmdList = make_set(strcat(format_datetime(Timestamp,'yyyy-M-dd H:mm:ss'), " : ", ProcessCommandLine)) by DeviceId, DeviceName
 | extend Case = array_length(CmdList)
 | project DeviceId, DeviceName, Case, CmdList
