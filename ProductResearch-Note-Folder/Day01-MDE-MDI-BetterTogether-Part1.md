@@ -1,4 +1,4 @@
-## MDE + MDI better together - Reconnaissance
+# MDE + MDI better together - Reconnaissance
 Hello all defenders and threat hunters, and thank you for visiting my product research note. 
 In this blog series, I would like to zero in on Microsoft Defender for Endpoint (MDE) + Microsoft Defender for Identity (MDI) better together, showcasing the various advantages of deploying both products together.
 Let's start by looking at reconnaissance in Part 1.
