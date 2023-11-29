@@ -67,6 +67,8 @@ DeviceProcessEvents
 | project DeviceId, DeviceName, Case, CmdList
 | order by Case desc 
 ```
+> GitHub : LearningKijo/KQL - [Endpoint-NetExeListing-Reconnaissance.yaml](https://github.com/LearningKijo/KQL/blob/main/KQL-XDR-Hunting/Endpoint-Microsoft-Defender-for-Endpoint/Endpoint-NetExeListing-Reconnaissance.yaml)
+
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/8aefd6d0-2c15-432a-9f49-2db312203136)
 >  Advanced Hunting :  tracking net command activities
 
