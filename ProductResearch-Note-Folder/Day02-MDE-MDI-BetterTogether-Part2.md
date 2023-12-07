@@ -102,5 +102,8 @@ Another alert from MDE indicates the execution of PowerShell commandlets (perfor
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/31317e90-158e-44f2-94e9-a282e7689c5c)
 > MDE alert, Suspicious sequence of exploration activities
 
+In 'MDE + MDI: Better Together Part 1 & Part 2', I explored reconnaissance detection, emphasizing the robust detection capabilities when both products are used in tandem. 
+I plan to delve into additional insights such as hunting, response, and other attack phases in the future. Thank you for reading !!
+
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
