@@ -136,7 +136,7 @@ For more details, you can explore several resources to understand how Security C
 [^9]: [Create an incident report with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-create-incident-report?view=o365-worldwide)
 
 ## What's next ?
-Unified XDR & SIEM is coming soon! As of now (xxxx), this is still in private preview, but I hope the public preview is coming soon.
+Unified XDR & SIEM is coming soon !! As of now, this is still in private preview, but I hope the public preview is coming soon.
 - [Microsoft Defender XDR, Security Copilot & Microsoft Sentinel now in one portal](https://youtu.be/snV2joMnSlc?si=5NCzOqppxtubZQsr)
 
 #### Disclaimer
