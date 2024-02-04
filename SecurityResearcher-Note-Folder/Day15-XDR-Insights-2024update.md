@@ -98,8 +98,8 @@ At first, there are two different experiences you will see in Security Copilot.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/58a7b75e-909d-4f0e-9529-44db2773e440)
 > Security Copilot : Standalone & Embedded
-
-👉 Check this out !! [Microsoft Security Copilot drives new product integrations at Microsoft Ignite to empower security and IT teams](https://www.microsoft.com/en-us/security/blog/2023/12/06/microsoft-security-copilot-drives-new-product-integrations-at-microsoft-ignite-to-empower-security-and-it-teams/)
+> 
+> 👉 Check this out !! [Microsoft Security Copilot drives new product integrations at Microsoft Ignite to empower security and IT teams](https://www.microsoft.com/en-us/security/blog/2023/12/06/microsoft-security-copilot-drives-new-product-integrations-at-microsoft-ignite-to-empower-security-and-it-teams/)
 
  Here are some things you can leverage Microsoft Security Copilot !!
 1.  Summarize incidents quickly
@@ -108,26 +108,32 @@ At first, there are two different experiences you will see in Security Copilot.
 4.  Generate KQL queries from natural-language input
 5.  Write incident reports efficiently
 
-For more details, you can explore several resources to understand how Security Copilot works. However, I would like to emphasize the following five points that highlight how our SOC world is changing, as I mentioned – truly a game-changer.
+For more details, you can explore several resources to understand how Security Copilot works. However, I would like to emphasize the following five points that highlight how our SOC world is changing, as I mentioned – **"truly a game-changer"**.
 
 ***Before Security Copilot.....***
 
 1. The SOC team has triaged an incident and identified what is happening across multiple domains, including email, endpoint, identity, data, and more.
-   Now, Security Copilot helps us understand incidents right away without spending additional time.
+   ***Now, Security Copilot helps us understand incidents right away without spending additional time[^5].***
 
 2. The SOC team investigates incidents and makes decisions for each asset based on the type of attacks.
-   Sometimes, this can be challenging. However, Security Copilot helps by suggesting recommendations such as Triage, Containment, Investigation, and Remediation for each specific attack.
+   Sometimes, this can be challenging. However, Security Copilot helps by ***suggesting recommendations such as Triage, Containment, Investigation, and Remediation for each specific attack[^6]***.
 
 3. The SOC team also needs to analyze scripts to determine the type of command executed, and decryption/decoding may be required depending on the attacks.
    While Microsoft Defender for Endpoint excels in capturing script execution, understanding the content still requires specific skills and knowledge.
-   However, Security Copilot immediately analyzes the code written in the script and informs us about what is exactly happening. This helps the SOC team save time in script analysis.
+   However, Security Copilot ***immediately analyzes the code written in the script and informs us about what is exactly happening.*** This helps the SOC team save time in script analysis[^7].
 
 4. KQL in Advanced Hunting is the most powerful tool in Microsoft Defender XDR, allowing us to view activities as raw data by controlling KQL.
    However, writing a query from scratch can be a challenge, especially for those unfamiliar with Microsoft.
-   Security Copilot addresses this issue by assisting in generating KQL queries through questions or requests made to the tool.
+   Security Copilot ***addresses this issue by assisting in generating KQL queries through questions or requests made to the tool[^8]***.
 
 5. The SOC team usually writes incident reports in the form of logs, which can be time-consuming.
-  Security Copilot streamlines this process by generating incident reports and even creating PowerPoint slides in standalone mode.
+  Security Copilot streamlines this process by ***generating incident reports and even creating PowerPoint slides in standalone portal[^9]***.
+
+[^5]: [Summarize an incident with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-incident-summary?view=o365-worldwide)
+[^6]: [Use guided responses with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-guided-response?view=o365-worldwide)
+[^7]: [Analyze scripts and codes with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-script-analysis?view=o365-worldwide)
+[^8]: [Microsoft Security Copilot in advanced hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-security-copilot?view=o365-worldwide)
+[^9]: [Create an incident report with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-create-incident-report?view=o365-worldwide)
 
 ## What's next ?
 Unified XDR & SIEM is coming soon! As of now (xxxx), this is still in private preview, but I hope the public preview is coming soon.
