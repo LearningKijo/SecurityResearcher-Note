@@ -26,6 +26,7 @@ In this repository, I will cover various security approaches to attack technique
 | Day12 | [Day12-Volt-Typhoon-Base64.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.md) <br> [Day12-Volt-Typhoon-Base64.pdf](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day12-Volt-Typhoon-Base64.pdf) - <*PDF>* | China-based activity group <br> Base64, Credential dumping |
 | Day13 | [Day13-WDigest-credential-harvesting-attack.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day13-WDigest-credential-harvesting-attack.md) | WDigest, Mimikatz  | 
 | Day14 | [Day14-macOS-SIP-Bypass-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day14-macOS-SIP-Bypass-Insights.md) | SIP Bypass <br> macOS vulnerability |
+| Day15 | [Day15-XDR-Insights-2024update.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day15-XDR-Insights-2024update.md) | XDR |
 
 ## Product Research-Note
 | Day  | Title | Comment |
