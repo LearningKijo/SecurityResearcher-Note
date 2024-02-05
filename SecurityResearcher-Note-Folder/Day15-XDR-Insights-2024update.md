@@ -1,4 +1,6 @@
 # XDR Insights, Microsoft Security in 2024
+[Date : 2024-02-05]
+
 Hello, all defenders !! Thank you for visiting security research note. 
 As we have seen a number of updates about XDR at Microsoft Ignite last year, at this time, I would like to introduce new features and share insights about XDR, specifically what we can do by leveraging these powerful tools.
 
