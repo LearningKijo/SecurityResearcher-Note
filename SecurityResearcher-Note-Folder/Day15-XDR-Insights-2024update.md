@@ -2,7 +2,11 @@
 Hello, all defenders !! Thank you for visiting security research note. 
 As we have seen a number of updates about XDR at Microsoft Ignite last year, at this time, I would like to introduce new features and share insights about XDR, specifically what we can do by leveraging these powerful tools.
 
-However, before we delve deeper into XDR... for those who are hearing this term for the first time, 
+By the way, this is the updated XDR blog. If you want to see the previous one, you can also check here.
+
+👉 [Day09-XDR-Insights-part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day09-XDR-Insights-part1.md)
+
+Before we delve deeper into XDR... for those who are hearing this term for the first time, 
 
 > [!Important]
 > **What is XDR ?**
@@ -61,11 +65,18 @@ Microsoft Defender XDR provides coverage for the following three advanced attack
 | Business email compromise (BEC) | [XDR attack disruption in action – Defending against a recent BEC attack](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/xdr-attack-disruption-in-action-defending-against-a-recent-bec/ba-p/3749822) | 
 | Human-operated ransomware attacks | [Automatic disruption of Ransomware and BEC attacks with Microsoft 365 Defender](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/automatic-disruption-of-ransomware-and-bec-attacks-with/ba-p/3738294) | 
 | SAP financial process manipulation ***(NEW)*** | [Gaining control of SAP applications security and automatic attack disruption](https://www.youtube.com/live/-ijnGxRnwks?si=wcoSa2LHFGJlhW9G) | 
+
+As there have been various SAP-related breaches during Covid-19, and it's quite challenging to identify them without correlation with other product signals, the SAP connector was released in Microsoft Sentinel[^5]. 
+This helps in visualizing SAP activities and detection, providing out-of-the-box detection as well as customizable detection for SOC personnel.
+***Additionally, SAP financial process manipulation has been added to scenarios in Automatic Attack Disruption in Microsoft Defender XDR !!***
+
 > [!Important]
 > SAP financial process manipulation is currently in private preview.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/89880caa-474f-4df7-8ba0-5f5c3d1bff66)
 > SAP financial process manipulation, Incident page in Microsoft Defender XDR
+
+[^5]: [Protecting your SAP environment from threats | Microsoft Sentinel in the Field #8](https://youtu.be/Yhc8vtiU0bo?si=uyDysgDjdTtmCKce)
 
 ## Deception
 Deception is a new capability in XDR, and personally, the Ignite event left me both confused and pleasantly surprised. 
@@ -113,27 +124,27 @@ For more details, you can explore several resources to understand how Security C
 ***Before Security Copilot.....***
 
 1. The SOC team has triaged an incident and identified what is happening across multiple domains, including email, endpoint, identity, data, and more.
-   ***Now, Security Copilot helps us understand incidents right away without spending additional time[^5].***
+   ***Now, Security Copilot helps us understand incidents right away without spending additional time[^6].***
 
 2. The SOC team investigates incidents and makes decisions for each asset based on the type of attacks.
-   Sometimes, this can be challenging. However, Security Copilot helps by ***suggesting recommendations such as Triage, Containment, Investigation, and Remediation for each specific attack[^6]***.
+   Sometimes, this can be challenging. However, Security Copilot helps by ***suggesting recommendations such as Triage, Containment, Investigation, and Remediation for each specific attack[^7]***.
 
 3. The SOC team also needs to analyze scripts to determine the type of command executed, and decryption/decoding may be required depending on the attacks.
    While Microsoft Defender for Endpoint excels in capturing script execution, understanding the content still requires specific skills and knowledge.
-   However, Security Copilot ***immediately analyzes the code written in the script and informs us about what is exactly happening.*** This helps the SOC team save time in script analysis[^7].
+   However, Security Copilot ***immediately analyzes the code written in the script and informs us about what is exactly happening.*** This helps the SOC team save time in script analysis[^8].
 
 4. KQL in Advanced Hunting is the most powerful tool in Microsoft Defender XDR, allowing us to view activities as raw data by controlling KQL.
    However, writing a query from scratch can be a challenge, especially for those unfamiliar with Microsoft.
-   Security Copilot ***addresses this issue by assisting in generating KQL queries through questions or requests made to the tool[^8]***.
+   Security Copilot ***addresses this issue by assisting in generating KQL queries through questions or requests made to the tool[^9]***.
 
 5. The SOC team usually writes incident reports in the form of logs, which can be time-consuming.
-  Security Copilot streamlines this process by ***generating incident reports and even creating PowerPoint slides in standalone portal[^9]***.
+  Security Copilot streamlines this process by ***generating incident reports and even creating PowerPoint slides in standalone portal[^10]***.
 
-[^5]: [Summarize an incident with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-incident-summary?view=o365-worldwide)
-[^6]: [Use guided responses with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-guided-response?view=o365-worldwide)
-[^7]: [Analyze scripts and codes with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-script-analysis?view=o365-worldwide)
-[^8]: [Microsoft Security Copilot in advanced hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-security-copilot?view=o365-worldwide)
-[^9]: [Create an incident report with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-create-incident-report?view=o365-worldwide)
+[^6]: [Summarize an incident with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-incident-summary?view=o365-worldwide)
+[^7]: [Use guided responses with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-guided-response?view=o365-worldwide)
+[^8]: [Analyze scripts and codes with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-script-analysis?view=o365-worldwide)
+[^9]: [Microsoft Security Copilot in advanced hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-security-copilot?view=o365-worldwide)
+[^10]: [Create an incident report with Microsoft Security Copilot in Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/security-copilot-m365d-create-incident-report?view=o365-worldwide)
 
 ## What's next ?
 Unified XDR & SIEM is coming soon !! As of now, this is still in private preview, but I hope the public preview is coming soon.
