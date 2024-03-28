@@ -31,6 +31,7 @@ For the past year, I have been reading numerous security blogs about Microsoft C
 | March 4, 2024     | [Defend against human-operated ransomware attacks with Microsoft Copilot for Security​​](https://www.microsoft.com/en-us/security/blog/2024/03/04/defend-against-human-operated-ransomware-attacks-with-microsoft-copilot-for-security/) |
 | March 13, 2024    | [Microsoft Copilot for Security: General Availability details](https://techcommunity.microsoft.com/t5/microsoft-security-copilot-blog/microsoft-copilot-for-security-general-availability-details/ba-p/4079970) |
 | March 13, 2024    | [Microsoft Copilot for Security is generally available on April 1, 2024, with new capabilities](https://www.microsoft.com/en-us/security/blog/2024/03/13/microsoft-copilot-for-security-is-generally-available-on-april-1-2024-with-new-capabilities/) |
+| March 15, 2024    | [Microsoft Copilot for Security generally available on April 1, with new capabilities](https://news.microsoft.com/en-cee/2024/03/15/microsoft-copilot-for-security-generally-available-on-april-1-with-new-capabilities/) |
 
 ***Source : https://www.microsoft.com/en-us/security/blog/***
 
