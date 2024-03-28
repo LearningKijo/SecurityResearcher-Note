@@ -36,8 +36,10 @@ In this repository, I will cover various security approaches to attack technique
 | Day3 | [Day03-MDO-FileDetonation-DeepAnalysis.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/ProductResearch-Note-Folder/Day03-MDO-FileDetonation-DeepAnalysis.md) | FileDetonation, DeepAnalysis |
 | Day4 | [Day04-MDI-DeploymentConsiderations.pdf](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/ProductResearch-Note-Folder/Day04-MDI-DeploymentConsiderations.pdf) | ITDR, MDI |
 
-## Security Experience-Note
-TBD
+## Microsoft Copilot for Security, ***Kijo Catchup LOG***
+| LOG    | Title | 
+|:-------|:------|
+| LOG-01 | [Microsoft Copilot for Securit / Update history](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/CopilotLOGs/01-CopilotForSecurity-History.md) | 
 
 ## Other
 #### Microsoft Security Blog
