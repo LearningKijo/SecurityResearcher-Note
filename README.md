@@ -27,6 +27,7 @@ In this repository, I will cover various security approaches to attack technique
 | Day13 | [Day13-WDigest-credential-harvesting-attack.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day13-WDigest-credential-harvesting-attack.md) | WDigest, Mimikatz  | 
 | Day14 | [Day14-macOS-SIP-Bypass-Insights.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day14-macOS-SIP-Bypass-Insights.md) | SIP Bypass <br> macOS vulnerability |
 | Day15 | [Day15-XDR-Insights-2024update.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day15-XDR-Insights-2024update.md) | XDR |
+| Day16 | [Day16-CloudId-Exfiltration-AttackReport-Part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day16-CloudId-Exfiltration-AttackReport-Part1.md) |
 
 ## Product Research-Note
 | Day  | Title | Comment |
