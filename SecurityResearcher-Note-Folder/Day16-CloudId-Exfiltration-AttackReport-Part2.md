@@ -60,7 +60,7 @@ The key information is to examine related activities on the alert page.
 5. Location    - Germany, using a Tor browser
 ```
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/b170df66-5ffd-4c72-86ae-4cd946a97d1e)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/e68b06d4-1be6-47ad-9992-d9554d049044)
 
 By selecting [Investigate in activity log], you can view all downloading file activities initiated by the attacker using the Tor browser. 
 We confirmed ***a total of 54 download activities*** in the end.
