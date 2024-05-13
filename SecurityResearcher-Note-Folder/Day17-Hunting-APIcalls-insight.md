@@ -42,7 +42,7 @@ As Advanced Hunting API shifts to using Microsoft Graph Security API, I've writt
 
 - [x] [MDE-APIcallSimu.ps1] is available from Security Research notes.
 
-![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/1e00fef7-691f-4d48-8685-82459ab34b54)
+![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/4c746d54-bc96-46b5-9055-e350f2d24463)
 > Simulation : MDE-APIcallSimu.ps1
 
 ## Reference
