@@ -40,7 +40,7 @@ I've added three different API URLs for comparison purposes.
 ### Simulation
 As Advanced Hunting API shifts to using Microsoft Graph Security API, I've written a PowerShell script that utilizes Microsoft Graph Security API to perform advanced hunting and tagging to devices with Microsoft Defender for Endpoint API calls.
 
-- [x] [MDE-APIcallSimu.ps1] is available from Security Research notes.
+- [x] [MDE-APIcallSimu.ps1](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/MDE-APIcallSimu.ps1) is available from Security Research notes.
 
 ![image](https://github.com/LearningKijo/SecurityResearcher-Note/assets/120234772/4c746d54-bc96-46b5-9055-e350f2d24463)
 > Simulation : MDE-APIcallSimu.ps1
