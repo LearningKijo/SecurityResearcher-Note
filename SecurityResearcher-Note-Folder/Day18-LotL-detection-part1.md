@@ -5,7 +5,7 @@ For a long time, I have seen Living off the Land (LotL) techniques discussed in 
 
 ### What is living off the land ?
 
-[Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2018/09/27/out-of-sight-but-not-invisible-defeating-fileless-malware-with-behavior-monitoring-amsi-and-next-gen-av/) explains that “living off the land”, as malware only uses resources already available in the operating system.
+[Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2018/09/27/out-of-sight-but-not-invisible-defeating-fileless-malware-with-behavior-monitoring-amsi-and-next-gen-av/) explains that “living off the land”, as malware only uses resources already available in the operating system. 
 
 I will show you how LotL techniques were used by attackers, based on past Microsoft Security blogs.
 
