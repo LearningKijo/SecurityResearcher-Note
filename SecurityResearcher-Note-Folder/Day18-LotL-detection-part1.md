@@ -52,7 +52,9 @@ These alerts have been detected by MDE.
 - Use of living-off-the-land binary to run malicious code
 - Suspicious behavior by cmd.exe was observed
 
-![image](https://github.com/user-attachments/assets/45ad9fcc-1fcb-427b-8876-45b6b74df524)
+![image](https://github.com/user-attachments/assets/ef4c422e-d4c9-482a-84cc-1c4ab75e46eb)
+
+![image](https://github.com/user-attachments/assets/b58e251a-ca2f-4df5-9d4a-47dc51a5a747)
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
