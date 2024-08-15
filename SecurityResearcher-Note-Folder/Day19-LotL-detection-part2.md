@@ -26,9 +26,11 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell 
 
 ### Example :  [Mint Sandstorm](https://www.microsoft.com/en-us/security/blog/2024/01/17/new-ttps-observed-in-mint-sandstorm-campaign-targeting-high-profile-individuals-at-universities-and-research-orgs/)
 
-Persistence, In some cases, the threat actor used a malicious file, Persistence.vbs, to persist in targets’ environments. When run, Persistence.vbs added a file, typically named a.vbs, to the CurrentVersion\Run registry key. In other cases, Mint Sandstorm created a scheduled task to reach out to an attacker-controlled supabase[.]co domain and download a .txt file.
+Persistence, In some cases, the threat actor used a malicious file, Persistence.vbs, to persist in targets’ environments. 
+When run, Persistence.vbs added a file, typically named a.vbs, to the CurrentVersion\Run registry key. In other cases, Mint Sandstorm created a scheduled task to reach out to an attacker-controlled supabase[.]co domain and download a .txt file.
 
-"PIC"
+![image](https://github.com/user-attachments/assets/d1dcc0f8-3058-4087-bb46-578472cec7ce)
+> Intrusion chain leading to backdoors observed in the ongoing Mint Sandstorm campaign
 
 ### Test commands
 ```cmd
