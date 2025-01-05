@@ -173,6 +173,9 @@ In DEV-0270, some of the discovery techniques can be seen to discovery domain, e
 
 - September 7, 2022, [Profiling DEV-0270: PHOSPHORUS’ ransomware operations](https://www.microsoft.com/en-us/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/)
 
+![image](https://github.com/user-attachments/assets/98dc7d8e-10c7-4d76-a054-a83e88010b35)
+> Figure 1. Typical DEV-0270 attack chain
+
 > [!Note]  
 > • PHOSPHORUS is now tracked as Mint Sandstorm • DEV-0270 is now tracked as Storm-0270
 
