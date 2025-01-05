@@ -10,6 +10,9 @@ This time, I would like to break down each command. Additionally, I'd like to ex
 Microsoft Security blog covers insights into Russian actor - Secret Blizzard in Part 1 and Part 2. In Part 2, the blog mentions that the attacker used a reconnaissance tool, a batch file to collect device information. However, the command used is incredibly long, and I will deep dive into each command. 
 
 ### Command :
+
+![image](https://github.com/user-attachments/assets/9436fe51-0d45-4a76-b528-dd26a7906f02)
+
 ```cmd
 ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a & netstat -a -n & net share & net use & net user & whoami /all & wmic useraccount get name,sid & net localgroup & net accounts & net config & net time \\127.0.0.1 & set & netsh firewall show portopening & netsh firewall show allowedprogram & netsh firewall show config & tasklist /v & tasklist /svc & echo . | powershell get-hotfix & reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /s & reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA & dir /x c:\ & dir /x c:\users\ & dir %tmp% & dir "c:\program files (x86)" /x & dir "c:\program files" /x & tree "%UserProfile%\Desktop" /A & tree "%UserProfile%\Documents" /A & tree "%UserProfile%\Downloads" /A & reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Run & reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Run & reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce & reg query HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run & reg query HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce & dir /x "c:\windows\microsoft.net\framework"
 ```
