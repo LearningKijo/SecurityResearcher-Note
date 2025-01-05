@@ -64,6 +64,12 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     ```
 3) User Enumeration
 
+    Here are the details of each command from the top.
+    - List current user and associated privileges
+    - Retrieve all local user accounts and their SIDs
+    - Retrieve local user account details
+    - List local groups and group memberships
+
     ```
     whoami /all 
     wmic useraccount get name,sid 
@@ -71,24 +77,23 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     net localgroup
     ```
 
-    Here are the details of each command from the top.
-    - List current user and associated privileges
-    - Retrieve all local user accounts and their SIDs
-    - Retrieve local user account details
-    - List local groups and group memberships
-
 4) Shared Resources and Connections
+
+     Here are the details of each command from the top.
+    - Enumerate shared resources
+    - List mapped network drives and active SMB connections
 
     ```
     net share
     net use
     ```
 
-     Here are the details of each command from the top.
-    - Enumerate shared resources
-    - List mapped network drives and active SMB connections
-
 5) System Configuration
+
+     Here are the details of each command from the top.
+    - Retrieve account policies such as password policies
+    - List workstation or server configurations
+    - Query the system time of the local machine
 
     ```
     net accounts
@@ -96,11 +101,6 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     net time \\127.0.0.1
     ```
 
-     Here are the details of each command from the top.
-    - Retrieve account policies such as password policies
-    - List workstation or server configurations
-    - Query the system time of the local machine
-     
 6) Firewall and Security Policies
 
     ```
@@ -122,6 +122,14 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
 
 9) Registry Enumeration
 
+    Here are the details of each command from the top.
+   - List all registry values in the System policies section
+   - Check the status of User Account Control (UAC)
+   - List startup programs for the current user
+   - List startup programs for all users
+   - List one-time startup programs
+   - List 32-bit startup programs for all users
+   - List one-time 32-bit startup programs
 
     ```
     reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /s
@@ -133,17 +141,18 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     reg query HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce
     ```
 
-    Here are the details of each command from the top.
-   - List all registry values in the System policies section
-   - Check the status of User Account Control (UAC)
-   - List startup programs for the current user
-   - List startup programs for all users
-   - List one-time startup programs
-   - List 32-bit startup programs for all users
-   - List one-time 32-bit startup programs
-
-
 10) File and Directory Enumeration
+
+    Here are the details of each command from the top.
+    - List files and directories on the root of the C drive (with short names)
+    - List files and directories in the Users folder
+    - List files and directories in the temporary folder
+    - List files in the Program Files (x86) folder
+    - List files in the Program Files folder
+    - Display a tree structure of the user's desktop folder
+    - Display a tree structure of the user's documents folder
+    - Display a tree structure of the user's downloads folder
+    - List files in the .NET Framework directory
 
     ```
     dir /x c:\
@@ -158,20 +167,14 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     dir /x "c:\windows\microsoft.net\framework"
     ```
 
-    Here are the details of each command from the top.
-    - List files and directories on the root of the C drive (with short names)
-    - List files and directories in the Users folder
-    - List files and directories in the temporary folder
-    - List files in the Program Files (x86) folder
-    - List files in the Program Files folder
-    - Display a tree structure of the user's desktop folder
-    - Display a tree structure of the user's documents folder
-    - Display a tree structure of the user's downloads folder
-    - List files in the .NET Framework directory
-
 ## Storm-0270
-[Mint Sandstorm](https://www.microsoft.com/en-us/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/), Iranian threat actor, also employed discovery techniques during the attack. 
-At that time, they used PowerShell and WMI commands to gather information about the network, domain, and email.
+Microsoft's threat intelligence teams have linked several ransomware campaigns to DEV-0270, also known as Nemesis Kitten, a subgroup of the Iranian actor PHOSPHORUS.
+In DEV-0270, some of the discovery techniques can be seen to discovery domain, email and network information by using WMI and powershell. 
+
+- September 7, 2022, [Profiling DEV-0270: PHOSPHORUS’ ransomware operations](https://www.microsoft.com/en-us/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/)
+
+> [!Note]  
+> • PHOSPHORUS is now tracked as Mint Sandstorm • DEV-0270 is now tracked as Storm-0270
 
 ### Command :
 ```cmd
