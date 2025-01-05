@@ -46,92 +46,81 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
 
 ### Breakdown with discovery sub category :
 
-1) System Information Gathering
+**1) System Information Gathering**
 
-    ```
     ver
     systeminfo
     set
-    ```
-2) Network Configuration and Connectivity
 
-    ```
+    
+**2) Network Configuration and Connectivity**
+
     ipconfig -all
     ipconfig /displaydns
     route print
     arp -a
     netstat -a -n
-    ```
-3) User Enumeration
+
+**3) User Enumeration**
 
     Here are the details of each command from the top.
     - List current user and associated privileges
     - Retrieve all local user accounts and their SIDs
     - Retrieve local user account details
     - List local groups and group memberships
-
-    ```
+    --------------------------------------------------
     whoami /all 
     wmic useraccount get name,sid 
     net user
     net localgroup
-    ```
 
-4) Shared Resources and Connections
+
+**4) Shared Resources and Connections**
 
      Here are the details of each command from the top.
     - Enumerate shared resources
     - List mapped network drives and active SMB connections
-
-    ```
+    --------------------------------------------------
     net share
     net use
-    ```
 
-5) System Configuration
+**5) System Configuration**
 
      Here are the details of each command from the top.
     - Retrieve account policies such as password policies
     - List workstation or server configurations
     - Query the system time of the local machine
-
-    ```
+    -------------------------------------------------
     net accounts
     net config
     net time \\127.0.0.1
-    ```
 
-6) Firewall and Security Policies
+**6) Firewall and Security Policies**
 
-    ```
     netsh firewall show portopening
     netsh firewall show allowedprogram
     netsh firewall show config
-    ``` 
-7) Process and Service Enumeration
+     
+**7) Process and Service Enumeration**
     
-    ```
     tasklist /v
     tasklist /svc
-    ```
-8) Patch and Hotfix Information
     
-    ```
+**8) Patch and Hotfix Information**
+    
     echo . | powershell get-hotfix
-    ```
 
-9) Registry Enumeration
+**9) Registry Enumeration**
 
     Here are the details of each command from the top.
-   - List all registry values in the System policies section
-   - Check the status of User Account Control (UAC)
-   - List startup programs for the current user
-   - List startup programs for all users
-   - List one-time startup programs
-   - List 32-bit startup programs for all users
-   - List one-time 32-bit startup programs
-
-    ```
+    - List all registry values in the System policies section
+    - Check the status of User Account Control (UAC)
+    - List startup programs for the current user
+    - List startup programs for all users
+    - List one-time startup programs
+    - List 32-bit startup programs for all users
+    - List one-time 32-bit startup programs
+    --------------------------------------------------
     reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /s
     reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA
     reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Run
@@ -139,9 +128,8 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce
     reg query HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run
     reg query HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce
-    ```
 
-10) File and Directory Enumeration
+**10) File and Directory Enumeration**
 
     Here are the details of each command from the top.
     - List files and directories on the root of the C drive (with short names)
@@ -153,8 +141,7 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     - Display a tree structure of the user's documents folder
     - Display a tree structure of the user's downloads folder
     - List files in the .NET Framework directory
-
-    ```
+    --------------------------------------------------
     dir /x c:\
     dir /x c:\users\
     dir %tmp%
@@ -165,7 +152,6 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     tree "%UserProfile%\Documents" /A
     tree "%UserProfile%\Downloads" /A
     dir /x "c:\windows\microsoft.net\framework"
-    ```
 
 ## Storm-0270
 Microsoft's threat intelligence teams have linked several ransomware campaigns to DEV-0270, also known as Nemesis Kitten, a subgroup of the Iranian actor PHOSPHORUS.
