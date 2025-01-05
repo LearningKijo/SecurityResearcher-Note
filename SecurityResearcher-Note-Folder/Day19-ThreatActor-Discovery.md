@@ -2,12 +2,19 @@
 
 Hello, all defenders,
 
-During the holidays, I had a chance to read Microsoft Security blog about Secret Blizzard, Russia-based nation-state threat actor. 
+During the holidays, I had a chance to read Microsoft Security blogs about Secret Blizzard, Russia-based nation-state threat actor. 
 In Part 2 of the blog, I noticed they used a batch file to collect device information, and the commands were excessively long. 
 This time, I would like to break down each command. Additionally, I'd like to explore how other threat actors have used discovery techniques.
 
 ## Secret Blizzard
-Microsoft Security blog covers insights into Russian actor - Secret Blizzard in Part 1 and Part 2. In Part 2, the blog mentions that the attacker used a reconnaissance tool, a batch file to collect device information. However, the command used is incredibly long, and I will deep dive into each command. 
+Microsoft's Security blog provides insights into attacks linked to the Russian nation-state actor, which Microsoft tracks as **Secret Blizzard** and other security vendors called as Turla, Waterbug, Venomous Bear, Snake, Turla Team, or Turla APT Group.
+According to the blog, Secret Blizzard is recognized for targeting diverse industries, with a particular focus on ministries of foreign affairs, embassies, government agencies, defense organizations, and defense-related enterprises globally.
+Secret Blizzard aims to maintain long-term access to systems for intelligence gathering. They use multiple backdoors, including peer-to-peer and C2 communication tools. During attacks, they steal documents, PDFs, and email content.
+
+- December 4, 2024, [Frequent freeloader part I: Secret Blizzard compromising Storm-0156 infrastructure for espionage](https://www.microsoft.com/en-us/security/blog/2024/12/04/frequent-freeloader-part-i-secret-blizzard-compromising-storm-0156-infrastructure-for-espionage/)
+- December 11, 2024, [Frequent freeloader part II: Russian actor Secret Blizzard using tools of other groups to attack Ukraine](https://www.microsoft.com/en-us/security/blog/2024/12/11/frequent-freeloader-part-ii-russian-actor-secret-blizzard-using-tools-of-other-groups-to-attack-ukraine/)
+
+***Blog Part II*** mentions that the attacker used a reconnaissance tool, a batch file to collect device information. However, the command used is incredibly long, and I will deep dive into each command. 
 
 ### Command :
 ```cmd
@@ -158,3 +165,46 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
     - Display a tree structure of the user's documents folder
     - Display a tree structure of the user's downloads folder
     - List files in the .NET Framework directory
+
+## Storm-0270
+[Mint Sandstorm](https://www.microsoft.com/en-us/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/), Iranian threat actor, also employed discovery techniques during the attack. 
+At that time, they used PowerShell and WMI commands to gather information about the network, domain, and email.
+
+### Command :
+```cmd
+wmic computersystem get domain
+whoami
+net user
+```
+
+```powershell
+# Retrieves the primary SMTP email address (SmtpAddress) of the first recipient in the list and displays it in a clean table format without headers.
+Get-Recipient | Select Name -ExpandProperty EmailAddresses -first 1 | Select SmtpAddress |  ft -hidetableheaders
+```
+
+```powershell
+# Finds domain controller information in the network using PowerShell.
+powershell.exe /c Get-WMIObject Win32_NTDomain | findstr DomainController
+```
+```cmd
+rem Searches for "DomainController" in a file or command output.
+findstr.exe DomainController
+```
+
+## Mango Sandstorm
+
+### Command :
+```cmd
+cmd.exe /C whoami
+cmd.exe /C powershell -exec bypass -w 1 -enc UwB….
+cmd.exe /C hostname
+cmd.exe /C ipconfig /all
+cmd.exe /C net user
+cmd.exe /C net localgroup administrators
+cmd.exe /C net user admin * /add
+cmd.exe /C net localgroup Administrators admin /add
+cmd.exe /C quser
+```
+
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
