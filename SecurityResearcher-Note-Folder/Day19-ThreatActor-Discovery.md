@@ -77,7 +77,7 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
 
 **4) Shared Resources and Connections**
 
-     Here are the details of each command from the top.
+    Here are the details of each command from the top.
     - Enumerate shared resources
     - List mapped network drives and active SMB connections
     --------------------------------------------------
@@ -86,7 +86,7 @@ ver & systeminfo & ipconfig -all & ipconfig /displaydns & route print & arp -a &
 
 **5) System Configuration**
 
-     Here are the details of each command from the top.
+    Here are the details of each command from the top.
     - Retrieve account policies such as password policies
     - List workstation or server configurations
     - Query the system time of the local machine
@@ -187,9 +187,26 @@ findstr.exe DomainController
 ```
 
 ## Mango Sandstorm
+Mango Sandstorm, an Iran-based threat actor, exploited remote code execution vulnerabilities in Apache Log4j 2 (known as 'Log4Shell') on vulnerable SysAid Server instances used by their targets.
+
+- [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
+
+> [!Note]
+> MERCURY is now tracked as Mango Sandstorm.
 
 ### Command :
 ```cmd
+Here are the details of each command from the top.
+- Displays the current logged-in user (e.g., DOMAIN\Username)
+- Runs an encoded PowerShell script while bypassing execution policy
+- Shows the computer's hostname
+- Displays detailed network configuration information.
+- Lists all user accounts on the system.
+- Lists all accounts in the Administrators group.
+- Creates a new user account named admin.
+- Adds the admin user to the Administrators group.
+- Shows logged-in users and active sessions.
+--------------------------------------------------
 cmd.exe /C whoami
 cmd.exe /C powershell -exec bypass -w 1 -enc UwB….
 cmd.exe /C hostname
