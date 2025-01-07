@@ -30,7 +30,7 @@ In this repository, I will cover various security approaches to attack technique
 | Day16 | [Day16-CloudId-Exfiltration-AttackReport-Part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day16-CloudId-Exfiltration-AttackReport-Part1.md) <br> [Day16-CloudId-Exfiltration-AttackReport-Part2.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day16-CloudId-Exfiltration-AttackReport-Part2.md) | Identity abuse <br> Exfiltration |
 | Day17 | [Day17-Hunting-APIcalls-insight.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day17-Hunting-APIcalls-insight.md) | API, MDE |
 | Day18 | [Day18-LotL-detection-part1.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day18-LotL-detection-part1.md) | LotL |
-
+| Day19 | [Day19-ThreatActor-Discovery.md](https://github.com/LearningKijo/SecurityResearcher-Note/blob/main/SecurityResearcher-Note-Folder/Day19-ThreatActor-Discovery.md) | Discovery |
 ## Product Research-Note
 | Day  | Title | Comment |
 |:-----|:------|:--------|
