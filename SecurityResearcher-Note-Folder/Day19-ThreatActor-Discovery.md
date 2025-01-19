@@ -191,6 +191,9 @@ Mango Sandstorm, an Iran-based threat actor, exploited remote code execution vul
 
 - [MERCURY leveraging Log4j 2 vulnerabilities in unpatched systems to target Israeli organizations](https://www.microsoft.com/en-us/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/)
 
+![image](https://github.com/user-attachments/assets/6d346324-9dc7-4159-ba0b-22643613fc9f)
+> Figure 1. Observed MERCURY attack chain
+
 > [!Note]
 > MERCURY is now tracked as Mango Sandstorm.
 
