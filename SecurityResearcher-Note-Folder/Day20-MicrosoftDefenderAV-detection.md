@@ -20,8 +20,8 @@ Family         : Grouping of malware based on common characteristics, including 
 Variant letter : Used sequentially for every distinct version of a malware famil
 Suffixes       : Provides extra detail about the malware, including how it's used as part of a multicomponent threat.
 ```
-![alt text](image.png)
 
+![image](https://github.com/user-attachments/assets/18a74c64-fd7f-4a30-97ef-120aeb7bd1f1)
 
 ## Microsofot Defender AV detection
 |Tools          | AV detection /  Malware name     |
